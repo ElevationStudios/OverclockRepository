@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Walking : MonoBehaviour {
 	public float speed;
+	public float runSpeed;
 	public float jumpheight;
 	float moveVelocity;
 	bool grounded;
@@ -78,6 +79,22 @@ public class Walking : MonoBehaviour {
 		if (!Input.GetKey (KeyCode.A) && !Input.GetKey (KeyCode.D)) 
 		{
 			animator.SetBool ("isWalking", false);
+		}
+
+		if (Input.GetKeyUp (KeyCode.A)) 
+		{
+			GetComponent<Rigidbody2D> ().velocity = new Vector2 (-speed/2, GetComponent<Rigidbody2D> ().velocity.y);
+		}
+		if (Input.GetKeyUp (KeyCode.D)) 
+		{
+			GetComponent<Rigidbody2D> ().velocity = new Vector2 (speed/2, GetComponent<Rigidbody2D> ().velocity.y);
+		}
+
+		if (Input.GetKeyDown (KeyCode.LeftShift)) {
+			speed = speed + runSpeed;
+		}
+		if (Input.GetKeyUp (KeyCode.LeftShift)) {
+			speed = speed - runSpeed;
 		}
 	}
 
