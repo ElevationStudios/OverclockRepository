@@ -34,10 +34,12 @@ public class MouseTrack : MonoBehaviour {
 		if (mouseX < charX) 
 		{
 			graphics.transform.localScale = new Vector3 (-1, 1, 1);
+			this.transform.localScale = new Vector3 (1, -1, 1);
 		} 
 		else 
 		{
 			graphics.transform.localScale = new Vector3 (1, 1, 1);
+			this.transform.localScale = new Vector3 (1, 1, 1);
 		}
 	}
 }

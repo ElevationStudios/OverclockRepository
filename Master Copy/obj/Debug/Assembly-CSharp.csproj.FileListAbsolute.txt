@@ -126,3 +126,6 @@ C:\Users\Kyle\Documents\GitHub\OverclockRepository\Alpha\Overclock 1.1a\Temp\bin
 C:\Users\Kyle\Documents\GitHub\OverclockRepository\Alpha\Overclock 1.1a\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Kyle\Documents\GitHub\OverclockRepository\Alpha\Overclock 1.1a\obj\Debug\Assembly-CSharp.dll
 C:\Users\Kyle\Documents\GitHub\OverclockRepository\Alpha\Overclock 1.1a\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Kenneth\Desktop\Master Copy\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Kenneth\Desktop\Master Copy\obj\Debug\Assembly-CSharp.dll
+C:\Users\Kenneth\Desktop\Master Copy\obj\Debug\Assembly-CSharp.pdb
