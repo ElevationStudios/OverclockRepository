@@ -7,13 +7,11 @@ public class DroneEnemy : MonoBehaviour
 	float xOffset;
 	float yOffset;
 	float leftRight;
-	private Transform target;
-	private GameObject player;
-	public GameObject droneDestroy;
+	Transform target;
+	GameObject player;
 	private bool leftSide = false;
 	private bool rightSide = false;
 	private bool flipped = false;
-	public Enemies stats;
 	
 	public GameObject bulletPrefab;
 	private GameObject bullInst;
@@ -39,9 +37,6 @@ public class DroneEnemy : MonoBehaviour
 	}
 	void Update ()
 	{
-		if (stats.currentHealth <= 0) {
-			DroneDeath ();
-		}
 
 		if (player.transform.position.x > transform.position.x) {
 			leftSide = true;
@@ -71,12 +66,6 @@ public class DroneEnemy : MonoBehaviour
 		if (canShoot == true)
 			StartCoroutine ("shooter");
 	}
-	void DroneDeath()
-	{
-		Instantiate (droneDestroy, this.transform.position, this.transform.rotation);
-		Destroy (gameObject);
-	}
-
 	IEnumerator shooter ()
 	{	
 		dir = target.position - transform.position;

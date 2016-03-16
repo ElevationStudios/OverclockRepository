@@ -1,0 +1,1317 @@
+fileFormatVersion: 2
+guid: 4a958aa2244ee0e46a9adfa277992aa7
+timeCreated: 1457718937
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Turret_0
+    21300002: Turret_1
+    21300004: Turret_2
+    21300006: Turret_3
+    21300008: Turret_4
+    21300010: Turret_5
+    21300012: Turret_6
+    21300014: Turret_7
+    21300016: Turret_8
+    21300018: Turret_9
+    21300020: Turret_10
+    21300022: Turret_11
+    21300024: Turret_12
+    21300026: Turret_13
+    21300028: Turret_14
+    21300030: Turret_15
+    21300032: Turret_16
+    21300034: Turret_17
+    21300036: Turret_18
+    21300038: Turret_19
+    21300040: Turret_20
+    21300042: Turret_21
+    21300044: Turret_22
+    21300046: Turret_23
+    21300048: Turret_24
+    21300050: Turret_25
+    21300052: Turret_26
+    21300054: Turret_27
+    21300056: Turret_28
+    21300058: Turret_29
+    21300060: Turret_30
+    21300062: Turret_31
+    21300064: Turret_32
+    21300066: Turret_33
+    21300068: Turret_34
+    21300070: Turret_35
+    21300072: Turret_36
+    21300074: Turret_37
+    21300076: Turret_38
+    21300078: Turret_39
+    21300080: Turret_40
+    21300082: Turret_41
+    21300084: Turret_42
+    21300086: Turret_43
+    21300088: Turret_44
+    21300090: Turret_45
+    21300092: Turret_46
+    21300094: Turret_47
+    21300096: Turret_48
+    21300098: Turret_49
+    21300100: Turret_50
+    21300102: Turret_51
+    21300104: Turret_52
+    21300106: Turret_53
+    21300108: Turret_54
+    21300110: Turret_55
+    21300112: Turret_56
+    21300114: Turret_57
+    21300116: Turret_58
+    21300118: Turret_59
+    21300120: Turret_60
+    21300122: Turret_61
+    21300124: Turret_62
+    21300126: Turret_63
+    21300128: Turret_64
+    21300130: Turret_65
+    21300132: Turret_66
+    21300134: Turret_67
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Turret_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 863
+        width: 98
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.0546875, y: 36.820312}
+        - {x: 0.0546875, y: 25.820312}
+        - {x: 0.0546875, y: -0.1796875}
+        - {x: 86.05469, y: -0.1796875}
+        - {x: 86.05469, y: 24.820312}
+        - {x: 80.05469, y: 36.820312}
+    - name: Turret_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 863
+        width: 98
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.3046875, y: 36.820312}
+        - {x: 0.3046875, y: 24.820312}
+        - {x: 0.3046875, y: -0.1796875}
+        - {x: 86.30469, y: -0.1796875}
+        - {x: 86.30469, y: 33.820312}
+        - {x: 84.30469, y: 36.820312}
+    - name: Turret_2
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 863
+        width: 99
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.6201172, y: 36.820312}
+        - {x: -0.3798828, y: 28.820312}
+        - {x: -0.3798828, y: -0.1796875}
+        - {x: 86.62012, y: -0.1796875}
+        - {x: 86.62012, y: 36.820312}
+    - name: Turret_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 863
+        width: 98
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.8046875, y: 36.820312}
+        - {x: -0.1953125, y: 25.820312}
+        - {x: -0.1953125, y: -0.1796875}
+        - {x: 85.80469, y: -0.1796875}
+        - {x: 85.80469, y: 24.820312}
+        - {x: 79.80469, y: 36.820312}
+    - name: Turret_4
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 863
+        width: 98
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.0546875, y: 36.820312}
+        - {x: 0.0546875, y: 25.820312}
+        - {x: 0.0546875, y: -0.1796875}
+        - {x: 86.05469, y: -0.1796875}
+        - {x: 86.05469, y: 24.820312}
+        - {x: 80.05469, y: 36.820312}
+    - name: Turret_5
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 863
+        width: 99
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.2392578, y: 36.820312}
+        - {x: 0.23925781, y: 28.820312}
+        - {x: 0.23925781, y: -0.1796875}
+        - {x: 87.23926, y: -0.1796875}
+        - {x: 87.23926, y: 36.820312}
+    - name: Turret_6
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 863
+        width: 98
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.0546875, y: 36.820312}
+        - {x: 0.0546875, y: 22.820312}
+        - {x: 0.0546875, y: -0.1796875}
+        - {x: 87.05469, y: -0.1796875}
+        - {x: 87.05469, y: 25.820312}
+        - {x: 83.05469, y: 36.820312}
+    - name: Turret_7
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 863
+        width: 98
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.8046875, y: 36.820312}
+        - {x: -0.1953125, y: 25.820312}
+        - {x: -0.1953125, y: -0.1796875}
+        - {x: 85.80469, y: -0.1796875}
+        - {x: 85.80469, y: 24.820312}
+        - {x: 79.80469, y: 36.820312}
+    - name: Turret_8
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 863
+        width: 98
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.0546875, y: 36.820312}
+        - {x: 0.0546875, y: 25.820312}
+        - {x: 0.0546875, y: -0.1796875}
+        - {x: 86.05469, y: -0.1796875}
+        - {x: 86.05469, y: 24.820312}
+        - {x: 80.05469, y: 36.820312}
+    - name: Turret_9
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 863
+        width: 98
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.3046875, y: 36.820312}
+        - {x: 0.3046875, y: 33.820312}
+        - {x: 0.3046875, y: -0.1796875}
+        - {x: 86.30469, y: -0.1796875}
+        - {x: 86.30469, y: 20.820312}
+        - {x: 83.30469, y: 36.820312}
+    - name: Turret_10
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 863
+        width: 98
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.0546875, y: -0.1796875}
+        - {x: 87.05469, y: -0.1796875}
+        - {x: 87.05469, y: 36.820312}
+        - {x: 5.0546875, y: 36.820312}
+        - {x: 0.0546875, y: 24.820312}
+    - name: Turret_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 702
+        width: 98
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.0546875, y: 44.799805}
+        - {x: 2.0546875, y: 41.799805}
+        - {x: 0.0546875, y: 34.799805}
+        - {x: 0.0546875, y: -0.20019531}
+        - {x: 86.05469, y: -0.20019531}
+        - {x: 86.05469, y: 37.799805}
+        - {x: 73.05469, y: 44.799805}
+    - name: Turret_12
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 702
+        width: 99
+        height: 59
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.333008, y: 51.776367}
+        - {x: 3.3330078, y: 40.776367}
+        - {x: 0.3330078, y: 28.776367}
+        - {x: 0.3330078, y: -0.22363281}
+        - {x: 87.33301, y: -0.22363281}
+        - {x: 87.33301, y: 35.776367}
+        - {x: 86.33301, y: 38.776367}
+        - {x: 62.333008, y: 51.776367}
+    - name: Turret_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 702
+        width: 98
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.742188, y: 58.75293}
+        - {x: 0.7421875, y: 41.75293}
+        - {x: -0.2578125, y: 36.75293}
+        - {x: -0.2578125, y: -0.24707031}
+        - {x: 85.74219, y: -0.24707031}
+        - {x: 85.74219, y: 45.75293}
+        - {x: 76.74219, y: 58.75293}
+    - name: Turret_14
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 702
+        width: 98
+        height: 75
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.085938, y: 65.72949}
+        - {x: 0.0859375, y: 29.729492}
+        - {x: 0.0859375, y: -0.2705078}
+        - {x: 86.08594, y: -0.2705078}
+        - {x: 86.08594, y: 41.729492}
+        - {x: 69.08594, y: 65.72949}
+    - name: Turret_15
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 702
+        width: 98
+        height: 83
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.929688, y: 72.706055}
+        - {x: 0.9296875, y: 36.706055}
+        - {x: -0.0703125, y: 23.706055}
+        - {x: -0.0703125, y: -0.2939453}
+        - {x: 86.92969, y: -0.2939453}
+        - {x: 86.92969, y: 45.706055}
+        - {x: 69.92969, y: 72.706055}
+    - name: Turret_16
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 702
+        width: 98
+        height: 91
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.2265625, y: 22.682617}
+        - {x: -0.2265625, y: -0.3173828}
+        - {x: 85.77344, y: -0.3173828}
+        - {x: 85.77344, y: 70.68262}
+        - {x: 83.77344, y: 79.68262}
+        - {x: 29.773438, y: 79.68262}
+        - {x: 1.7734375, y: 35.682617}
+    - name: Turret_17
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 702
+        width: 98
+        height: 99
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.117188, y: 86.65918}
+        - {x: 0.1171875, y: 27.65918}
+        - {x: 0.1171875, y: -0.3408203}
+        - {x: 86.11719, y: -0.3408203}
+        - {x: 86.11719, y: 42.65918}
+        - {x: 57.117188, y: 86.65918}
+    - name: Turret_18
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 702
+        width: 99
+        height: 107
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.526367, y: 92.63574}
+        - {x: 54.526367, y: 93.63574}
+        - {x: 27.526367, y: 93.63574}
+        - {x: -0.4736328, y: 27.635742}
+        - {x: -0.4736328, y: -0.3642578}
+        - {x: 86.52637, y: -0.3642578}
+        - {x: 86.52637, y: 25.635742}
+        - {x: 81.52637, y: 34.635742}
+    - name: Turret_19
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 702
+        width: 98
+        height: 115
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.804688, y: 100.612305}
+        - {x: -0.1953125, y: 36.612305}
+        - {x: -0.1953125, y: -0.3876953}
+        - {x: 85.80469, y: -0.3876953}
+        - {x: 85.80469, y: 42.612305}
+        - {x: 55.804688, y: 100.612305}
+    - name: Turret_20
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 702
+        width: 98
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.1484375, y: 0.0234375}
+        - {x: 86.14844, y: 0.0234375}
+        - {x: 86.14844, y: 65.02344}
+        - {x: 76.14844, y: 108.02344}
+        - {x: 29.148438, y: 108.02344}
+        - {x: 0.1484375, y: 42.023438}
+    - name: Turret_21
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 702
+        width: 98
+        height: 132
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.0078125, y: 30}
+        - {x: -0.0078125, y: 0}
+        - {x: 86.99219, y: 0}
+        - {x: 86.99219, y: 54}
+        - {x: 69.99219, y: 115}
+        - {x: 26.992188, y: 115}
+        - {x: 2.9921875, y: 44}
+    - name: Turret_22
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 702
+        width: 98
+        height: 139
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.835938, y: 121.04199}
+        - {x: 25.835938, y: 121.04199}
+        - {x: -0.1640625, y: 30.041992}
+        - {x: -0.1640625, y: 0.041992188}
+        - {x: 85.83594, y: 0.041992188}
+        - {x: 85.83594, y: 26.041992}
+        - {x: 78.83594, y: 36.041992}
+    - name: Turret_23
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 702
+        width: 99
+        height: 139
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.114258, y: 121.04199}
+        - {x: 0.11425781, y: 80.04199}
+        - {x: 0.11425781, y: 0.041992188}
+        - {x: 87.11426, y: 0.041992188}
+        - {x: 87.11426, y: 98.04199}
+        - {x: 67.11426, y: 121.04199}
+    - name: Turret_24
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 702
+        width: 98
+        height: 132
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.0234375, y: 115}
+        - {x: 0.0234375, y: 109}
+        - {x: 0.0234375, y: 0}
+        - {x: 87.02344, y: 0}
+        - {x: 87.02344, y: 94}
+        - {x: 72.02344, y: 115}
+    - name: Turret_25
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 702
+        width: 98
+        height: 124
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.867188, y: 108.02344}
+        - {x: -0.1328125, y: 94.02344}
+        - {x: -0.1328125, y: 0.0234375}
+        - {x: 85.86719, y: 0.0234375}
+        - {x: 85.86719, y: 108.02344}
+    - name: Turret_26
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 702
+        width: 99
+        height: 115
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67.14551, y: 100.612305}
+        - {x: 7.145508, y: 100.612305}
+        - {x: 0.14550781, y: 50.612305}
+        - {x: 0.14550781, y: -0.3876953}
+        - {x: 87.14551, y: -0.3876953}
+        - {x: 87.14551, y: 26.612305}
+        - {x: 82.14551, y: 34.612305}
+    - name: Turret_27
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 702
+        width: 98
+        height: 115
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.0546875, y: 100.612305}
+        - {x: 0.0546875, y: -0.3876953}
+        - {x: 87.05469, y: -0.3876953}
+        - {x: 87.05469, y: 100.612305}
+    - name: Turret_28
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 702
+        width: 98
+        height: 115
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.8984375, y: 100.612305}
+        - {x: -0.1015625, y: 59.612305}
+        - {x: -0.1015625, y: -0.3876953}
+        - {x: 85.89844, y: -0.3876953}
+        - {x: 85.89844, y: 72.612305}
+        - {x: 74.89844, y: 100.612305}
+    - name: Turret_29
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 702
+        width: 98
+        height: 115
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.24219, y: 35.612305}
+        - {x: 61.242188, y: 100.612305}
+        - {x: 0.2421875, y: 100.612305}
+        - {x: 0.2421875, y: -0.3876953}
+        - {x: 86.24219, y: -0.3876953}
+        - {x: 86.24219, y: 18.612305}
+        - {x: 84.24219, y: 22.612305}
+    - name: Turret_30
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 702
+        width: 98
+        height: 115
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.08594, y: -0.3876953}
+        - {x: 87.08594, y: 75.612305}
+        - {x: 82.08594, y: 100.612305}
+        - {x: 0.0859375, y: 100.612305}
+        - {x: 0.0859375, y: -0.3876953}
+    - name: Turret_31
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 575
+        width: 98
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86.99219, y: 0.296875}
+        - {x: 86.99219, y: 91.296875}
+        - {x: 84.99219, y: 100.296875}
+        - {x: -0.0078125, y: 100.296875}
+        - {x: -0.0078125, y: 0.296875}
+    - name: Turret_32
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 575
+        width: 98
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.1640625, y: 100.296875}
+        - {x: -0.1640625, y: 0.296875}
+        - {x: 85.83594, y: 0.296875}
+        - {x: 85.83594, y: 100.296875}
+    - name: Turret_33
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 575
+        width: 98
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.1796875, y: 100.296875}
+        - {x: 0.1796875, y: 69.296875}
+        - {x: 5.1796875, y: 59.296875}
+        - {x: 15.1796875, y: 51.296875}
+        - {x: 7.1796875, y: 37.296875}
+        - {x: 0.1796875, y: 24.296875}
+        - {x: 0.1796875, y: 0.296875}
+        - {x: 86.17969, y: 0.296875}
+        - {x: 86.17969, y: 100.296875}
+    - name: Turret_34
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 575
+        width: 110
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.14453125, y: 100.296875}
+        - {x: 0.14453125, y: 0.296875}
+        - {x: 91.14453, y: 0.296875}
+        - {x: 97.14453, y: 22.296875}
+        - {x: 97.14453, y: 100.296875}
+    - name: Turret_35
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 575
+        width: 122
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75.609375, y: 100.296875}
+        - {x: -0.390625, y: 100.296875}
+        - {x: -0.390625, y: 0.296875}
+        - {x: 89.609375, y: 0.296875}
+        - {x: 103.609375, y: 27.296875}
+        - {x: 106.609375, y: 46.296875}
+        - {x: 106.609375, y: 90.296875}
+    - name: Turret_36
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 575
+        width: 126
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.07421875, y: 100.296875}
+        - {x: 0.07421875, y: 0.296875}
+        - {x: 100.07422, y: 0.296875}
+        - {x: 111.07422, y: 70.296875}
+        - {x: 111.07422, y: 97.296875}
+        - {x: 77.07422, y: 100.296875}
+    - name: Turret_37
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 575
+        width: 126
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.23046875, y: 100.296875}
+        - {x: 0.23046875, y: 0.296875}
+        - {x: 100.23047, y: 0.296875}
+        - {x: 111.23047, y: 68.296875}
+        - {x: 111.23047, y: 98.296875}
+        - {x: 83.23047, y: 100.296875}
+    - name: Turret_38
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 575
+        width: 126
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88.91016, y: 100.296875}
+        - {x: -0.08984375, y: 100.296875}
+        - {x: -0.08984375, y: 0.296875}
+        - {x: 90.91016, y: 0.296875}
+        - {x: 94.91016, y: 29.296875}
+        - {x: 110.91016, y: 58.296875}
+        - {x: 110.91016, y: 97.296875}
+    - name: Turret_39
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 575
+        width: 127
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99.024414, y: 98.296875}
+        - {x: 84.024414, y: 100.296875}
+        - {x: 0.024414062, y: 100.296875}
+        - {x: 0.024414062, y: 0.296875}
+        - {x: 90.024414, y: 0.296875}
+        - {x: 86.024414, y: 25.296875}
+        - {x: 111.024414, y: 62.296875}
+        - {x: 111.024414, y: 94.296875}
+    - name: Turret_40
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 575
+        width: 126
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109.76953, y: 100.296875}
+        - {x: -0.23046875, y: 100.296875}
+        - {x: -0.23046875, y: 0.296875}
+        - {x: 89.76953, y: 0.296875}
+        - {x: 109.76953, y: 34.296875}
+    - name: Turret_41
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 575
+        width: 126
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.05078125, y: 100.296875}
+        - {x: -0.05078125, y: 0.296875}
+        - {x: 98.94922, y: 0.296875}
+        - {x: 110.94922, y: 45.296875}
+        - {x: 110.94922, y: 97.296875}
+        - {x: 80.94922, y: 100.296875}
+    - name: Turret_42
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 575
+        width: 126
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 110.12891, y: 94.296875}
+        - {x: 89.12891, y: 97.296875}
+        - {x: 71.12891, y: 100.296875}
+        - {x: 0.12890625, y: 100.296875}
+        - {x: 0.12890625, y: 0.296875}
+        - {x: 90.12891, y: 0.296875}
+        - {x: 86.12891, y: 25.296875}
+        - {x: 78.12891, y: 35.296875}
+        - {x: 110.12891, y: 71.296875}
+    - name: Turret_43
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 575
+        width: 126
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.19140625, y: 100.296875}
+        - {x: -0.19140625, y: 0.296875}
+        - {x: 89.80859, y: 0.296875}
+        - {x: 102.80859, y: 33.296875}
+        - {x: 109.80859, y: 64.296875}
+        - {x: 109.80859, y: 100.296875}
+    - name: Turret_44
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 575
+        width: 127
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.053710938, y: 100.296875}
+        - {x: 0.053710938, y: 0.296875}
+        - {x: 100.05371, y: 0.296875}
+        - {x: 112.05371, y: 45.296875}
+        - {x: 112.05371, y: 97.296875}
+        - {x: 78.05371, y: 100.296875}
+    - name: Turret_45
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 575
+        width: 126
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74.16797, y: 100.296875}
+        - {x: 0.16796875, y: 100.296875}
+        - {x: 0.16796875, y: 0.296875}
+        - {x: 110.16797, y: 0.296875}
+        - {x: 110.16797, y: 94.296875}
+        - {x: 97.16797, y: 94.296875}
+    - name: Turret_46
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 575
+        width: 126
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.15234375, y: 100.296875}
+        - {x: -0.15234375, y: 0.296875}
+        - {x: 89.84766, y: 0.296875}
+        - {x: 102.84766, y: 33.296875}
+        - {x: 109.84766, y: 64.296875}
+        - {x: 109.84766, y: 100.296875}
+    - name: Turret_47
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 447
+        width: 126
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.16016, y: 100.046875}
+        - {x: 0.16015625, y: 100.046875}
+        - {x: 0.16015625, y: 0.046875}
+        - {x: 91.16016, y: 0.046875}
+        - {x: 95.16016, y: 29.046875}
+        - {x: 111.16016, y: 58.046875}
+        - {x: 111.16016, y: 97.046875}
+    - name: Turret_48
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 447
+        width: 127
+        height: 114
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.788086, y: 100.046875}
+        - {x: -0.21191406, y: 100.046875}
+        - {x: -0.21191406, y: 0.046875}
+        - {x: 90.788086, y: 0.046875}
+        - {x: 94.788086, y: 29.046875}
+        - {x: 110.788086, y: 58.046875}
+        - {x: 110.788086, y: 97.046875}
+    - name: Turret_49
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 447
+        width: 98
+        height: 106
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.66406, y: 84.07031}
+        - {x: 56.664062, y: 93.07031}
+        - {x: 27.664062, y: 93.07031}
+        - {x: 22.664062, y: 72.07031}
+        - {x: 2.6640625, y: 42.070312}
+        - {x: -0.3359375, y: 30.070312}
+        - {x: -0.3359375, y: 0.0703125}
+        - {x: 85.66406, y: 0.0703125}
+        - {x: 85.66406, y: 27.070312}
+        - {x: 78.66406, y: 36.070312}
+    - name: Turret_50
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 347
+        width: 126
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.16015625, y: 48.058594}
+        - {x: 0.16015625, y: 14.058594}
+        - {x: 10.160156, y: 0.05859375}
+        - {x: 70.16016, y: 0.05859375}
+        - {x: 111.16016, y: 17.058594}
+        - {x: 111.16016, y: 45.058594}
+        - {x: 91.16016, y: 48.058594}
+    - name: Turret_51
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 347
+        width: 139
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99.918945, y: 48.058594}
+        - {x: -0.08105469, y: 48.058594}
+        - {x: -0.08105469, y: 11.058594}
+        - {x: 10.918945, y: 0.05859375}
+        - {x: 84.918945, y: 0.05859375}
+        - {x: 120.918945, y: 15.058594}
+        - {x: 120.918945, y: 42.058594}
+        - {x: 118.918945, y: 47.058594}
+    - name: Turret_52
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 347
+        width: 146
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.4296875, y: 48.058594}
+        - {x: -0.4296875, y: 4.0585938}
+        - {x: 10.5703125, y: 0.05859375}
+        - {x: 63.570312, y: 0.05859375}
+        - {x: 127.57031, y: 14.058594}
+        - {x: 127.57031, y: 48.058594}
+    - name: Turret_53
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 347
+        width: 158
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.24609375, y: 48.058594}
+        - {x: -0.24609375, y: 0.05859375}
+        - {x: 137.7539, y: 0.05859375}
+        - {x: 137.7539, y: 48.058594}
+    - name: Turret_54
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 347
+        width: 162
+        height: 59
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.0625, y: 52.231445}
+        - {x: -0.0625, y: 11.231445}
+        - {x: 0.9375, y: 4.2314453}
+        - {x: 2.9375, y: 0.23144531}
+        - {x: 78.9375, y: 0.23144531}
+        - {x: 141.9375, y: 15.231445}
+        - {x: 141.9375, y: 48.231445}
+        - {x: 138.9375, y: 52.231445}
+    - name: Turret_55
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 347
+        width: 113
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75.112305, y: 48.058594}
+        - {x: 0.11230469, y: 48.058594}
+        - {x: 0.11230469, y: 0.05859375}
+        - {x: 75.112305, y: 0.05859375}
+        - {x: 99.112305, y: 17.058594}
+        - {x: 99.112305, y: 42.058594}
+        - {x: 86.112305, y: 47.058594}
+    - name: Turret_56
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 347
+        width: 158
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.089844, y: 55.035156}
+        - {x: 0.08984375, y: 50.035156}
+        - {x: 0.08984375, y: 5.0351562}
+        - {x: 1.0898438, y: 0.03515625}
+        - {x: 138.08984, y: 0.03515625}
+        - {x: 138.08984, y: 55.035156}
+    - name: Turret_57
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 347
+        width: 154
+        height: 66
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.390625, y: 58.273438}
+        - {x: 0.390625, y: 0.2734375}
+        - {x: 104.390625, y: 0.2734375}
+        - {x: 135.39062, y: 6.2734375}
+        - {x: 135.39062, y: 58.273438}
+    - name: Turret_58
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 347
+        width: 154
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108.953125, y: 55.035156}
+        - {x: 96.953125, y: 47.035156}
+        - {x: 60.953125, y: 49.035156}
+        - {x: -0.046875, y: 49.035156}
+        - {x: -0.046875, y: 0.03515625}
+        - {x: 84.953125, y: 0.03515625}
+        - {x: 130.95312, y: 18.035156}
+        - {x: 133.95312, y: 25.035156}
+        - {x: 133.95312, y: 55.035156}
+    - name: Turret_59
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 268
+        width: 127
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.21191406, y: 48.396484}
+        - {x: -0.21191406, y: 5.3964844}
+        - {x: 0.78808594, y: 0.39648438}
+        - {x: 83.788086, y: 0.39648438}
+        - {x: 110.788086, y: 8.396484}
+        - {x: 110.788086, y: 46.396484}
+        - {x: 76.788086, y: 48.396484}
+    - name: Turret_60
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 268
+        width: 126
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.09765625, y: 48.396484}
+        - {x: -0.09765625, y: 2.3964844}
+        - {x: 5.9023438, y: 0.39648438}
+        - {x: 91.90234, y: 0.39648438}
+        - {x: 110.90234, y: 17.396484}
+        - {x: 110.90234, y: 48.396484}
+    - name: Turret_61
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 268
+        width: 126
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.08203125, y: 48.396484}
+        - {x: 0.08203125, y: 17.396484}
+        - {x: 4.0820312, y: 5.3964844}
+        - {x: 10.082031, y: 0.39648438}
+        - {x: 72.08203, y: 0.39648438}
+        - {x: 110.08203, y: 18.396484}
+        - {x: 110.08203, y: 47.396484}
+        - {x: 88.08203, y: 48.396484}
+    - name: Turret_62
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 268
+        width: 126
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96.76172, y: 43.396484}
+        - {x: 68.76172, y: 48.396484}
+        - {x: -0.23828125, y: 48.396484}
+        - {x: -0.23828125, y: 10.396484}
+        - {x: 5.7617188, y: 0.39648438}
+        - {x: 71.76172, y: 0.39648438}
+        - {x: 109.76172, y: 18.396484}
+        - {x: 109.76172, y: 41.396484}
+        - {x: 108.76172, y: 42.396484}
+    - name: Turret_63
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 268
+        width: 126
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.05859375, y: 48.396484}
+        - {x: -0.05859375, y: 5.3964844}
+        - {x: 0.94140625, y: 0.39648438}
+        - {x: 83.94141, y: 0.39648438}
+        - {x: 110.94141, y: 8.396484}
+        - {x: 110.94141, y: 46.396484}
+        - {x: 76.94141, y: 48.396484}
+    - name: Turret_64
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 268
+        width: 127
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.055664062, y: 48.396484}
+        - {x: 0.055664062, y: 23.396484}
+        - {x: 1.0556641, y: 13.396484}
+        - {x: 5.055664, y: 6.3964844}
+        - {x: 11.055664, y: 0.39648438}
+        - {x: 81.055664, y: 0.39648438}
+        - {x: 111.055664, y: 18.396484}
+        - {x: 111.055664, y: 47.396484}
+        - {x: 87.055664, y: 48.396484}
+    - name: Turret_65
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 268
+        width: 126
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.19921875, y: 48.396484}
+        - {x: -0.19921875, y: 23.396484}
+        - {x: 0.80078125, y: 13.396484}
+        - {x: 4.8007812, y: 6.3964844}
+        - {x: 11.800781, y: 0.39648438}
+        - {x: 74.80078, y: 0.39648438}
+        - {x: 109.80078, y: 18.396484}
+        - {x: 109.80078, y: 47.396484}
+        - {x: 86.80078, y: 48.396484}
+    - name: Turret_66
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 268
+        width: 126
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.01953125, y: 48.396484}
+        - {x: -0.01953125, y: 5.3964844}
+        - {x: 0.98046875, y: 0.39648438}
+        - {x: 83.98047, y: 0.39648438}
+        - {x: 110.98047, y: 8.396484}
+        - {x: 110.98047, y: 46.396484}
+        - {x: 76.98047, y: 48.396484}
+    - name: Turret_67
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 268
+        width: 126
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.16015625, y: 48.396484}
+        - {x: 0.16015625, y: 0.39648438}
+        - {x: 90.16016, y: 0.39648438}
+        - {x: 110.16016, y: 15.396484}
+        - {x: 110.16016, y: 45.396484}
+        - {x: 75.16016, y: 48.396484}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

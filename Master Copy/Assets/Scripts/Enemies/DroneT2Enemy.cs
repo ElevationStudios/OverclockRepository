@@ -51,9 +51,6 @@ public class DroneT2Enemy : MonoBehaviour {
 	}
 
 	void Update () {
-		if (stats.currentHealth < 0) {
-			Destroy (this.gameObject);
-		}
 
 		if (player.transform.position.x > transform.position.x) {
 			leftSide = true;

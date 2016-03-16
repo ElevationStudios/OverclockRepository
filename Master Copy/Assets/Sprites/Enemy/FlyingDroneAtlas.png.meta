@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: 592dd54875ea051458157e3bf75a83fb
+timeCreated: 1457566978
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FlyingDroneAtlas_0
+    21300002: FlyingDroneAtlas_1
+    21300004: FlyingDroneAtlas_2
+    21300006: FlyingDroneAtlas_3
+    21300008: FlyingDroneAtlas_4
+    21300010: FlyingDroneAtlas_5
+    21300012: FlyingDroneAtlas_6
+    21300014: FlyingDroneAtlas_7
+    21300016: FlyingDroneAtlas_8
+    21300018: FlyingDroneAtlas_9
+    21300020: FlyingDroneAtlas_10
+    21300022: FlyingDroneAtlas_11
+    21300024: FlyingDroneAtlas_12
+    21300026: FlyingDroneAtlas_13
+    21300028: FlyingDroneAtlas_14
+    21300030: FlyingDroneAtlas_15
+    21300032: FlyingDroneAtlas_16
+    21300034: FlyingDroneAtlas_17
+    21300036: FlyingDroneAtlas_18
+    21300038: FlyingDroneAtlas_19
+    21300040: FlyingDroneAtlas_20
+    21300042: FlyingDroneAtlas_21
+    21300044: FlyingDroneAtlas_22
+    21300046: FlyingDroneAtlas_23
+    21300048: FlyingDroneAtlas_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 80
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FlyingDroneAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 150
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27}
+        - {x: -23, y: 23}
+        - {x: -23, y: -24}
+        - {x: -22, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -23}
+        - {x: 23, y: -18}
+        - {x: 23, y: 27}
+    - name: FlyingDroneAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 150
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27}
+        - {x: -23, y: 23}
+        - {x: -23, y: -24}
+        - {x: -22, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -23}
+        - {x: 23, y: -18}
+        - {x: 23, y: 27}
+    - name: FlyingDroneAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 150
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27}
+        - {x: -23, y: 23}
+        - {x: -23, y: -24}
+        - {x: -22, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -23}
+        - {x: 23, y: -18}
+        - {x: 23, y: 27}
+    - name: FlyingDroneAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 150
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27}
+        - {x: -23, y: 23}
+        - {x: -23, y: -24}
+        - {x: -22, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -23}
+        - {x: 23, y: -18}
+        - {x: 23, y: 27}
+    - name: FlyingDroneAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 150
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27}
+        - {x: -23, y: 23}
+        - {x: -23, y: -24}
+        - {x: -22, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -23}
+        - {x: 23, y: -18}
+        - {x: 23, y: 27}
+    - name: FlyingDroneAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 150
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27}
+        - {x: -23, y: 23}
+        - {x: -23, y: -24}
+        - {x: -22, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -23}
+        - {x: 23, y: -18}
+        - {x: 23, y: 27}
+    - name: FlyingDroneAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 150
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27}
+        - {x: -23, y: 23}
+        - {x: -23, y: -24}
+        - {x: -22, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -23}
+        - {x: 23, y: -18}
+        - {x: 23, y: 27}
+    - name: FlyingDroneAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 106
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: FlyingDroneAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 106
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: FlyingDroneAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 106
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: FlyingDroneAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 44
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27}
+        - {x: -23, y: 23}
+        - {x: -23, y: -24}
+        - {x: -22, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -23}
+        - {x: 23, y: -18}
+        - {x: 23, y: 27}
+    - name: FlyingDroneAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 44
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27}
+        - {x: -23, y: 23}
+        - {x: -23, y: -24}
+        - {x: -22, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -23}
+        - {x: 23, y: -18}
+        - {x: 23, y: 27}
+    - name: FlyingDroneAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 44
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 27}
+        - {x: -23, y: 23}
+        - {x: -23, y: -24}
+        - {x: -22, y: -27}
+        - {x: 17, y: -27}
+        - {x: 21, y: -23}
+        - {x: 23, y: -18}
+        - {x: 23, y: 27}
+    - name: FlyingDroneAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 84
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: FlyingDroneAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 44
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 27}
+        - {x: -23, y: 18}
+        - {x: -23, y: -27}
+        - {x: 23, y: -27}
+        - {x: 23, y: 27}
+      - - {x: -22, y: 21}
+        - {x: -23, y: 20}
+        - {x: -23, y: 11}
+        - {x: -17, y: 11}
+        - {x: -12, y: 12}
+        - {x: -11, y: 13}
+        - {x: -11, y: 19}
+        - {x: -15, y: 21}
+    - name: FlyingDroneAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 44
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 27}
+        - {x: -22, y: 23}
+        - {x: -22, y: -24}
+        - {x: -21, y: -26}
+        - {x: -18, y: -27}
+        - {x: 24, y: -27}
+        - {x: 24, y: 22}
+        - {x: 19, y: 27}
+      - - {x: -24, y: 9}
+        - {x: -24, y: 3}
+        - {x: -22, y: 3}
+        - {x: -20, y: 5}
+        - {x: -20, y: 7}
+        - {x: -22, y: 9}
+    - name: FlyingDroneAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 40
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 27}
+        - {x: -8, y: 25}
+        - {x: -6, y: 21}
+        - {x: -6, y: 19}
+        - {x: -4, y: 14}
+        - {x: -8, y: 12}
+        - {x: -6, y: 17}
+        - {x: -6, y: 19}
+        - {x: -10, y: 23}
+        - {x: -12, y: 23}
+        - {x: -23, y: 14}
+        - {x: -24, y: 12}
+        - {x: -24, y: -27}
+        - {x: 22, y: -27}
+        - {x: 24, y: -21}
+        - {x: 24, y: 16}
+        - {x: 13, y: 27}
+    - name: FlyingDroneAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 40
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -24, y: 17}
+        - {x: -24, y: -25}
+        - {x: 24, y: -25}
+        - {x: 24, y: 21}
+        - {x: 18, y: 25}
+    - name: FlyingDroneAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 34
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 28}
+        - {x: -17, y: 28}
+        - {x: -27, y: 11}
+        - {x: -27, y: -23}
+        - {x: -18, y: -28}
+        - {x: 8, y: -28}
+        - {x: 20, y: -21}
+        - {x: 27, y: -13}
+        - {x: 27, y: 18}
+    - name: FlyingDroneAtlas_19
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 36
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 28}
+        - {x: -28, y: 14}
+        - {x: -28, y: -19}
+        - {x: -19, y: -28}
+        - {x: 14, y: -28}
+        - {x: 26, y: -26}
+        - {x: 28, y: -22}
+        - {x: 28, y: 25}
+        - {x: 26, y: 28}
+    - name: FlyingDroneAtlas_20
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 43
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 22}
+        - {x: -17, y: 18}
+        - {x: -17, y: -20}
+        - {x: -16, y: -22}
+        - {x: 17, y: -22}
+        - {x: 17, y: 22}
+    - name: FlyingDroneAtlas_21
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 48
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: FlyingDroneAtlas_22
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 49
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: FlyingDroneAtlas_23
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 51
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: FlyingDroneAtlas_24
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 47
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

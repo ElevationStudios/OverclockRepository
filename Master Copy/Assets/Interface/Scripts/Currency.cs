@@ -13,7 +13,7 @@ public class Currency : MonoBehaviour {
 		player.GetComponent<Player>();
 	}
 	void Update() {
-		coins.text = player.GetComponent<Player> ().PlayerStats.gold.ToString ();
+		coins.text = player.GetComponent<Player> ().gold.ToString ();
 	}
 
 }

@@ -17,6 +17,8 @@ public class BlasterScript : MonoBehaviour
 	public GameObject bulletPrefab;
 	public GameObject critPrefab;
 	public Transform bulletSpawn;
+	public GameObject shell;
+	public Transform shellSpawner;
 	GameObject bullet;
 	public AudioSource blasterClip;
 	private bool reloading = false;
@@ -24,7 +26,6 @@ public class BlasterScript : MonoBehaviour
 	private float critRNG;
 	//raycast goodies
 	Vector2 firePosition;
-	RaycastHit2D hit;
 	Vector2 mousePosition;
 
 
@@ -64,12 +65,6 @@ public class BlasterScript : MonoBehaviour
 		StopCoroutine (Reload ());
 	}
 
-	void DamageEnemy ()
-	{
-		hit.collider.GetComponent<Enemies> ().TakeDamage (damageOut);
-		Debug.Log (damageOut);
-	}
-
 	void Shoot ()
 	{
 		if (shootTimer > shootInterval) {
@@ -78,7 +73,8 @@ public class BlasterScript : MonoBehaviour
 			shootTimer = 0;
 			mousePosition = new Vector2 (Camera.main.ScreenToWorldPoint (Input.mousePosition).x, Camera.main.ScreenToWorldPoint (Input.mousePosition).y);		
 			firePosition = new Vector2 (bulletSpawn.position.x, bulletSpawn.position.y);
-			hit = Physics2D.Raycast (firePosition, (mousePosition - firePosition), Mathf.Infinity, whatToHit);
+			RaycastHit2D hit = Physics2D.Raycast (firePosition, (mousePosition - firePosition), Mathf.Infinity, whatToHit);
+			Instantiate (shell, shellSpawner.position, shellSpawner.rotation);
 
 			if (critRNG < critPerc) {
 				Instantiate (critPrefab, bulletSpawn.position, bulletSpawn.rotation);
@@ -93,9 +89,10 @@ public class BlasterScript : MonoBehaviour
 				reloading = true;
 				StartCoroutine (Reload ());
 			}
-			if (hit.collider.gameObject.tag == "Enemy")
-				DamageEnemy ();
+			if (hit.collider != null && hit.collider.gameObject.tag == "Enemy") {
+				hit.collider.GetComponent<Enemies> ().TakeDamage (damageOut);
+			}
 		}
-		Debug.DrawLine (firePosition, hit.point, Color.red);
+		//Debug.DrawLine (firePosition, hit.point, Color.red);
 	}
 }

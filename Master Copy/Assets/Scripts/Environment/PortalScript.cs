@@ -34,7 +34,6 @@ public class PortalScript : MonoBehaviour {
 		if (startTimer == true)
 			timer += Time.deltaTime;
 		if (onTeleporter == true) {
-			Debug.Log ("onTeleporter");
 		}
 			if (SceneManager.GetActiveScene ().name == "Level1") {
 				
