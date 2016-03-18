@@ -10,7 +10,7 @@ public abstract class Entity : MonoBehaviour {
 	private bool dropWeaponCrate;
 
 	// TODO: Test constructors 
-	/*8
+	/*
 	public Entity(float maxHealth, bool dropWeaponCrate) {
 		this.maxHealth = maxHealth;
 		this.dropWeaponCrate = dropWeaponCrate;

@@ -3,22 +3,12 @@ using System.Collections;
 
 public abstract class Weapon : MonoBehaviour {
 
-	private string name;
 	private float damage;
 	private float criticalChance;
 
-	public Weapon(string name, float damage, float critical){
-		this.name = name;
+	public Weapon(float damage, float critical){
 		this.damage = damage;
 		this.criticalChance = critical;
-	}
-
-	public void SetName(string name){
-		this.name = name;
-	}
-
-	public string GetName(){
-		return name;
 	}
 
 	public void SetDamage(float damage){

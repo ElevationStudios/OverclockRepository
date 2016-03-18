@@ -23,7 +23,7 @@ public class TurretTest : MonoBehaviour {
      * 1 = Shutdown
      * 2 = Shoot
      */
-	public AudioSource[] audio;
+	public AudioSource[] turretAudio;
 
 	// Turret body and head pivot animator components
 	private Animator turretHeadAnimator;
@@ -72,7 +72,7 @@ public class TurretTest : MonoBehaviour {
 	void PlayerEnter(GameObject player) {
 		this.currentTarget = player;
 		turretBodyAnimator.SetBool("Active", true);
-		audio[0].Play();
+		turretAudio[0].Play();
 		StopCoroutine("GoIdle");
 	}
 
@@ -88,7 +88,7 @@ public class TurretTest : MonoBehaviour {
 	IEnumerator GoIdle() {
 		yield return new WaitForSeconds(timeUntilIdle);
 		turretHead.SetActive(false);
-		audio[1].Play();
+		turretAudio[1].Play();
 		turretBodyAnimator.SetBool("Active", false);
 		turretBodyAnimator.SetTrigger("Shutdown");
 	}
@@ -97,7 +97,7 @@ public class TurretTest : MonoBehaviour {
 		AnimationEvent animationEvent = new AnimationEvent();
 		animationEvent.functionName = "Shoot";
 		animationEvent.time = 0f;
-
+		//turretAudio[2].Play()
 		foreach(AnimationClip clip in turretHeadAnimator.runtimeAnimatorController.animationClips) {
 			print(clip.name);
 			clip.AddEvent(animationEvent);

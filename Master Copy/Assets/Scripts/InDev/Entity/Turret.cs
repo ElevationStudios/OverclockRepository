@@ -22,7 +22,7 @@ public class Turret : MonoBehaviour {
      * 1 = Shutdown
      * 2 = Shoot
      */
-	public AudioSource[] audio;
+	public AudioSource[] turretAudio;
 
 	// Turret body and head pivot animator components
 	private Animator turretHeadAnimator;
@@ -44,6 +44,7 @@ public class Turret : MonoBehaviour {
 		AddAnimationEvent();
 
 	}
+	// TODO: Calculate distance instead of detecting when the player is in range to properly use the box collider.
 
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Z)) {
@@ -71,6 +72,7 @@ public class Turret : MonoBehaviour {
 	void PlayerEnter(GameObject player) {
 		this.currentTarget = player;
 		turretBodyAnimator.SetBool("Active", true);
+		turretAudio[0].Play();
 		StopCoroutine("GoIdle");
 	}
 
@@ -86,6 +88,7 @@ public class Turret : MonoBehaviour {
 	IEnumerator GoIdle() {
 		yield return new WaitForSeconds(timeUntilIdle);
 		turretHead.SetActive(false);
+		turretAudio[1].Play();
         turretBodyAnimator.SetBool("Active", false);
 		turretBodyAnimator.SetTrigger("Shutdown");
 	}
@@ -94,7 +97,7 @@ public class Turret : MonoBehaviour {
 		AnimationEvent animationEvent = new AnimationEvent();
 		animationEvent.functionName = "Shoot";
 		animationEvent.time = 0f;
-
+		// turretAudio[2].Play(); - Play shooting noice
 		foreach(AnimationClip clip in turretHeadAnimator.runtimeAnimatorController.animationClips) {
 			print(clip.name);
 			clip.AddEvent(animationEvent);

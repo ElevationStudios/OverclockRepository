@@ -12,7 +12,7 @@ public abstract class Gun : Weapon {
 	private float reloadTime;
 	private float lastShot;
 
-	public Gun(string name, float damage, float critical, int clipSize, bool projectile, float fireRate, float reloadTime) : base(name, damage, critical) {
+	public Gun(string name, float damage, float critical, int clipSize, bool projectile, float fireRate, float reloadTime) : base(damage, critical) {
 		this.ammo = clipSize;
 		this.clipSize = clipSize;
 		this.fireRate = fireRate;
@@ -90,7 +90,7 @@ public abstract class Gun : Weapon {
 	}
 
 	public override string ToString () {
-		return "Name: " + GetName() + ", Damage: " + GetDamage() + ", Critical Chance: " + GetCriticalChance() + ", Ammo: " + GetAmmo() + ", Clip Size: " + GetClipSize() + ", Fire Rate: " + GetFireRate();
+		return "Damage: " + GetDamage() + ", Critical Chance: " + GetCriticalChance() + ", Ammo: " + GetAmmo() + ", Clip Size: " + GetClipSize() + ", Fire Rate: " + GetFireRate();
 	}
 
 	public abstract void Shoot();
