@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 4e101d5320dc435489d266655b965121
+timeCreated: 1458251337
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: grenadeExplode_0
+    21300002: grenadeExplode_1
+    21300004: grenadeExplode_2
+    21300006: grenadeExplode_3
+    21300008: grenadeExplode_4
+    21300010: grenadeExplode_5
+    21300012: grenadeExplode_6
+    21300014: grenadeExplode_7
+    21300016: grenadeExplode_8
+    21300018: grenadeExplode_9
+    21300020: grenadeExplode_10
+    21300022: grenadeExplode_11
+    21300024: grenadeExplode_12
+    21300026: grenadeExplode_13
+    21300028: grenadeExplode_14
+    21300030: grenadeExplode_15
+    21300032: grenadeExplode_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: grenadeExplode_0
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 224
+        width: 81
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grenadeExplode_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 207
+        width: 115
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.353775, y: 18.014149}
+        - {x: -17.353775, y: -16.985851}
+        - {x: 17.646225, y: -16.985851}
+        - {x: 17.646225, y: 13.014149}
+        - {x: 15.646225, y: 18.014149}
+    - name: grenadeExplode_2
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 204
+        width: 191
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.71698, y: 25.622639}
+        - {x: -28.71698, y: 21.622639}
+        - {x: -28.71698, y: -24.377361}
+        - {x: 27.28302, y: -24.377361}
+        - {x: 29.28302, y: -14.377361}
+        - {x: 29.28302, y: 21.622639}
+        - {x: 24.28302, y: 25.622639}
+    - name: grenadeExplode_3
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 143
+        width: 285
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.49057, y: 45.99528}
+        - {x: -42.49057, y: 21.995281}
+        - {x: -42.49057, y: -39.00472}
+        - {x: -38.49057, y: -45.00472}
+        - {x: 25.50943, y: -45.00472}
+        - {x: 42.50943, y: -38.00472}
+        - {x: 42.50943, y: 45.99528}
+    - name: grenadeExplode_4
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 123
+        width: 463
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.75473, y: 64.05189}
+        - {x: -68.75473, y: -5.9481125}
+        - {x: -68.75473, y: -42.948112}
+        - {x: -55.75473, y: -55.948112}
+        - {x: -7.75473, y: -62.948112}
+        - {x: 70.24527, y: -62.948112}
+        - {x: 70.24527, y: 9.0518875}
+        - {x: 63.24527, y: 56.051888}
+        - {x: 51.24527, y: 64.05189}
+    - name: grenadeExplode_5
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 82
+        width: 584
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.95285, y: 81.86792}
+        - {x: -86.95285, y: 16.86792}
+        - {x: -86.95285, y: -34.13208}
+        - {x: -39.95285, y: -81.13208}
+        - {x: 71.04715, y: -81.13208}
+        - {x: 88.04715, y: -43.13208}
+        - {x: 88.04715, y: 69.86792}
+        - {x: 60.04715, y: 81.86792}
+    - name: grenadeExplode_6
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 22
+        width: 641
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91.69336, y: 92.037735}
+        - {x: -7.3066406, y: 92.037735}
+        - {x: -47.30664, y: 80.037735}
+        - {x: -95.30664, y: 35.037735}
+        - {x: -95.30664, y: -47.962265}
+        - {x: -94.30664, y: -58.962265}
+        - {x: -67.30664, y: -75.962265}
+        - {x: -35.30664, y: -90.962265}
+        - {x: 63.69336, y: -90.962265}
+        - {x: 87.69336, y: -77.962265}
+        - {x: 95.69336, y: -50.962265}
+        - {x: 95.69336, y: 61.037735}
+    - name: grenadeExplode_7
+      rect:
+        serializedVersion: 2
+        x: 3051
+        y: 62
+        width: 503
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.1651, y: 75.92453}
+        - {x: -45.8349, y: 75.92453}
+        - {x: -73.8349, y: 58.92453}
+        - {x: -73.8349, y: -62.07547}
+        - {x: -30.8349, y: -75.07547}
+        - {x: 47.1651, y: -75.07547}
+        - {x: 76.1651, y: -44.07547}
+        - {x: 76.1651, y: 51.92453}
+    - name: grenadeExplode_8
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 103
+        width: 403
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.81604, y: 64.10849}
+        - {x: -54.81604, y: 45.10849}
+        - {x: -58.81604, y: 25.10849}
+        - {x: -58.81604, y: -59.89151}
+        - {x: -51.81604, y: -62.89151}
+        - {x: 45.18396, y: -62.89151}
+        - {x: 60.18396, y: -56.89151}
+        - {x: 60.18396, y: 58.10849}
+        - {x: 46.18396, y: 64.10849}
+    - name: grenadeExplode_9
+      rect:
+        serializedVersion: 2
+        x: 4139
+        y: 143
+        width: 366
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.01416, y: 66.995285}
+        - {x: -43.01416, y: 46.995285}
+        - {x: -52.01416, y: 0.99528503}
+        - {x: -52.01416, y: -48.004715}
+        - {x: -13.01416, y: -66.004715}
+        - {x: 48.98584, y: -66.004715}
+        - {x: 55.98584, y: -36.004715}
+        - {x: 55.98584, y: 63.995285}
+        - {x: 48.98584, y: 66.995285}
+    - name: grenadeExplode_10
+      rect:
+        serializedVersion: 2
+        x: 4555
+        y: 204
+        width: 343
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.1085205, y: 52.12264}
+        - {x: -31.89148, y: 45.12264}
+        - {x: -48.89148, y: 36.12264}
+        - {x: -48.89148, y: -27.877361}
+        - {x: -43.89148, y: -50.87736}
+        - {x: 52.10852, y: -50.87736}
+        - {x: 52.10852, y: 28.122639}
+        - {x: 47.10852, y: 52.12264}
+    - name: grenadeExplode_11
+      rect:
+        serializedVersion: 2
+        x: 4971
+        y: 204
+        width: 289
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.26892, y: -33.87736}
+        - {x: -32.26892, y: -41.87736}
+        - {x: 43.73108, y: -41.87736}
+        - {x: 43.73108, y: 21.122639}
+        - {x: 37.73108, y: 43.12264}
+        - {x: -30.26892, y: 43.12264}
+        - {x: -41.26892, y: 35.12264}
+    - name: grenadeExplode_12
+      rect:
+        serializedVersion: 2
+        x: 5411
+        y: 204
+        width: 202
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.01416, y: 37.12264}
+        - {x: -27.01416, y: 24.122639}
+        - {x: -27.01416, y: -35.87736}
+        - {x: 31.98584, y: -35.87736}
+        - {x: 31.98584, y: 37.12264}
+    - name: grenadeExplode_13
+      rect:
+        serializedVersion: 2
+        x: 5703
+        y: 204
+        width: 192
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.2406, y: 43.12264}
+        - {x: -25.2406, y: 32.12264}
+        - {x: -25.2406, y: -34.87736}
+        - {x: -24.2406, y: -37.87736}
+        - {x: -17.2406, y: -41.87736}
+        - {x: 22.7594, y: -41.87736}
+        - {x: 29.7594, y: -23.877361}
+        - {x: 29.7594, y: 38.12264}
+        - {x: 21.7594, y: 43.12264}
+    - name: grenadeExplode_14
+      rect:
+        serializedVersion: 2
+        x: 5959
+        y: 224
+        width: 191
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.834839, y: 40.06604}
+        - {x: -11.165161, y: 40.06604}
+        - {x: -18.165161, y: 34.06604}
+        - {x: -25.165161, y: 1.06604}
+        - {x: -25.165161, y: -16.93396}
+        - {x: -17.165161, y: -37.93396}
+        - {x: -16.165161, y: -38.93396}
+        - {x: 23.834839, y: -38.93396}
+        - {x: 29.834839, y: -32.93396}
+        - {x: 29.834839, y: 35.06604}
+        - {x: 26.834839, y: 39.06604}
+    - name: grenadeExplode_15
+      rect:
+        serializedVersion: 2
+        x: 6221
+        y: 244
+        width: 224
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.306641, y: 43.00943}
+        - {x: -30.30664, y: 16.00943}
+        - {x: -30.30664, y: -22.99057}
+        - {x: -21.30664, y: -41.99057}
+        - {x: 32.69336, y: -41.99057}
+        - {x: 34.69336, y: -32.99057}
+        - {x: 34.69336, y: 42.00943}
+        - {x: 28.69336, y: 43.00943}
+    - name: grenadeExplode_16
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 204
+        width: 228
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.08496, y: 46.12264}
+        - {x: -31.08496, y: 26.122639}
+        - {x: -31.08496, y: -26.877361}
+        - {x: -3.084961, y: -44.87736}
+        - {x: 27.91504, y: -44.87736}
+        - {x: 34.91504, y: -24.877361}
+        - {x: 34.91504, y: 36.12264}
+        - {x: 22.91504, y: 46.12264}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

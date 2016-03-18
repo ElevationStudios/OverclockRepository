@@ -13,6 +13,9 @@ public class Enemies : MonoBehaviour
 	public GameObject enemyHPFill;
 	public GameObject deathPrefab;
 	public GameObject projectilePrefab;
+	Color endColor = Color.yellow;
+	Color startColor = Color.green;
+	float val;
 
 	Color fillColor;
 
@@ -21,6 +24,7 @@ public class Enemies : MonoBehaviour
 		this.currentHealth = maxHealth;
 		if (projectilePrefab != null)
 			projectilePrefab.GetComponent<enemyProjectile> ().damage = damage;
+			enemyHPFill.transform.localScale -= new Vector3 (10.15f, 0.15f, 1);
 	}
 	public void TakeDamage (float damage)
 	{
@@ -36,12 +40,19 @@ public class Enemies : MonoBehaviour
 
 	void Update ()
 	{
+		val = maxHealth / 2;
+		if (currentHealth / maxHealth <= 0.5) {
+			val = 0;
+			endColor = Color.red;
+			startColor = Color.yellow;
+
+			}
 		if (currentHealth <= 0)
 			Death ();
 		float moveBar = (1 - currentHealth / maxHealth) * (2.3f / 2);
 		enemyHPFill.transform.localScale = new Vector2 (currentHealth / maxHealth, 1);
 		enemyHPFill.transform.position = new Vector2 (transform.position.x - moveBar, transform.position.y + 1);
-		fillColor = Color.Lerp (Color.red, Color.green, currentHealth / maxHealth);
+		fillColor = Color.Lerp (endColor, startColor, (currentHealth - val) * 2/ maxHealth) ;
 		enemyHPFill.GetComponent<SpriteRenderer> ().color = fillColor; 
 	}
 }

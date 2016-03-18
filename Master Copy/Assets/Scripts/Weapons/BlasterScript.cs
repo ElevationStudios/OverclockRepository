@@ -21,7 +21,7 @@ public class BlasterScript : MonoBehaviour
 	public Transform shellSpawner;
 	GameObject bullet;
 	public AudioSource blasterClip;
-	private bool reloading = false;
+	private bool reloading;
 	private float shootTimer;
 	private float critRNG;
 	//raycast goodies
