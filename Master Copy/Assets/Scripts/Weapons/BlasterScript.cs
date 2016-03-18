@@ -91,6 +91,7 @@ public class BlasterScript : MonoBehaviour
 			}
 			if (hit.collider != null && hit.collider.gameObject.tag == "Enemy") {
 				hit.collider.GetComponent<Enemies> ().TakeDamage (damageOut);
+
 			}
 		}
 		//Debug.DrawLine (firePosition, hit.point, Color.red);

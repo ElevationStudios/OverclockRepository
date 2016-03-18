@@ -84,7 +84,7 @@ public class PistolScript: MonoBehaviour
 			reloading = true;
 			StartCoroutine (Reload ());
 		}
-		if (hit.collider.gameObject.tag == "Enemy")
+		if (hit.collider != null && hit.collider.gameObject.tag == "Enemy") 
 			DamageEnemy ();
 		}
 }

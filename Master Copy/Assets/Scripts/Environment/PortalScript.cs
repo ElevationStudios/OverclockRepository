@@ -34,34 +34,34 @@ public class PortalScript : MonoBehaviour {
 		if (startTimer == true)
 			timer += Time.deltaTime;
 		if (onTeleporter == true) {
-		}
 			if (SceneManager.GetActiveScene ().name == "Level1") {
 				
-			if (Input.GetKeyDown (KeyCode.T)) {
+				if (Input.GetKeyDown (KeyCode.T)) {
 					Debug.Log ("Pressed T");
 					goToRestArea = true;
 					startTimer = true;
 				}
 					
-			if (Input.GetKeyDown (KeyCode.Y))	{
-						Debug.Log ("Pressed Y");
-						goToLevel2 = true;
-						startTimer = true;
+				if (Input.GetKeyDown (KeyCode.Y)) {
+					Debug.Log ("Pressed Y");
+					goToLevel2 = true;
+					startTimer = true;
 				}
 					
 			}
 			if (SceneManager.GetActiveScene ().name == "Rest Area") {
-			if (Input.GetKeyDown (KeyCode.T)) {
-				Debug.Log ("Pressed T");
-				goToLevel1 = true;
-				startTimer = true;
-			}
-			if (Input.GetKeyDown (KeyCode.Y)){
-						Debug.Log ("Pressed Y");
-						goToLevel2 = true;
-						startTimer = true;
+				if (Input.GetKeyDown (KeyCode.T)) {
+					Debug.Log ("Pressed T");
+					goToLevel1 = true;
+					startTimer = true;
+				}
+				if (Input.GetKeyDown (KeyCode.Y)) {
+					Debug.Log ("Pressed Y");
+					goToLevel2 = true;
+					startTimer = true;
 				}
 			}
+		}
 			
 		if (timer >= 2 && goToRestArea == true)
 			SceneManager.LoadScene ("Rest Area");
