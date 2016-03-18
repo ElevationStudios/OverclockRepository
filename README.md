@@ -1,6 +1,14 @@
 # OverclockRepository
 Elevation Studio's Repository for game Overclock.
 
+# Todo:
+- Fix bugs
+- Get audio working for everything
+- Finish boss
+- Adjust movement
+- Finish melee attack
+- A lot more things I probably missed out
+
 # Features	
 
 # First Playable	
