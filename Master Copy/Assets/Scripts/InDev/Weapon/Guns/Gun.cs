@@ -3,17 +3,24 @@ using System.Collections;
 
 public abstract class Gun : Weapon {
 
+	// Change this to a new design.
+
 	private int ammo;
 	private int clipSize;
 	private float fireRate;
+	private bool projectile;
+	private float reloadTime;
+	private float lastShot;
 
-	public Gun(string name, float damage, float critical, int ammo, int clipSize, float fireRate) : base(name, 3.0f, 3.0f) {
-		this.ammo = ammo;
+	public Gun(string name, float damage, float critical, int clipSize, bool projectile, float fireRate, float reloadTime) : base(name, damage, critical) {
+		this.ammo = clipSize;
 		this.clipSize = clipSize;
 		this.fireRate = fireRate;
+		this.projectile = projectile;
+		this.reloadTime = reloadTime;
+		this.lastShot = 0f;
 	}
 		
-
 	/*
 	void Shoot(){
 		Vector2 mousePosition = new Vector2 (Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
@@ -38,23 +45,53 @@ public abstract class Gun : Weapon {
 	}
 	*/
 
-	public void SetAmmo(int ammo){
+	public void SetAmmo(int ammo) {
 		this.ammo = ammo;
 	}
 
-	public int GetAmmo(){
+	public int GetAmmo() {
 		return ammo;
 	}
 
-	public int GetClipSize(){
+	public int GetClipSize() {
 		return clipSize;
 	}
 
-	public float GetFireRate(){
+	public float GetFireRate() {
 		return fireRate;
+	}
+
+	public bool isProjectile() {
+		return projectile;
+	}
+
+	public override void UseWeapon() {
+		if(GetAmmo () != 0) { // -1 means unlimited ammo. This is for the AI.
+			if(Time.time > lastShot) {
+				// If its a projectile weapon, just fire a raycast like a normal gun, else let the class handle the rest with the projectile.
+				if(isProjectile()) {
+					Shoot(); // Let the seperate class handle the projectile
+				} else {
+					// Raycast here
+					// We will do the raycast effect here
+				}
+				ammo--;
+				lastShot = Time.time + fireRate;
+			}
+		} else {
+			// Reload
+			// Make sure to check if the user switches weapons while reloading.
+		}
+	}
+
+	IEnumerator Reload() {
+		yield return new WaitForSeconds(reloadTime);
+		SetAmmo(clipSize);
 	}
 
 	public override string ToString () {
 		return "Name: " + GetName() + ", Damage: " + GetDamage() + ", Critical Chance: " + GetCriticalChance() + ", Ammo: " + GetAmmo() + ", Clip Size: " + GetClipSize() + ", Fire Rate: " + GetFireRate();
 	}
+
+	public abstract void Shoot();
 }

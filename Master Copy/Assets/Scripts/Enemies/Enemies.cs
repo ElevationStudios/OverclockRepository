@@ -45,7 +45,7 @@ public class Enemies : MonoBehaviour
     void dropCoin()
     {
         GameObject droppedCoin = (GameObject) Instantiate(coin, transform.position, transform.rotation);
-        droppedCoin.GetComponent<goldCoin>().goldAmount = gold;
+        droppedCoin.GetComponent<GoldCoin>().goldAmount = gold;
     }
 
     void Update()

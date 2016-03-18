@@ -7,8 +7,6 @@ public abstract class Weapon : MonoBehaviour {
 	private float damage;
 	private float criticalChance;
 
-	// TODO: Find out what to do with the critical chance attack. (Use math)
-
 	public Weapon(string name, float damage, float critical){
 		this.name = name;
 		this.damage = damage;
