@@ -13,12 +13,19 @@ public class Player : MonoBehaviour
 	public float armor = 0.0f;
 	public int gold = 0;
 	public int lives = 3;
-	public float overclockMax = 100f;
-	public float overclockCur = 100f;
+    //overclock goodies
+	public float overclockMax = 100;
+    public float overclockCur;
+    bool overclock = false;
 
-	public bool overclock = false;
+
+
 	public float time = 0;
 
+    void Start(){
+        currentHealth = maxHealth;
+        overclockCur = overclockMax;
+    }
 	public void DamagePlayer (float damage)
 	{
 		currentHealth -= damage * (1.00f - (0.01f * armor));
@@ -84,10 +91,5 @@ public class Player : MonoBehaviour
 	void Update ()
 	{
 		CheckInput ();
-	}
-
-	void Start ()
-	{
-		currentHealth = maxHealth;
 	}
 }

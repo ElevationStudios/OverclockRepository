@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 4a2abc62b3484184ca980820f1c29042
+timeCreated: 1458330122
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HP_2_0
+    21300002: HP_2_1
+    21300004: HP_2_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HP_2_0
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 675
+        width: 3397
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 654.52313, y: -47.125}
+        - {x: 659.52313, y: -38.125}
+        - {x: 667.52313, y: -24.125}
+        - {x: 674.52313, y: -12.125}
+        - {x: 674.52313, y: -10.125}
+        - {x: 711.52313, y: -10.125}
+        - {x: 713.52313, y: -9.125}
+        - {x: 725.52313, y: 11.875}
+        - {x: 728.52313, y: 16.875}
+        - {x: 740.52313, y: 37.875}
+        - {x: 743.52313, y: 42.875}
+        - {x: 747.52313, y: 50.875}
+        - {x: 747.52313, y: 56.875}
+        - {x: -747.47687, y: 56.875}
+        - {x: -747.47687, y: -55.125}
+        - {x: 9.523132, y: -55.125}
+        - {x: 12.523132, y: -52.125}
+        - {x: 14.523132, y: -48.125}
+        - {x: 652.52313, y: -48.125}
+      - - {x: -733.47687, y: 43.875}
+        - {x: 725.52313, y: 43.875}
+        - {x: 721.52313, y: 37.875}
+        - {x: 717.52313, y: 30.875}
+        - {x: 710.52313, y: 18.875}
+        - {x: 706.52313, y: 11.875}
+        - {x: 704.52313, y: 8.875}
+        - {x: 702.52313, y: 4.875}
+        - {x: 29.523132, y: 4.875}
+        - {x: 25.523132, y: 1.875}
+        - {x: 19.523132, y: -9.125}
+        - {x: 15.523132, y: -15.125}
+        - {x: 8.523132, y: -27.125}
+        - {x: 1.5231323, y: -41.125}
+        - {x: -733.47687, y: -41.125}
+    - name: HP_2_1
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 197
+        width: 3338
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.972168, y: -37.856483}
+        - {x: 17.972168, y: -35.856483}
+        - {x: 19.972168, y: -30.856483}
+        - {x: 21.972168, y: -28.856483}
+        - {x: 23.972168, y: -23.856483}
+        - {x: 25.972168, y: -21.856483}
+        - {x: 27.972168, y: -16.856483}
+        - {x: 29.972168, y: -14.856483}
+        - {x: 30.972168, y: -11.856483}
+        - {x: 32.972168, y: -9.856483}
+        - {x: 34.972168, y: -4.8564835}
+        - {x: 36.972168, y: -1.8564835}
+        - {x: 709.97217, y: -1.8564835}
+        - {x: 713.97217, y: 1.1435165}
+        - {x: 718.97217, y: 11.143517}
+        - {x: 720.97217, y: 13.143517}
+        - {x: 722.97217, y: 18.143517}
+        - {x: 724.97217, y: 20.143517}
+        - {x: 726.97217, y: 25.143517}
+        - {x: 728.97217, y: 27.143517}
+        - {x: 729.97217, y: 30.143517}
+        - {x: 731.97217, y: 32.143517}
+        - {x: 734.97217, y: 37.143517}
+        - {x: 735.97217, y: 40.143517}
+        - {x: 735.97217, y: 47.143517}
+        - {x: -733.02783, y: 47.143517}
+        - {x: -734.02783, y: 46.143517}
+        - {x: -734.02783, y: -44.856483}
+        - {x: -733.02783, y: -45.856483}
+        - {x: 11.972168, y: -45.856483}
+        - {x: 12.972168, y: -42.856483}
+        - {x: 14.972168, y: -40.856483}
+    - name: HP_2_2
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 38
+        width: 1470
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

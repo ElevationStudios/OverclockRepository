@@ -26,7 +26,6 @@ public class Enemies : MonoBehaviour
         this.currentHealth = maxHealth;
         if (projectilePrefab != null)
             projectilePrefab.GetComponent<enemyProjectile>().damage = damage;
-        enemyHPFill.transform.localScale -= new Vector3(10.15f, 0.15f, 1);
     }
 
     public void TakeDamage(float damage)
@@ -45,7 +44,7 @@ public class Enemies : MonoBehaviour
     void dropCoin()
     {
         GameObject droppedCoin = (GameObject) Instantiate(coin, transform.position, transform.rotation);
-        droppedCoin.GetComponent<GoldCoin>().goldAmount = gold;
+        droppedCoin.GetComponent<goldCoin>().goldAmount = gold;
     }
 
     void Update()

@@ -6,17 +6,16 @@ public class MouseTrack : MonoBehaviour {
 	private Vector2 charPos;
 	private Vector2 mousePos;
 	private float mouseX, charX;
-	public Camera gameCamera;
+	public Camera camera;
 	public Animator animator;
 
 	void Start ()
 	{
-		gameCamera = Camera.main;
+		camera = Camera.main;
 		animator.GetComponent<Animator> ();
 	}
-
 	void OnLevelWasLoaded(){
-		gameCamera= Camera.main;
+		camera = Camera.main;
 	}
 
 	void Update () {
@@ -28,7 +27,7 @@ public class MouseTrack : MonoBehaviour {
 
 		charPos = this.transform.position;
 		mousePos = Input.mousePosition;
-		mousePos = gameCamera.ScreenToWorldPoint (mousePos);
+		mousePos = camera.ScreenToWorldPoint (mousePos);
 		charX = charPos.x;
 		mouseX = mousePos.x;
 

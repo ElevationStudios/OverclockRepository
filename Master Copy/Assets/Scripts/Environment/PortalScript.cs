@@ -3,11 +3,10 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class PortalScript : MonoBehaviour {
-	
-	public GameObject textDisplay;
-	public GameObject gameCamera;
-	public GameObject sceneMaster;
-	private GameObject player; 
+	[SerializeField] private GameObject textDisplay;
+	GameObject player; 
+	[SerializeField] private GameObject camera;
+	[SerializeField] private GameObject sceneMaster;
 	private float timer = 0;
 
 	private bool goToRestArea = false;
@@ -19,7 +18,7 @@ public class PortalScript : MonoBehaviour {
 	void Awake() {
 		player = GameObject.Find ("Carlos");
 		DontDestroyOnLoad(player);
-		DontDestroyOnLoad(gameCamera);
+		DontDestroyOnLoad(camera);
 
 
 		}

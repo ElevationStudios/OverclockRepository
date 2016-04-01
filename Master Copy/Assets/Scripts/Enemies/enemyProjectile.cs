@@ -10,6 +10,7 @@ public class enemyProjectile : MonoBehaviour {
 		{
 			if (c.gameObject.tag == "Player")
 				c.gameObject.GetComponent<Player> ().DamagePlayer (damage);
+            
 			GameObject.Destroy (this.gameObject);
 
 		}

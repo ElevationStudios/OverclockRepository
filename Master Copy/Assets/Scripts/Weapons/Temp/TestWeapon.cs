@@ -13,6 +13,7 @@ public class TestWeapon : MonoBehaviour
 	public int ammoCount = 3;
 	public int currentClip = 1;
 	bool reloading = false;
+	float timer = 0;
 
 	void Start ()
 	{
