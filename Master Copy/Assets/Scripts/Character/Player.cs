@@ -4,9 +4,9 @@ using System.Collections;
 public class Player : MonoBehaviour
 {
 
-	[SerializeField] private GameObject pistol;
-	[SerializeField] private GameObject blaster;
-	[SerializeField] private GameObject launcher;
+	[SerializeField] private GameObject pistol = null;
+    [SerializeField] private GameObject blaster = null;
+    [SerializeField] private GameObject launcher = null;
 
 	public float currentHealth = 0;
 	public float maxHealth = 100;
@@ -17,11 +17,19 @@ public class Player : MonoBehaviour
 	public float overclockMax = 100;
     public float overclockCur;
     bool overclock = false;
+    public float time = 0;
 
+    static Player instance = null;
 
-
-	public float time = 0;
-
+    void Awake(){
+        if (instance == null)
+        {
+            instance = this;
+            GameObject.DontDestroyOnLoad(gameObject);
+        }
+        else 
+            GameObject.Destroy(gameObject);
+    }
     void Start(){
         currentHealth = maxHealth;
         overclockCur = overclockMax;

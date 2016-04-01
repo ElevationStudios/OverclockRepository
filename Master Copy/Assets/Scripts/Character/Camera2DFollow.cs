@@ -16,6 +16,18 @@ namespace UnityStandardAssets._2D
         private Vector3 m_CurrentVelocity;
         private Vector3 m_LookAheadPos;
 
+        static Camera2DFollow instance = null;
+
+        void Awake(){
+            if (instance == null)
+            {
+                instance = this;
+                GameObject.DontDestroyOnLoad(gameObject);
+            }
+            else 
+                GameObject.Destroy(gameObject);
+        }
+
         // Use this for initialization
         private void Start()
         {
