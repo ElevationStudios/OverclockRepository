@@ -7,7 +7,7 @@ public class PistolScript: MonoBehaviour
 	public float baseDamage = 10;
 	public int clipSize = 6;
 	public int currentClip;
-	public float reloadTime = 2;
+    public float reloadTime;
 	public float critPerc = 20f;
 	public float critDmg = 1.5f;
 	private float damageOut;

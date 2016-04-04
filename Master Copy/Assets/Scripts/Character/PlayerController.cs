@@ -143,7 +143,17 @@ public class PlayerController : MonoBehaviour {
 			jumpCount = 0;
 		} 
 	}
-
+    void OnTriggerStay2D (Collider2D col)
+    {
+        if (col.gameObject.tag == "Ground") 
+        {
+            animator.SetBool ("doubleJumping", false);
+            animator.SetBool ("isFalling", false);
+            animator.SetBool ("isJumping", false);
+            grounded = true;
+            jumpCount = 0;
+        } 
+    }
 	void OnTriggerExit2D (Collider2D col)
 	{
 		grounded = false;
