@@ -1,14 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class WeaponShop : MonoBehaviour {
+public class WeaponShopKeeper : MonoBehaviour {
 	bool nearShop = false;
 	public GameObject textDisplay;
 	public GameObject shopWindow;
+    GameObject player;
+
 	// Use this for initialization
-	void Start () {
-	
-	}
+
 	
 	// Update is called once per frame
 	void Update () {
@@ -31,4 +31,6 @@ public class WeaponShop : MonoBehaviour {
 		}
 
 	}
+
+           
 }

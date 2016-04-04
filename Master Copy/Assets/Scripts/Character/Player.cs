@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
 	public float currentHealth = 0;
 	public float maxHealth = 100;
 	public float armor = 0.0f;
-	public int gold = 0;
+    public int gold;
 	public int lives = 3;
     //overclock goodies
 	public float overclockMax = 100;
@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
     static Player instance = null;
 
     void Awake(){
+         gold = 2000;
         if (instance == null)
         {
             instance = this;
@@ -47,6 +48,10 @@ public class Player : MonoBehaviour
 		gold += amount;
 	}
 
+    public void SpendGold (int amount)
+    {
+        gold -= amount;
+    }
 	void CheckInput ()
 	{
 		Overclock ();
