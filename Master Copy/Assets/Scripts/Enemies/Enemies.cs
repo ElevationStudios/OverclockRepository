@@ -12,6 +12,8 @@ public class Enemies : MonoBehaviour
     public float drop;
     public int gold;
     public GameObject enemyHPFill;
+
+	bool leftSide;
     public GameObject deathPrefab;
     public GameObject projectilePrefab;
     public GameObject coin;
@@ -22,12 +24,15 @@ public class Enemies : MonoBehaviour
     Color fillColor;
 
     void Start()
-    {
-        this.currentHealth = maxHealth;
-        if (projectilePrefab != null)
-            projectilePrefab.GetComponent<enemyProjectile>().damage = damage;
-    }
-
+	{
+		this.currentHealth = maxHealth;
+		if (projectilePrefab.GetComponent<enemyProjectile>() != null) 
+			projectilePrefab.GetComponent<enemyProjectile> ().dmg = damage;
+		if (projectilePrefab.GetComponent<enemyMelee> () != null)
+			projectilePrefab.GetComponent<enemyMelee> ().dmg = damage;
+		//the if statements are checking if the enemy is ranged or melee, and setting damage properties.
+		
+	}
     public void TakeDamage(float damage)
     {
         currentHealth -= damage * (1.00f - (0.01f * armor));
@@ -35,9 +40,17 @@ public class Enemies : MonoBehaviour
 
     void Death()
     {
-        Destroy(gameObject);
+		if (GameObject.FindGameObjectWithTag ("Player").transform.position.x > transform.position.x)
+			leftSide = true;
         dropCoin();
-        Instantiate(deathPrefab, transform.position, transform.rotation);
+		GameObject death = Instantiate(deathPrefab, transform.position, transform.rotation) as GameObject;
+		if (leftSide == true)
+			death.transform.localScale = new Vector3 (
+				-1 * death.transform.localScale.x, 
+					 death.transform.localScale.y, 
+					 death.transform.localScale.z);
+		Destroy (death.gameObject, 5f);
+		Destroy(gameObject);
 
     }
 
