@@ -26,8 +26,12 @@ public class Enemies : MonoBehaviour
     void Start()
 	{
 		this.currentHealth = maxHealth;
+		//checking for ranged enemy scripts
 		if (projectilePrefab.GetComponent<enemyProjectile>() != null) 
 			projectilePrefab.GetComponent<enemyProjectile> ().dmg = damage;
+		if (projectilePrefab.GetComponent<enemyTurretProjectile> () != null)
+			projectilePrefab.GetComponent<enemyTurretProjectile> ().dmg = damage;
+		//checking for melee enemy scripts
 		if (projectilePrefab.GetComponent<enemyMelee> () != null)
 			projectilePrefab.GetComponent<enemyMelee> ().dmg = damage;
 		//the if statements are checking if the enemy is ranged or melee, and setting damage properties.
@@ -73,8 +77,8 @@ public class Enemies : MonoBehaviour
         if (currentHealth <= 0)
             Death();
         float moveBar = (1 - currentHealth / maxHealth) * (2.3f / 2);
-        enemyHPFill.transform.localScale = new Vector2(currentHealth / maxHealth, 1);
-        enemyHPFill.transform.position = new Vector2(transform.position.x - moveBar, transform.position.y + 1);
+		enemyHPFill.transform.localScale = new Vector2(currentHealth / maxHealth, 1);
+		enemyHPFill.transform.position = new Vector2(transform.position.x - moveBar, enemyHPFill.transform.parent.transform.position.y);
         fillColor = Color.Lerp(endColor, startColor, (currentHealth - val) * 2 / maxHealth);
         enemyHPFill.GetComponent<SpriteRenderer>().color = fillColor; 
     }

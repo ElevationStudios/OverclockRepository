@@ -16,6 +16,8 @@ public class DestroyBullet : MonoBehaviour
 
 	void OnTriggerEnter2D (Collider2D col)
 	{
+		if (col.gameObject.tag == "enemyBullet")
+			Destroy (col.gameObject);
 		Destroy (gameObject);
 	}
 }

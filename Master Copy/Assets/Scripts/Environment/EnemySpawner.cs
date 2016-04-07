@@ -84,7 +84,6 @@ public class EnemySpawner : MonoBehaviour {
 				                   Player.transform.position.y + yDisplacement,
 				                   Player.transform.position.z);
 			GameObject drone = Instantiate (DroneT1, droneLoc, Quaternion.Euler(0, 0, 0)) as GameObject;
-			Debug.Log ("spawned at " + spawnRight + ", # = " + num);
 		}
 
 	}
