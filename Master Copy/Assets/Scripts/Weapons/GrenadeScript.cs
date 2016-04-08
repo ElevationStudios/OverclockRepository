@@ -8,7 +8,6 @@ public class GrenadeScript : MonoBehaviour
 	public float baseDamage;
 	public GameObject grenadePrefab;
 	public Transform grenadeSpawn;
-	public AudioSource shootClip;
 	public float reloadTime = 3;
 	public int currentClip;
 	public int clipSize = 1;
@@ -17,8 +16,12 @@ public class GrenadeScript : MonoBehaviour
 	bool reloading = false;
 	float timer = 0;
 
+	AudioManager audioManager;
+
 	void Start ()
 	{
+
+		audioManager = AudioManager.instance;
 		currentClip = clipSize;
 	}
 
@@ -43,7 +46,7 @@ public class GrenadeScript : MonoBehaviour
 
 	IEnumerator Reload ()
 	{
-		
+		audioManager.PlayReloadGLaunch();
 		reloading = true;
 		yield return new WaitForSeconds (reloadTime);
 		Debug.Log ("Reloaded");
@@ -55,7 +58,7 @@ public class GrenadeScript : MonoBehaviour
 	void Shoot ()
 	{
 		currentClip--;
-		shootClip.Play ();
+		audioManager.PlayGangsterLauncher ();
 		GameObject grenade = Instantiate (grenadePrefab, grenadeSpawn.position, grenadeSpawn.rotation) as GameObject;
 		grenade.GetComponent<GrenadeProjectile> ().damage = baseDamage;
 	}

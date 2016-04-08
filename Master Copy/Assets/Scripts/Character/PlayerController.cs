@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour {
 	public float speed;
@@ -18,6 +19,8 @@ public class PlayerController : MonoBehaviour {
     public float energyCur;
     public float energyMax;
     float energyTimer;
+
+	[SerializeField] private GameObject carlos;
 
 	void Start()
 	{
@@ -111,10 +114,13 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             speed = 8;
-            energyTimer = 0;
             running = false;
         }
-        if (running)
+		if (Input.GetKeyDown (KeyCode.I))
+			transform.GetComponent<Player> ().ObtainGold (3000);
+		if (Input.GetKeyDown (KeyCode.P))
+			SceneManager.LoadScene ("Rest Area");
+        /*if (running)
         {
             energyCur -= 10 * Time.deltaTime;
             energyTimer = 0;
@@ -129,7 +135,7 @@ public class PlayerController : MonoBehaviour {
             }
             if (energyTimer > 2 && energyCur < energyMax)
                 energyCur += 10 * Time.deltaTime;
-        }
+        }*/
     }
 
 	void OnTriggerEnter2D (Collider2D col)

@@ -25,7 +25,6 @@ public class NewTurretTest : MonoBehaviour {
      * 0 = Startup
      * 1 = Shutdown
      */
-    public AudioSource[] sounds;
 
     // Turret body and head pivot animator components
 
@@ -98,7 +97,7 @@ public class NewTurretTest : MonoBehaviour {
         StopCoroutine("GoIdle");
     }
 
-    void PlayerLeave() {
+	void PlayerLeave() {
         StartCoroutine("GoIdle");
     }
 

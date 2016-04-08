@@ -23,6 +23,15 @@ public class PistolScript: MonoBehaviour
 	Vector2 mousePosition;
 	Vector2 firePosition;
 	RaycastHit2D hit;
+
+	//Audio
+	AudioManager audioManager;
+
+	void Start()
+	{
+		audioManager = AudioManager.instance;
+	}
+
 	void Awake ()
 	{
 		currentClip = clipSize;
@@ -52,6 +61,7 @@ public class PistolScript: MonoBehaviour
 
 	IEnumerator Reload ()
 	{
+		audioManager.PlayReloadPistol ();
 		yield return new WaitForSeconds (reloadTime);
 		currentClip = clipSize;
 		Debug.Log ("Reloaded");
@@ -67,6 +77,7 @@ public class PistolScript: MonoBehaviour
 
 	void Shoot ()
 	{
+		audioManager.PlayPistolGripPump ();
 		critRNG = Random.value * 100;
 		mousePosition = new Vector2 (Camera.main.ScreenToWorldPoint (Input.mousePosition).x, Camera.main.ScreenToWorldPoint (Input.mousePosition).y);
 		firePosition = new Vector2 (bulletSpawn.position.x, bulletSpawn.position.y);

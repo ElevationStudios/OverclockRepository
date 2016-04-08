@@ -9,17 +9,18 @@ public class TurretHeadHelper : MonoBehaviour {
     private GameObject projectile;
 
 	public Transform projectileSpawn;
-    public AudioSource shootSound;
+
+	AudioManager audioManager;
 
 	void Start() {
+		audioManager = AudioManager.instance;
 		target = GameObject.FindGameObjectWithTag ("Player").gameObject.transform;
 		projectile = transform.parent.parent.gameObject.GetComponent<Enemies> ().projectilePrefab;
-        shootSound = GetComponent<AudioSource>();
     }
 
     public void Shoot() {
         //shootSound.Play();
-
+		audioManager.PlayTurretShoot();
 		Vector3 dir = target.position - transform.position;
 		GameObject bullInst = GameObject.Instantiate (projectile, projectileSpawn.position, projectileSpawn.rotation) as GameObject;
 		if (target.position.x < transform.position.x) {

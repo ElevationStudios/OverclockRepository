@@ -9,11 +9,9 @@ using System.Collections;
 /// </summary>
 public class EnemySpawner : MonoBehaviour {
 
-
-	private float min;
+	private float gameTime;
 	private float sec;
-	private float minNeeded;
-	private float secNeeded;
+	[SerializeField] private float secNeeded;
 	//hero prefab
 	private GameObject Player;
 	//enemy prefabs
@@ -26,7 +24,6 @@ public class EnemySpawner : MonoBehaviour {
 	[SerializeField] private GameObject Turret;
 	[SerializeField] private GameObject MeleeT1;
 
-	[SerializeField] private float bossSpawnsAfterMin;
 	private bool bossSpawned;
 	[SerializeField] private GameObject Boss;
 
@@ -42,26 +39,29 @@ public class EnemySpawner : MonoBehaviour {
 		Player = GameObject.FindGameObjectWithTag ("Player").gameObject;
 		spawnCooldown = enemyTimer;
 		bossSpawned = false;
-		minNeeded = min + bossSpawnsAfterMin;
-		secNeeded = sec;
+	
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		updateTimer ();
 		spawnCooldown -= Time.deltaTime;
-		if (min < minNeeded && sec != secNeeded && bossSpawned == false) {
-			randomEnemy ();
-		}
-		else if (min >= minNeeded && sec == secNeeded && bossSpawned == false) {
+
+
+
+
+		randomEnemy ();
+		if (sec >= secNeeded && bossSpawned == false) {
 			spawnBoss ();
+			enemyTimer += 15f;
 		}
 	}
 	void updateTimer(){ //internal timer to keep track of when it will spawn boss
-		min = GameObject.Find ("Main Camera").transform.FindChild("Canvas").
-			transform.FindChild ("TimeDisplay").GetComponent<TimeScript> ().min;
-		sec = GameObject.Find ("Main Camera").transform.FindChild("Canvas").
-			transform.FindChild ("TimeDisplay").GetComponent<TimeScript> ().sec;
+		gameTime += Time.deltaTime;
+		if (gameTime >= 1) {
+			sec += 1;
+			gameTime = 0;
+		}
 	}
 
 	void randomEnemy(){

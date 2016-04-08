@@ -23,8 +23,14 @@ public class Enemies : MonoBehaviour
 
     Color fillColor;
 
+	//AUDIO
+	AudioManager audioManager;
+	public AudioClip DeathSoundName;
+
     void Start()
 	{
+
+		audioManager = AudioManager.instance;
 		this.currentHealth = maxHealth;
 		//checking for ranged enemy scripts
 		if (projectilePrefab.GetComponent<enemyProjectile>() != null) 
@@ -44,6 +50,7 @@ public class Enemies : MonoBehaviour
 
     void Death()
     {
+		audioManager.PlaySound (DeathSoundName);
 		if (GameObject.FindGameObjectWithTag ("Player").transform.position.x > transform.position.x)
 			leftSide = true;
         dropCoin();

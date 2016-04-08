@@ -122,6 +122,7 @@ public class BossWalk 	: MonoBehaviour {
 			&& differenceY < 5.48f && differenceY > 3.68) {
 			player.GetComponent<Player> ().DamagePlayer (stompDamage);
 		}
+		AudioManager.instance.PlayBossWalking ();
 		yield return new WaitForSeconds (0.67f);
 		animator.SetBool ("isStomping", false);
 		stomping = false;
@@ -140,6 +141,7 @@ public class BossWalk 	: MonoBehaviour {
 			laser.GetComponent<LaserScript> ().damage = laserDamage;
 			laser.GetComponent<LaserScript> ().laserLeft = faceLeft;
 		}
+		AudioManager.instance.PlayBossLaser ();
 		yield return new WaitForSeconds (3.67f);
 		animator.SetBool ("isShooting", false);
 		shooting = false;
@@ -150,6 +152,7 @@ public class BossWalk 	: MonoBehaviour {
 		yield return new WaitForSeconds(cooldown);
 		canAttack = true;
 	}
+
 
 		
 }

@@ -22,6 +22,9 @@ public class DroneEnemy : MonoBehaviour
 	[SerializeField] private float waitTime;
 	private Vector3 dir;
 
+	//audio
+	AudioManager audioManager;
+
 	void Awake(){
 		leftRight = Random.value;
 		xOffset = 1 + Random.value * 6;
@@ -29,6 +32,8 @@ public class DroneEnemy : MonoBehaviour
 	}
 	void Start()
 	{
+
+		audioManager = AudioManager.instance;
 		player = GameObject.FindGameObjectWithTag ("Player");
 		target = player.transform;
 		gunPivot = this.transform.GetChild (1).transform;
@@ -68,6 +73,7 @@ public class DroneEnemy : MonoBehaviour
 	}
 	IEnumerator shooter ()
 	{	
+		audioManager.PlayDroneShot ();
 		dir = target.position - transform.position;
 		bullInst = GameObject.Instantiate (bulletPrefab, bulletSpawn.position, bulletSpawn.rotation) as GameObject;
 		if (rightSide == true) {

@@ -32,6 +32,10 @@ public class ClipAmmo : MonoBehaviour {
 			currentClip = blaster.GetComponent<BlasterScript> ().currentClip;
 			clipSize = blaster.GetComponent<BlasterScript> ().clipSize;
 		}
+		if (launcher.activeInHierarchy == true) {
+			currentClip = launcher.GetComponent<GrenadeScript> ().currentClip;
+			clipSize = launcher.GetComponent<GrenadeScript> ().clipSize;
+		}
 
 		ammoDisplay.text = currentClip.ToString () + "/" + clipSize.ToString ();
 	}

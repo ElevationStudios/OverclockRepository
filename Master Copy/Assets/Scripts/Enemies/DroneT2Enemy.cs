@@ -33,6 +33,10 @@ public class DroneT2Enemy : MonoBehaviour {
 
 	public Enemies stats;
 
+
+	//audio
+	AudioManager audioManager;
+
 	void Awake(){
 		leftRight = Random.value;
 		xOffset = 3.5f + Random.value * 6;
@@ -41,6 +45,7 @@ public class DroneT2Enemy : MonoBehaviour {
 
 	void Start()
 	{
+		audioManager = AudioManager.instance;
 		player = GameObject.FindGameObjectWithTag ("Player");
 		target = player.transform;
 		gunPivot = this.transform.GetChild (1).transform;
@@ -96,6 +101,7 @@ public class DroneT2Enemy : MonoBehaviour {
 
 	IEnumerator shooter ()
 	{	
+		audioManager.PlayDroneShot ();
 		dir = target.position - transform.position;
 		bullInst = GameObject.Instantiate (bulletPrefab, bulletSpawn.position, bulletSpawn.rotation) as GameObject;
 		if (rightSide == true) {

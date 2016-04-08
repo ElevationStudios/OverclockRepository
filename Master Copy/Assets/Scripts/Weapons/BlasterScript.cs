@@ -28,6 +28,12 @@ public class BlasterScript : MonoBehaviour
 	Vector2 firePosition;
 	Vector2 mousePosition;
 
+	//AUDIO
+	AudioManager audioManager;
+
+	void Start(){
+		audioManager = AudioManager.instance;
+	}
 
 	void Awake ()
 	{
@@ -58,6 +64,8 @@ public class BlasterScript : MonoBehaviour
 
 	IEnumerator Reload ()
 	{
+
+		audioManager.PlayReloadBlaster ();
 		yield return new WaitForSeconds (reloadTime);
 		currentClip = clipSize;
 		Debug.Log ("Reloaded");
@@ -68,12 +76,14 @@ public class BlasterScript : MonoBehaviour
 	void Shoot ()
 	{
 		if (shootTimer > shootInterval) {
+			audioManager.PlayBlasterShot ();
 			blasterClip.Play ();
 			critRNG = Random.value * 100;
 			shootTimer = 0;
 			mousePosition = new Vector2 (Camera.main.ScreenToWorldPoint (Input.mousePosition).x, Camera.main.ScreenToWorldPoint (Input.mousePosition).y);		
 			firePosition = new Vector2 (bulletSpawn.position.x, bulletSpawn.position.y);
 			RaycastHit2D hit = Physics2D.Raycast (firePosition, (mousePosition - firePosition), Mathf.Infinity, whatToHit);
+			audioManager.PlayShell ();
 			Instantiate (shell, shellSpawner.position, shellSpawner.rotation);
 
 			if (critRNG < critPerc) {
