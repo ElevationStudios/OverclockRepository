@@ -12,6 +12,8 @@ public class EnemySpawner : MonoBehaviour {
 
 	private float min;
 	private float sec;
+	private float minNeeded;
+	private float secNeeded;
 	//hero prefab
 	private GameObject Player;
 	//enemy prefabs
@@ -24,7 +26,7 @@ public class EnemySpawner : MonoBehaviour {
 	[SerializeField] private GameObject Turret;
 	[SerializeField] private GameObject MeleeT1;
 
-	[SerializeField] private float bossSpawnsAtMin;
+	[SerializeField] private float bossSpawnsAfterMin;
 	private bool bossSpawned;
 	[SerializeField] private GameObject Boss;
 
@@ -40,16 +42,18 @@ public class EnemySpawner : MonoBehaviour {
 		Player = GameObject.FindGameObjectWithTag ("Player").gameObject;
 		spawnCooldown = enemyTimer;
 		bossSpawned = false;
+		minNeeded = min + bossSpawnsAfterMin;
+		secNeeded = sec;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		updateTimer ();
 		spawnCooldown -= Time.deltaTime;
-		if (min < bossSpawnsAtMin && bossSpawned == false) {
+		if (min < minNeeded && sec != secNeeded && bossSpawned == false) {
 			randomEnemy ();
 		}
-		else if (min >= bossSpawnsAtMin && bossSpawned == false) {
+		else if (min >= minNeeded && sec == secNeeded && bossSpawned == false) {
 			spawnBoss ();
 		}
 	}

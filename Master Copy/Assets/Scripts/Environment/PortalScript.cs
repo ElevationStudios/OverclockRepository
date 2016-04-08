@@ -21,33 +21,50 @@ public class PortalScript : MonoBehaviour {
 		DontDestroyOnLoad(camera);
 
 
-		}
+	}
 	void Start () {
 		if (SceneManager.GetActiveScene ().name == "Rest Area") {
 			player.transform.position = new Vector2 (18, -2);
 		}
+		if (SceneManager.GetActiveScene ().name == "Level1" || SceneManager.GetActiveScene ().name == "Level2")
+			player.transform.position = new Vector2 (20, -49);
 	}
 
 	// Update is called once per frame
 	void Update () {
-			
+
 		if (startTimer == true)
 			timer += Time.deltaTime;
 		if (onTeleporter == true) {
 			if (SceneManager.GetActiveScene ().name == "Level1") {
-				
+
 				if (Input.GetKeyDown (KeyCode.T)) {
 					Debug.Log ("Pressed T");
 					goToRestArea = true;
 					startTimer = true;
 				}
-					
+
 				if (Input.GetKeyDown (KeyCode.Y)) {
 					Debug.Log ("Pressed Y");
 					goToLevel2 = true;
 					startTimer = true;
 				}
-					
+
+			}
+			if (SceneManager.GetActiveScene ().name == "Level1") {
+
+				if (Input.GetKeyDown (KeyCode.T)) {
+					Debug.Log ("Pressed T");
+					goToRestArea = true;
+					startTimer = true;
+				}
+
+				if (Input.GetKeyDown (KeyCode.Y)) {
+					Debug.Log ("Pressed Y");
+					goToLevel1 = true;
+					startTimer = true;
+				}
+
 			}
 			if (SceneManager.GetActiveScene ().name == "Rest Area") {
 				if (Input.GetKeyDown (KeyCode.T)) {
@@ -62,18 +79,18 @@ public class PortalScript : MonoBehaviour {
 				}
 			}
 		}
-			
-		if (timer >= 2 && goToRestArea == true)
+
+		if (timer >= 1.5f && goToRestArea == true)
 			SceneManager.LoadScene ("Rest Area");
-		if (timer >= 2 && goToLevel2 == true)
+		if (timer >= 1.5f && goToLevel2 == true)
 			SceneManager.LoadScene ("Level2");
-		if (timer >= 2 && goToLevel1 == true)
+		if (timer >= 1.5f && goToLevel1 == true)
 			SceneManager.LoadScene ("Level1");
 
 
 
 	}
-		
+
 	void OnTriggerEnter2D(Collider2D col){
 		if (col.gameObject.tag == "Player") {
 			onTeleporter = true;

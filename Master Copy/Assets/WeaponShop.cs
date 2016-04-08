@@ -9,7 +9,8 @@ public class WeaponShop : MonoBehaviour
     GameObject player;
     Player playerGold;
     PistolScript pistolUpgrade;
-    BlasterScript blasterUpgrade;
+	BlasterScript blasterUpgrade;
+	GrenadeScript grenadeUpgrade;
 
     //Pistol Damage
     public Text pistolDamageLevelDisplay;
@@ -75,6 +76,37 @@ public class WeaponShop : MonoBehaviour
     int blasterCritLevel = 1;
 
 
+	//grenade Damage -------------------------------
+	public Text grenadeDamageLevelDisplay;
+	public Text grenadeDamageCurrentDisplay;
+	public Text grenadeDamageButtonDisplay;
+	public Text grenadeDamageCostDisplay;
+	int grenadeDamageCost = 100;
+	int grenadeDamageLevel = 1;
+
+	//grenade Reload
+	public Text grenadeReloadLevelDisplay;
+	public Text grenadeReloadCurrentDisplay;
+	public Text grenadeReloadButtonDisplay;
+	public Text grenadeReloadCostDisplay;
+	int grenadeReloadCost = 125;
+	int grenadeReloadLevel = 1;
+	//grenade Ammo
+	public Text grenadeClipLevelDisplay;
+	public Text grenadeClipCurrentDisplay;
+	public Text grenadeClipButtonDisplay;
+	public Text grenadeClipCostDisplay;
+	int grenadeClipCost = 75;
+	int grenadeClipLevel = 1;
+	//grenade Crit
+	public Text grenadeCritLevelDisplay;
+	public Text grenadeCritCurrentDisplay;
+	public Text grenadeCritButtonDisplay;
+	public Text grenadeCritCostDisplay;
+	int grenadeCritCost = 75;
+	int grenadeCritLevel = 1;
+
+
 
 
     void Start()
@@ -84,14 +116,20 @@ public class WeaponShop : MonoBehaviour
         player = GameObject.Find("Carlos");
         playerGold = player.GetComponent<Player>();
         pistolUpgrade = player.GetComponentInChildren<PistolScript>(true);
-        blasterUpgrade = player.GetComponentInChildren<BlasterScript>(true);
+		blasterUpgrade = player.GetComponentInChildren<BlasterScript>(true);
+		grenadeUpgrade = player.GetComponentInChildren<GrenadeScript>(true);
         PistolDamageUpdate();
         PistolReloadUpdate();
         PistolClipUpdate();
         PistolCritUpdate();
         BlasterDamageUpdate();
         BlasterReloadUpdate();
-        BlasterClipUpdate();
+		BlasterClipUpdate();
+		BlasterCritUpdate();
+		grenadeDamageUpdate();
+		grenadeReloadUpdate();
+		grenadeClipUpdate();
+		grenadeCritUpdate();
 
 
 
@@ -109,6 +147,12 @@ public class WeaponShop : MonoBehaviour
         blasterReloadCurrentDisplay.text = "Current Reload Time: " + blasterUpgrade.reloadTime  + "s";
         blasterClipCurrentDisplay.text = "Current Clip: " + blasterUpgrade.clipSize;
         blasterCritCurrentDisplay.text = "Current Crit: " + blasterUpgrade.critPerc + "%";
+
+
+		grenadeDamageCurrentDisplay.text = "Current Damage: " + grenadeUpgrade.baseDamage;
+		grenadeReloadCurrentDisplay.text = "Current Reload Time: " + grenadeUpgrade.reloadTime  + "s";
+		grenadeClipCurrentDisplay.text = "Current Clip: " + grenadeUpgrade.clipSize;
+		grenadeCritCurrentDisplay.text = "Current Crit: " + grenadeUpgrade.critPerc + "%";
     }
 
     void PistolDamageUpdate()
@@ -186,7 +230,7 @@ public class WeaponShop : MonoBehaviour
     {
         if (playerGold.gold > pistolReloadCost && pistolReloadLevel < 4)
         {
-            pistolUpgrade.reloadTime -= 0.25f;
+            pistolUpgrade.reloadTime -= 0.3f;
             playerGold.SpendGold(pistolReloadCost);
             pistolReloadLevel++;
             pistolReloadCost *= 2;
@@ -197,7 +241,7 @@ public class WeaponShop : MonoBehaviour
     {
         if (playerGold.gold > pistolClipCost && pistolClipLevel < 4)
         {
-            pistolUpgrade.clipSize += 4;
+            pistolUpgrade.clipSize += 2;
             playerGold.SpendGold(pistolClipCost);
             pistolClipLevel++;
             pistolClipCost *= 2;
@@ -281,7 +325,7 @@ public class WeaponShop : MonoBehaviour
     {
         if (playerGold.gold > blasterDamageCost && blasterDamageLevel < 4)
         {
-            blasterUpgrade.baseDamage += 2;
+            blasterUpgrade.baseDamage += 4;
             playerGold.SpendGold(blasterDamageCost);
             blasterDamageLevel++;
             blasterDamageCost *= 2;
@@ -293,7 +337,7 @@ public class WeaponShop : MonoBehaviour
     {
         if (playerGold.gold > blasterReloadCost && blasterReloadLevel < 4)
         {
-            blasterUpgrade.reloadTime -= 0.25f;
+            blasterUpgrade.reloadTime -= 0.3f;
             playerGold.SpendGold(blasterReloadCost);
             blasterReloadLevel++;
             blasterReloadCost *= 2;
@@ -304,7 +348,7 @@ public class WeaponShop : MonoBehaviour
     {
         if (playerGold.gold > blasterClipCost && blasterClipLevel < 4)
         {
-            blasterUpgrade.clipSize += 4;
+            blasterUpgrade.clipSize += 6;
             playerGold.SpendGold(blasterClipCost);
             blasterClipLevel++;
             blasterClipCost *= 2;
@@ -315,11 +359,120 @@ public class WeaponShop : MonoBehaviour
     {
         if (playerGold.gold > blasterCritCost && blasterCritLevel < 4)
         {
-            blasterUpgrade.critPerc += 5;
+            blasterUpgrade.critPerc += 8;
             playerGold.SpendGold(blasterClipCost);
             blasterCritLevel++;
             blasterCritCost *= 2;
             BlasterCritUpdate();
         }
     }
+
+	//grenade =====================================================================================
+
+
+
+	void  grenadeDamageUpdate()
+	{
+		if (grenadeDamageLevel < 4)
+		{
+			grenadeDamageLevelDisplay.text = " grenade Damage Lv. " + grenadeDamageLevel.ToString();
+			grenadeDamageCostDisplay.text = grenadeDamageCost.ToString();
+		}
+		else
+		{
+			grenadeDamageLevelDisplay.text = " grenade Damage Level Maxed";
+			grenadeDamageButtonDisplay.text = "MAXED";
+			grenadeDamageCostDisplay.text = null;
+		}
+	}
+	void  grenadeReloadUpdate()
+	{
+		if (grenadeReloadLevel < 4)
+		{
+			grenadeReloadLevelDisplay.text = " grenade Reload Lv. " + grenadeReloadLevel.ToString();
+			grenadeReloadCostDisplay.text = grenadeReloadCost.ToString();
+		}
+		else
+		{
+			grenadeReloadLevelDisplay.text = " grenade Reload Level Maxed";
+			grenadeReloadButtonDisplay.text = "MAXED";
+			grenadeReloadCostDisplay.text = null;
+		}
+	}
+	void  grenadeClipUpdate()
+	{
+		if (grenadeClipLevel < 4)
+		{
+			grenadeClipLevelDisplay.text = " grenade Clip Lv. " + grenadeClipLevel.ToString();
+			grenadeClipCostDisplay.text = grenadeClipCost.ToString();
+		}
+		else
+		{
+			grenadeClipLevelDisplay.text = " grenade Clip Level Maxed";
+			grenadeClipButtonDisplay.text = "MAXED";
+			grenadeClipCostDisplay.text = null;
+		}
+	}
+	void grenadeCritUpdate()
+	{
+		if (grenadeCritLevel < 4)
+		{
+			grenadeCritLevelDisplay.text = " grenade Crit Lv. " + grenadeCritLevel.ToString();
+			grenadeCritCostDisplay.text = grenadeCritCost.ToString();
+		}
+		else
+		{
+			grenadeCritLevelDisplay.text = " grenade Crit Level Maxed";
+			grenadeCritButtonDisplay.text = "MAXED";
+			grenadeCritCostDisplay.text = null;
+		}
+	}
+
+	public void  grenadeDamage()
+	{
+		Debug.Log ("hit gDamage button");
+		if (playerGold.gold > grenadeDamageCost && grenadeDamageLevel < 4)
+		{
+			Debug.Log ("upgrade went through");
+			grenadeUpgrade.baseDamage += 50;
+			playerGold.SpendGold(grenadeDamageCost);
+			grenadeDamageLevel++;
+			grenadeDamageCost *= 2;
+			grenadeDamageUpdate();
+		}
+	}
+
+	public void  grenadeReload()
+	{
+		if (playerGold.gold > grenadeReloadCost && grenadeReloadLevel < 4)
+		{
+			grenadeUpgrade.reloadTime -= 0.5f;
+			playerGold.SpendGold(grenadeReloadCost);
+			grenadeReloadLevel++;
+			grenadeReloadCost *= 2;
+			grenadeReloadUpdate();
+		}
+	}
+	public void  grenadeClip()
+	{
+		if (playerGold.gold > grenadeClipCost && grenadeClipLevel < 4)
+		{
+			grenadeUpgrade.clipSize += 1;
+			playerGold.SpendGold(grenadeClipCost);
+			grenadeClipLevel++;
+			grenadeClipCost *= 2;
+			grenadeClipUpdate();
+		}
+	}
+	public void  grenadeCrit()
+	{
+		if (playerGold.gold > grenadeCritCost && grenadeCritLevel < 4)
+		{
+			grenadeUpgrade.critPerc += 2.5f;
+			playerGold.SpendGold(grenadeClipCost);
+			grenadeCritLevel++;
+			grenadeCritCost *= 2;
+			grenadeCritUpdate();
+		}
+	}
 }

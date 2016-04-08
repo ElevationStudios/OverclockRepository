@@ -1,32 +1,63 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GrenadeScript : MonoBehaviour {
-	private float timer = 0;
-	private Rigidbody2D rb;
-	public float damage;
-	public GameObject explosionPrefab;
-	void Start () {
-		rb = GetComponent<Rigidbody2D>();
-		rb.AddForce(transform.right * 100);
-		transform.Rotate (Vector3.forward * 5000);
+public class GrenadeScript : MonoBehaviour
+{
+
+	public float fireRate = 0;
+	public float baseDamage;
+	public GameObject grenadePrefab;
+	public Transform grenadeSpawn;
+	public AudioSource shootClip;
+	public float reloadTime = 3;
+	public int currentClip;
+	public int clipSize = 1;
+	public float critPerc = 10f;
+	public float critDmg = 7.5f;
+	bool reloading = false;
+	float timer = 0;
+
+	void Start ()
+	{
+		currentClip = clipSize;
 	}
-	
-	void Update () {
-		timer += Time.deltaTime;
-		if (timer < 0.5f)
-			transform.Rotate (Vector3.forward * -20);
-		if (timer > 3){
-			DestroyGrenade ();
+
+	void OnEnable ()
+	{
+		reloading = false;
+	}
+
+	void Update ()
+	{
+
+
+		if (Input.GetMouseButtonDown (0) && !reloading) {
+			if (currentClip > 0)
+			Shoot ();
+		else {
+				StartCoroutine (Reload ());
+			}
 		}
 	}
-	void DestroyGrenade(){
-		Destroy (gameObject);
-		GameObject explosion = Instantiate (explosionPrefab, transform.position, transform.rotation) as GameObject;
-		explosion.GetComponent<Explosion> ().damage = damage;
+
+
+	IEnumerator Reload ()
+	{
+		
+		reloading = true;
+		yield return new WaitForSeconds (reloadTime);
+		Debug.Log ("Reloaded");
+		reloading = false;
+		currentClip = 1;
+		StopCoroutine (Reload ());
 	}
-	void OnTriggerEnter2D(Collider2D col){
-		if (col.gameObject.tag == "Enemy" || col.gameObject.tag == "Boss")
-			DestroyGrenade ();
+
+	void Shoot ()
+	{
+		currentClip--;
+		shootClip.Play ();
+		GameObject grenade = Instantiate (grenadePrefab, grenadeSpawn.position, grenadeSpawn.rotation) as GameObject;
+		grenade.GetComponent<GrenadeProjectile> ().damage = baseDamage;
 	}
+
 }
