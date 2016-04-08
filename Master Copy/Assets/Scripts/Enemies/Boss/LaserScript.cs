@@ -5,16 +5,11 @@ public class LaserScript : MonoBehaviour
 {
 	private GameObject boss;
 	private float timer;
-	private bool laserLeft;
+	public bool laserLeft;
 	public float damage;
 
 	void Start () 
 	{
-		boss = GameObject.Find ("BossGiant");
-		if (boss.GetComponent<BossWalk> ().faceLeft == true)
-			laserLeft = true;
-		else
-			laserLeft = false;
 		StartCoroutine ("LaserPath");
 	}
 		

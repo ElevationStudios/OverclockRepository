@@ -9,19 +9,26 @@ using System.Collections;
 /// </summary>
 public class EnemySpawner : MonoBehaviour {
 
+
+	private float min;
+	private float sec;
 	//hero prefab
 	private GameObject Player;
 	//enemy prefabs
 	[SerializeField] private float xDisplacement;
 	[SerializeField] private float yDisplacement;
 
-	private int numEnemies = 5; //this is the total list of enemies that can be spawned
+	private int numEnemies = 4; //this is the total list of non-boss enemies that can be spawned
 	[SerializeField] private GameObject DroneT1;
 	[SerializeField] private GameObject DroneT2;
 	[SerializeField] private GameObject Turret;
 	[SerializeField] private GameObject MeleeT1;
+
+	[SerializeField] private float bossSpawnsAtMin;
+	private bool bossSpawned;
 	[SerializeField] private GameObject Boss;
 
+	[SerializeField] private Transform BossSpawnLocation;
 	[SerializeField] private float enemyTimer;
 	[SerializeField] private float spawnCooldown;
 
@@ -32,12 +39,25 @@ public class EnemySpawner : MonoBehaviour {
 	void Start () {
 		Player = GameObject.FindGameObjectWithTag ("Player").gameObject;
 		spawnCooldown = enemyTimer;
+		bossSpawned = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		updateTimer ();
 		spawnCooldown -= Time.deltaTime;
-		randomEnemy();
+		if (min < bossSpawnsAtMin && bossSpawned == false) {
+			randomEnemy ();
+		}
+		else if (min >= bossSpawnsAtMin && bossSpawned == false) {
+			spawnBoss ();
+		}
+	}
+	void updateTimer(){ //internal timer to keep track of when it will spawn boss
+		min = GameObject.Find ("Main Camera").transform.FindChild("Canvas").
+			transform.FindChild ("TimeDisplay").GetComponent<TimeScript> ().min;
+		sec = GameObject.Find ("Main Camera").transform.FindChild("Canvas").
+			transform.FindChild ("TimeDisplay").GetComponent<TimeScript> ().sec;
 	}
 
 	void randomEnemy(){
@@ -100,7 +120,7 @@ public class EnemySpawner : MonoBehaviour {
 		}
 		Vector3 droneLoc = new Vector3 (
 			Player.transform.position.x + xDisplacement,
-			Player.transform.position.y + yDisplacement+3f,
+			Player.transform.position.y + yDisplacement,
 			Player.transform.position.z);
 		GameObject drone = Instantiate (DroneT2, droneLoc,  Quaternion.Euler(0, 0, 0)) as GameObject;
 	}
@@ -138,5 +158,11 @@ public class EnemySpawner : MonoBehaviour {
 			Player.transform.position.z);
 		GameObject drone = Instantiate (MeleeT1, newLoc,  Quaternion.Euler(0, 0, 0)) as GameObject;
 	
+	}
+
+	void spawnBoss(){
+		Debug.Log ("boss spawned");
+		bossSpawned = true;
+		Instantiate (Boss, BossSpawnLocation.position, Quaternion.Euler (0, 0, 0));
 	}
 }

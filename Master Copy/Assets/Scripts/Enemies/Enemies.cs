@@ -53,7 +53,7 @@ public class Enemies : MonoBehaviour
 				-1 * death.transform.localScale.x, 
 					 death.transform.localScale.y, 
 					 death.transform.localScale.z);
-		Destroy (death.gameObject, 5f);
+		Destroy (death.gameObject, 4f);
 		Destroy(gameObject);
 
     }

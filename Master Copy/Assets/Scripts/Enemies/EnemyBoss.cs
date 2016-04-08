@@ -28,9 +28,7 @@ public class EnemyBoss : MonoBehaviour
 	}
     public void TakeDamage(float damage)
     {
-        currentHealth -= damage * (1.00f - (0.01f * armor));
-		Debug.Log("armor percentage minus = " + (1.00f - (0.01f * armor)));
-		Debug.Log ("took damage: " + damage);
+        currentHealth -= damage * (1.00f - (0.01f * armor));	
     }
 
     void Death()

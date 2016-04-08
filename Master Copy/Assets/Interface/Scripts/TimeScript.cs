@@ -4,8 +4,8 @@ using UnityEngine.UI;
 
 public class TimeScript : MonoBehaviour {
 	[SerializeField] private Text time;
-	private int min;
-	private int sec;
+	public int min;
+	public int sec;
 
 	private float gameTime;
 	void Start () {

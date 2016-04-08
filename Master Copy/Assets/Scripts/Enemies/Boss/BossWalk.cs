@@ -77,6 +77,7 @@ public class BossWalk 	: MonoBehaviour {
 			if (canAttack) {//if you can attack, do it
 				canAttack = false;
 				roll = Random.value * 100; //roll for attack
+				Debug.Log(roll);	
 				if (roll < stompChance) { //GETSTOMPED
 					stomping = true;
 					animator.SetBool ("isStomping", true);
@@ -133,9 +134,11 @@ public class BossWalk 	: MonoBehaviour {
 		if (faceLeft == true) {
 			GameObject laser = Instantiate (laserPrefab, new Vector2 ((this.transform.position.x - 6.1f), this.transform.position.y-5.63f), this.transform.rotation) as GameObject;
 			laser.GetComponent<LaserScript> ().damage = laserDamage;
+			laser.GetComponent<LaserScript> ().laserLeft = faceLeft;
 		} else {
 			GameObject laser = Instantiate (laserPrefab, new Vector2 ((this.transform.position.x + 6.1f), this.transform.position.y-5.63f), this.transform.rotation) as GameObject;
 			laser.GetComponent<LaserScript> ().damage = laserDamage;
+			laser.GetComponent<LaserScript> ().laserLeft = faceLeft;
 		}
 		yield return new WaitForSeconds (3.67f);
 		animator.SetBool ("isShooting", false);
