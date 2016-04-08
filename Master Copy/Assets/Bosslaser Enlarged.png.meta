@@ -1,0 +1,2374 @@
+fileFormatVersion: 2
+guid: 62f37aa3060e35a4b9cdf2750efc09d8
+timeCreated: 1459997864
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bosslaser Enlarged_0
+    21300002: Bosslaser Enlarged_1
+    21300004: Bosslaser Enlarged_2
+    21300006: Bosslaser Enlarged_3
+    21300008: Bosslaser Enlarged_4
+    21300010: Bosslaser Enlarged_5
+    21300012: Bosslaser Enlarged_6
+    21300014: Bosslaser Enlarged_7
+    21300016: Bosslaser Enlarged_8
+    21300018: Bosslaser Enlarged_9
+    21300020: Bosslaser Enlarged_10
+    21300022: Bosslaser Enlarged_11
+    21300024: Bosslaser Enlarged_12
+    21300026: Bosslaser Enlarged_13
+    21300028: Bosslaser Enlarged_14
+    21300030: Bosslaser Enlarged_15
+    21300032: Bosslaser Enlarged_16
+    21300034: Bosslaser Enlarged_17
+    21300036: Bosslaser Enlarged_18
+    21300038: Bosslaser Enlarged_19
+    21300040: Bosslaser Enlarged_20
+    21300042: Bosslaser Enlarged_21
+    21300044: Bosslaser Enlarged_22
+    21300046: Bosslaser Enlarged_23
+    21300048: Bosslaser Enlarged_24
+    21300050: Bosslaser Enlarged_25
+    21300052: Bosslaser Enlarged_26
+    21300054: Bosslaser Enlarged_27
+    21300056: Bosslaser Enlarged_28
+    21300058: Bosslaser Enlarged_29
+    21300060: Bosslaser Enlarged_30
+    21300062: Bosslaser Enlarged_31
+    21300064: Bosslaser Enlarged_32
+    21300066: Bosslaser Enlarged_33
+    21300068: Bosslaser Enlarged_34
+    21300070: Bosslaser Enlarged_35
+    21300072: Bosslaser Enlarged_36
+    21300074: Bosslaser Enlarged_37
+    21300076: Bosslaser Enlarged_38
+    21300078: Bosslaser Enlarged_39
+    21300080: Bosslaser Enlarged_40
+    21300082: Bosslaser Enlarged_41
+    21300084: Bosslaser Enlarged_42
+    21300086: Bosslaser Enlarged_43
+    21300088: Bosslaser Enlarged_44
+    21300090: Bosslaser Enlarged_45
+    21300092: Bosslaser Enlarged_46
+    21300094: Bosslaser Enlarged_47
+    21300096: Bosslaser Enlarged_48
+    21300098: Bosslaser Enlarged_49
+    21300100: Bosslaser Enlarged_50
+    21300102: Bosslaser Enlarged_51
+    21300104: Bosslaser Enlarged_52
+    21300106: Bosslaser Enlarged_53
+    21300108: Bosslaser Enlarged_54
+    21300110: Bosslaser Enlarged_55
+    21300112: Bosslaser Enlarged_56
+    21300114: Bosslaser Enlarged_57
+    21300116: Bosslaser Enlarged_58
+    21300118: Bosslaser Enlarged_59
+    21300120: Bosslaser Enlarged_60
+    21300122: Bosslaser Enlarged_61
+    21300124: Bosslaser Enlarged_62
+    21300126: Bosslaser Enlarged_63
+    21300128: Bosslaser Enlarged_64
+    21300130: Bosslaser Enlarged_65
+    21300132: Bosslaser Enlarged_66
+    21300134: Bosslaser Enlarged_67
+    21300136: Bosslaser Enlarged_68
+    21300138: Bosslaser Enlarged_69
+    21300140: Bosslaser Enlarged_70
+    21300142: Bosslaser Enlarged_71
+    21300144: Bosslaser Enlarged_72
+    21300146: Bosslaser Enlarged_73
+    21300148: Bosslaser Enlarged_74
+    21300150: Bosslaser Enlarged_75
+    21300152: Bosslaser Enlarged_76
+    21300154: Bosslaser Enlarged_77
+    21300156: Bosslaser Enlarged_78
+    21300158: Bosslaser Enlarged_79
+    21300160: Bosslaser Enlarged_80
+    21300162: Bosslaser Enlarged_81
+    21300164: Bosslaser Enlarged_82
+    21300166: Bosslaser Enlarged_83
+    21300168: Bosslaser Enlarged_84
+    21300170: Bosslaser Enlarged_85
+    21300172: Bosslaser Enlarged_86
+    21300174: Bosslaser Enlarged_87
+    21300176: Bosslaser Enlarged_88
+    21300178: Bosslaser Enlarged_89
+    21300180: Bosslaser Enlarged_90
+    21300182: Bosslaser Enlarged_91
+    21300184: Bosslaser Enlarged_92
+    21300186: Bosslaser Enlarged_93
+    21300188: Bosslaser Enlarged_94
+    21300190: Bosslaser Enlarged_95
+    21300192: Bosslaser Enlarged_96
+    21300194: Bosslaser Enlarged_97
+    21300196: Bosslaser Enlarged_98
+    21300198: Bosslaser Enlarged_99
+    21300200: Bosslaser Enlarged_100
+    21300202: Bosslaser Enlarged_101
+    21300204: Bosslaser Enlarged_102
+    21300206: Bosslaser Enlarged_103
+    21300208: Bosslaser Enlarged_104
+    21300210: Bosslaser Enlarged_105
+    21300212: Bosslaser Enlarged_106
+    21300214: Bosslaser Enlarged_107
+    21300216: Bosslaser Enlarged_108
+    21300218: Bosslaser Enlarged_109
+    21300220: Bosslaser Enlarged_110
+    21300222: Bosslaser Enlarged_111
+    21300224: Bosslaser Enlarged_112
+    21300226: Bosslaser Enlarged_113
+    21300228: Bosslaser Enlarged_114
+    21300230: Bosslaser Enlarged_115
+    21300232: Bosslaser Enlarged_116
+    21300234: Bosslaser Enlarged_117
+    21300236: Bosslaser Enlarged_118
+    21300238: Bosslaser Enlarged_119
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 30
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bosslaser Enlarged_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1599
+        width: 38
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bosslaser Enlarged_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1599
+        width: 38
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bosslaser Enlarged_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1599
+        width: 42
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.031829834, y: 157.03174}
+        - {x: -0.031829834, y: 0.03173828}
+        - {x: 34.96817, y: 0.03173828}
+        - {x: 34.96817, y: 153.03174}
+        - {x: 28.96817, y: 157.03174}
+    - name: Bosslaser Enlarged_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1599
+        width: 45
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.1903992, y: 157.03174}
+        - {x: 0.19039917, y: 131.03174}
+        - {x: 0.19039917, y: 0.03173828}
+        - {x: 37.1904, y: 0.03173828}
+        - {x: 37.1904, y: 157.03174}
+    - name: Bosslaser Enlarged_4
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1599
+        width: 54
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.31822205, y: 157.03174}
+        - {x: 0.31822205, y: 0.03173828}
+        - {x: 44.318222, y: 0.03173828}
+        - {x: 44.318222, y: 103.03174}
+        - {x: 35.318222, y: 157.03174}
+    - name: Bosslaser Enlarged_5
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1599
+        width: 58
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.9493103, y: 91.03174}
+        - {x: 2.9493103, y: 82.03174}
+        - {x: -0.050689697, y: 59.03174}
+        - {x: -0.050689697, y: 0.03173828}
+        - {x: 47.94931, y: 0.03173828}
+        - {x: 47.94931, y: 33.03174}
+        - {x: 34.94931, y: 152.03174}
+        - {x: 30.94931, y: 157.03174}
+        - {x: 0.9493103, y: 157.03174}
+    - name: Bosslaser Enlarged_6
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1599
+        width: 72
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.880768, y: 157.03174}
+        - {x: -0.11923218, y: 38.03174}
+        - {x: -0.11923218, y: 0.03173828}
+        - {x: 58.880768, y: 0.03173828}
+        - {x: 58.880768, y: 96.03174}
+        - {x: 50.880768, y: 157.03174}
+    - name: Bosslaser Enlarged_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1599
+        width: 75
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.48275757, y: 88.13049}
+        - {x: -0.48275757, y: 0.13049316}
+        - {x: 60.517242, y: 0.13049316}
+        - {x: 60.517242, y: 152.1305}
+        - {x: 5.5172424, y: 152.1305}
+    - name: Bosslaser Enlarged_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1599
+        width: 75
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.564697, y: 88.13049}
+        - {x: 50.564697, y: 150.1305}
+        - {x: 43.564697, y: 152.1305}
+        - {x: 12.564697, y: 152.1305}
+        - {x: 1.5646973, y: 127.13049}
+        - {x: -0.43530273, y: 67.13049}
+        - {x: -0.43530273, y: 0.13049316}
+        - {x: 23.564697, y: 0.13049316}
+        - {x: 24.564697, y: 1.1304932}
+        - {x: 25.564697, y: 0.13049316}
+        - {x: 60.564697, y: 0.13049316}
+    - name: Bosslaser Enlarged_9
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1599
+        width: 75
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.401794, y: 0.13049316}
+        - {x: 61.401794, y: 152.1305}
+        - {x: 16.401794, y: 152.1305}
+        - {x: 3.4017944, y: 126.13049}
+        - {x: 0.40179443, y: 63.130493}
+        - {x: 0.40179443, y: 0.13049316}
+        - {x: 27.401794, y: 0.13049316}
+        - {x: 26.401794, y: 7.130493}
+        - {x: 32.401794, y: 0.13049316}
+    - name: Bosslaser Enlarged_10
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1599
+        width: 75
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.039368, y: 152.1305}
+        - {x: 1.0393677, y: 132.1305}
+        - {x: 0.039367676, y: 117.13049}
+        - {x: 0.039367676, y: 0.13049316}
+        - {x: 61.039368, y: 0.13049316}
+        - {x: 61.039368, y: 52.130493}
+        - {x: 51.039368, y: 145.1305}
+        - {x: 40.039368, y: 151.1305}
+        - {x: 38.039368, y: 152.1305}
+    - name: Bosslaser Enlarged_11
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1599
+        width: 75
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.27777, y: 0.13049316}
+        - {x: 61.27777, y: 152.1305}
+        - {x: 17.277771, y: 152.1305}
+        - {x: 8.277771, y: 107.13049}
+        - {x: 0.277771, y: 47.130493}
+        - {x: 0.277771, y: 0.13049316}
+        - {x: 27.277771, y: 0.13049316}
+        - {x: 26.277771, y: 7.130493}
+        - {x: 32.27777, y: 0.13049316}
+    - name: Bosslaser Enlarged_12
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1599
+        width: 75
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.112732, y: 152.1305}
+        - {x: 10.112732, y: 152.1305}
+        - {x: 0.11273193, y: 92.13049}
+        - {x: 0.11273193, y: 0.13049316}
+        - {x: 61.112732, y: 0.13049316}
+        - {x: 61.112732, y: 133.1305}
+        - {x: 60.112732, y: 148.1305}
+    - name: Bosslaser Enlarged_13
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1599
+        width: 75
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.351135, y: 0.13049316}
+        - {x: 61.351135, y: 129.1305}
+        - {x: 60.351135, y: 149.1305}
+        - {x: 51.351135, y: 152.1305}
+        - {x: 20.351135, y: 152.1305}
+        - {x: 17.351135, y: 151.1305}
+        - {x: 0.35113525, y: 28.130493}
+        - {x: 0.35113525, y: 0.13049316}
+        - {x: 27.351135, y: 0.13049316}
+        - {x: 26.351135, y: 7.130493}
+        - {x: 32.351135, y: 0.13049316}
+    - name: Bosslaser Enlarged_14
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1599
+        width: 75
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.988647, y: 83.13049}
+        - {x: 40.988647, y: 152.1305}
+        - {x: 8.988647, y: 152.1305}
+        - {x: -0.011352539, y: 79.13049}
+        - {x: -0.011352539, y: 0.13049316}
+        - {x: 25.988647, y: 0.13049316}
+        - {x: 26.988647, y: 5.130493}
+        - {x: 35.988647, y: 0.13049316}
+        - {x: 60.988647, y: 0.13049316}
+    - name: Bosslaser Enlarged_15
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1599
+        width: 62
+        height: 190
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.824646, y: 153.43091}
+        - {x: 6.824646, y: 153.43091}
+        - {x: 2.824646, y: 141.43091}
+        - {x: -0.175354, y: 75.43091}
+        - {x: -0.175354, y: 0.4309082}
+        - {x: 50.824646, y: 0.4309082}
+        - {x: 50.824646, y: 48.43091}
+        - {x: 37.824646, y: 149.43091}
+    - name: Bosslaser Enlarged_16
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1598
+        width: 41
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.35168457, y: 153.93091}
+        - {x: 0.35168457, y: -0.0690918}
+        - {x: 34.351685, y: -0.0690918}
+        - {x: 34.351685, y: 152.93091}
+        - {x: 32.351685, y: 153.93091}
+    - name: Bosslaser Enlarged_17
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1598
+        width: 38
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bosslaser Enlarged_18
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1598
+        width: 45
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.9957275, y: 153.93091}
+        - {x: -0.004272461, y: 109.93091}
+        - {x: -0.004272461, y: -0.0690918}
+        - {x: 37.995728, y: -0.0690918}
+        - {x: 37.995728, y: 152.93091}
+        - {x: 31.995728, y: 153.93091}
+    - name: Bosslaser Enlarged_19
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1598
+        width: 52
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.822998, y: 153.93091}
+        - {x: -0.17700195, y: 153.93091}
+        - {x: -0.17700195, y: -0.0690918}
+        - {x: 41.822998, y: -0.0690918}
+        - {x: 41.822998, y: 85.93091}
+        - {x: 32.822998, y: 149.93091}
+    - name: Bosslaser Enlarged_20
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1598
+        width: 55
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.154785, y: 151.93091}
+        - {x: 29.154785, y: 153.93091}
+        - {x: 0.15478516, y: 153.93091}
+        - {x: 0.15478516, y: -0.0690918}
+        - {x: 36.154785, y: -0.0690918}
+        - {x: 45.154785, y: 0.9309082}
+        - {x: 45.154785, y: 27.930908}
+        - {x: 43.154785, y: 41.93091}
+    - name: Bosslaser Enlarged_21
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 1598
+        width: 71
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.2857666, y: 153.93091}
+        - {x: 0.2857666, y: 77.93091}
+        - {x: 0.2857666, y: -0.0690918}
+        - {x: 45.285767, y: -0.0690918}
+        - {x: 58.285767, y: 0.9309082}
+        - {x: 58.285767, y: 92.93091}
+        - {x: 44.285767, y: 153.93091}
+    - name: Bosslaser Enlarged_22
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1598
+        width: 75
+        height: 186
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.22168, y: 0.029663086}
+        - {x: 61.22168, y: 0.029663086}
+        - {x: 61.22168, y: 86.02966}
+        - {x: 54.22168, y: 149.02966}
+        - {x: 10.22168, y: 149.02966}
+        - {x: 0.22167969, y: 24.029663}
+        - {x: 0.22167969, y: 0.029663086}
+        - {x: 27.22168, y: 0.029663086}
+        - {x: 27.22168, y: 2.029663}
+        - {x: 23.22168, y: 6.029663}
+        - {x: 33.22168, y: 1.0296631}
+    - name: Bosslaser Enlarged_23
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 1598
+        width: 75
+        height: 186
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.460083, y: 149.02966}
+        - {x: 0.460083, y: 35.029663}
+        - {x: 0.460083, y: 0.029663086}
+        - {x: 61.460083, y: 0.029663086}
+        - {x: 61.460083, y: 67.02966}
+        - {x: 44.460083, y: 149.02966}
+    - name: Bosslaser Enlarged_24
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 1598
+        width: 75
+        height: 186
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.097656, y: 149.02966}
+        - {x: 3.0976562, y: 80.02966}
+        - {x: 0.09765625, y: 28.029663}
+        - {x: 0.09765625, y: 0.029663086}
+        - {x: 61.097656, y: 0.029663086}
+        - {x: 61.097656, y: 140.02966}
+        - {x: 49.097656, y: 149.02966}
+    - name: Bosslaser Enlarged_25
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1598
+        width: 75
+        height: 186
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.33606, y: 149.02966}
+        - {x: 15.33606, y: 149.02966}
+        - {x: 9.33606, y: 139.02966}
+        - {x: 0.33605957, y: 48.029663}
+        - {x: 0.33605957, y: 0.029663086}
+        - {x: 61.33606, y: 0.029663086}
+        - {x: 61.33606, y: 68.02966}
+        - {x: 46.33606, y: 145.02966}
+    - name: Bosslaser Enlarged_26
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 1598
+        width: 75
+        height: 186
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.771851, y: 149.02966}
+        - {x: 5.7718506, y: 126.02966}
+        - {x: -0.22814941, y: 54.029663}
+        - {x: -0.22814941, y: 0.029663086}
+        - {x: 60.77185, y: 0.029663086}
+        - {x: 60.77185, y: 126.02966}
+        - {x: 58.77185, y: 149.02966}
+    - name: Bosslaser Enlarged_27
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 1598
+        width: 75
+        height: 186
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.409424, y: 0.029663086}
+        - {x: 61.409424, y: 118.02966}
+        - {x: 58.409424, y: 149.02966}
+        - {x: 13.409424, y: 149.02966}
+        - {x: 0.40942383, y: 19.029663}
+        - {x: 0.40942383, y: 0.029663086}
+        - {x: 26.409424, y: 0.029663086}
+        - {x: 26.409424, y: 2.029663}
+        - {x: 22.409424, y: 6.029663}
+        - {x: 31.409424, y: 0.029663086}
+    - name: Bosslaser Enlarged_28
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 1598
+        width: 75
+        height: 186
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.046997, y: 149.02966}
+        - {x: 5.046997, y: 86.02966}
+        - {x: 0.04699707, y: 30.029663}
+        - {x: 0.04699707, y: 0.029663086}
+        - {x: 61.046997, y: 0.029663086}
+        - {x: 61.046997, y: 144.02966}
+        - {x: 51.046997, y: 149.02966}
+    - name: Bosslaser Enlarged_29
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 1598
+        width: 75
+        height: 186
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.2854, y: 91.02966}
+        - {x: 53.2854, y: 149.02966}
+        - {x: 8.2854, y: 149.02966}
+        - {x: 0.2854004, y: 38.029663}
+        - {x: 0.2854004, y: 0.029663086}
+        - {x: 26.2854, y: 0.029663086}
+        - {x: 27.2854, y: 3.029663}
+        - {x: 34.2854, y: 0.029663086}
+        - {x: 61.2854, y: 0.029663086}
+    - name: Bosslaser Enlarged_30
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 1598
+        width: 61
+        height: 189
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.2211914, y: 151.73022}
+        - {x: 0.2211914, y: 128.73022}
+        - {x: 0.2211914, y: -0.2697754}
+        - {x: 50.22119, y: -0.2697754}
+        - {x: 50.22119, y: 108.730225}
+        - {x: 37.22119, y: 151.73022}
+    - name: Bosslaser Enlarged_31
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 1595
+        width: 36
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bosslaser Enlarged_32
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 1595
+        width: 36
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bosslaser Enlarged_33
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1392
+        width: 39
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bosslaser Enlarged_34
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1392
+        width: 54
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.27508545, y: 154.04211}
+        - {x: 0.27508545, y: 0.042114258}
+        - {x: 44.275085, y: 0.042114258}
+        - {x: 44.275085, y: 101.042114}
+        - {x: 39.275085, y: 150.04211}
+        - {x: 34.275085, y: 154.04211}
+    - name: Bosslaser Enlarged_35
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1392
+        width: 65
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.40506, y: 6.0421143}
+        - {x: 53.40506, y: 2.0421143}
+        - {x: 53.40506, y: 106.042114}
+        - {x: 36.40506, y: 154.04211}
+        - {x: 9.40506, y: 154.04211}
+        - {x: 0.4050598, y: 133.04211}
+        - {x: 0.4050598, y: 0.042114258}
+        - {x: 27.40506, y: 0.042114258}
+        - {x: 27.40506, y: 2.0421143}
+        - {x: 18.40506, y: 13.042114}
+        - {x: 22.40506, y: 20.042114}
+    - name: Bosslaser Enlarged_36
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1392
+        width: 78
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.940674, y: 154.04211}
+        - {x: 0.9406738, y: 90.042114}
+        - {x: -0.059326172, y: 57.042114}
+        - {x: -0.059326172, y: 0.042114258}
+        - {x: 63.940674, y: 0.042114258}
+        - {x: 63.940674, y: 152.04211}
+        - {x: 57.940674, y: 154.04211}
+    - name: Bosslaser Enlarged_37
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1392
+        width: 85
+        height: 191
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.079285, y: 153.64185}
+        - {x: 20.079285, y: 153.64185}
+        - {x: 8.079285, y: 122.641846}
+        - {x: 0.07928467, y: 32.641846}
+        - {x: 0.07928467, y: -0.3581543}
+        - {x: 26.079285, y: -0.3581543}
+        - {x: 26.079285, y: 1.6418457}
+        - {x: 69.079285, y: 21.641846}
+        - {x: 69.079285, y: 83.641846}
+    - name: Bosslaser Enlarged_38
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1392
+        width: 91
+        height: 186
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72.920715, y: 22.64087}
+        - {x: 72.920715, y: 149.64087}
+        - {x: 26.920715, y: 149.64087}
+        - {x: -0.07928467, y: 84.64087}
+        - {x: -0.07928467, y: -0.35913086}
+        - {x: 24.920715, y: -0.35913086}
+        - {x: 24.920715, y: 1.6408691}
+        - {x: 31.920715, y: 35.64087}
+        - {x: 43.920715, y: 30.64087}
+    - name: Bosslaser Enlarged_39
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1392
+        width: 88
+        height: 182
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.960632, y: 146.03992}
+        - {x: -0.039367676, y: 80.03992}
+        - {x: -0.039367676, y: 0.039916992}
+        - {x: 44.960632, y: 0.039916992}
+        - {x: 70.96063, y: 13.039917}
+        - {x: 70.96063, y: 146.03992}
+    - name: Bosslaser Enlarged_40
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1392
+        width: 88
+        height: 182
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.802063, y: 146.03992}
+        - {x: 2.802063, y: 93.03992}
+        - {x: -0.19793701, y: 33.039917}
+        - {x: -0.19793701, y: 0.039916992}
+        - {x: 47.802063, y: 0.039916992}
+        - {x: 70.80206, y: 17.039917}
+        - {x: 70.80206, y: 101.03992}
+        - {x: 55.802063, y: 146.03992}
+    - name: Bosslaser Enlarged_41
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1392
+        width: 89
+        height: 182
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.043701, y: 146.03992}
+        - {x: 2.0437012, y: 93.03992}
+        - {x: 0.043701172, y: 72.03992}
+        - {x: 0.043701172, y: 0.039916992}
+        - {x: 28.043701, y: 0.039916992}
+        - {x: 73.0437, y: 11.039917}
+        - {x: 73.0437, y: 146.03992}
+    - name: Bosslaser Enlarged_42
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1392
+        width: 89
+        height: 182
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.88513, y: 146.03992}
+        - {x: 19.885132, y: 123.03992}
+        - {x: 4.885132, y: 93.03992}
+        - {x: -0.114868164, y: 34.039917}
+        - {x: -0.114868164, y: 0.039916992}
+        - {x: 26.885132, y: 0.039916992}
+        - {x: 72.88513, y: 20.039917}
+        - {x: 72.88513, y: 146.03992}
+    - name: Bosslaser Enlarged_43
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1392
+        width: 89
+        height: 182
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.928284, y: 146.03992}
+        - {x: 19.928284, y: 123.03992}
+        - {x: 4.9282837, y: 93.03992}
+        - {x: -0.07171631, y: 34.039917}
+        - {x: -0.07171631, y: 0.039916992}
+        - {x: 26.928284, y: 0.039916992}
+        - {x: 72.92828, y: 20.039917}
+        - {x: 72.92828, y: 146.03992}
+    - name: Bosslaser Enlarged_44
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1392
+        width: 95
+        height: 172
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.17316, y: 19.037842}
+        - {x: 77.17316, y: 122.03784}
+        - {x: 75.17316, y: 138.03784}
+        - {x: 41.173157, y: 138.03784}
+        - {x: 11.173157, y: 88.03784}
+        - {x: 0.17315674, y: 20.037842}
+        - {x: 0.17315674, y: 0.037841797}
+        - {x: 25.173157, y: 0.037841797}
+        - {x: 26.173157, y: 3.0378418}
+        - {x: 35.173157, y: 28.037842}
+        - {x: 54.173157, y: 23.037842}
+    - name: Bosslaser Enlarged_45
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1392
+        width: 102
+        height: 172
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.22168, y: 12.037842}
+        - {x: 83.22168, y: 2.0378418}
+        - {x: 83.22168, y: 133.03784}
+        - {x: 76.22168, y: 138.03784}
+        - {x: 34.22168, y: 138.03784}
+        - {x: 0.22167969, y: 70.03784}
+        - {x: 0.22167969, y: 0.037841797}
+        - {x: 24.22168, y: 0.037841797}
+        - {x: 24.22168, y: 2.0378418}
+        - {x: 23.22168, y: 4.037842}
+        - {x: 36.22168, y: 29.037842}
+    - name: Bosslaser Enlarged_46
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1392
+        width: 115
+        height: 156
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74.471924, y: 125.63428}
+        - {x: 72.471924, y: 121.63428}
+        - {x: 37.471924, y: 89.63428}
+        - {x: 36.471924, y: 84.63428}
+        - {x: 0.47192383, y: 18.634277}
+        - {x: 0.47192383, y: -0.36572266}
+        - {x: 93.471924, y: -0.36572266}
+        - {x: 93.471924, y: 125.63428}
+    - name: Bosslaser Enlarged_47
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1392
+        width: 115
+        height: 156
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.02368, y: 125.63428}
+        - {x: 0.02368164, y: 39.634277}
+        - {x: 0.02368164, y: 3.6342773}
+        - {x: 4.0236816, y: -0.36572266}
+        - {x: 94.02368, y: -0.36572266}
+        - {x: 94.02368, y: 121.63428}
+        - {x: 89.02368, y: 125.63428}
+    - name: Bosslaser Enlarged_48
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1392
+        width: 115
+        height: 156
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.180664, y: -0.36572266}
+        - {x: 90.180664, y: -0.36572266}
+        - {x: 93.180664, y: 51.634277}
+        - {x: 93.180664, y: 120.63428}
+        - {x: 88.180664, y: 125.63428}
+        - {x: 70.180664, y: 125.63428}
+        - {x: 38.180664, y: 77.63428}
+        - {x: 0.18066406, y: 16.634277}
+        - {x: 0.18066406, y: -0.36572266}
+        - {x: 18.180664, y: -0.36572266}
+        - {x: 18.180664, y: 1.6342773}
+        - {x: 38.180664, y: 12.634277}
+        - {x: 48.180664, y: 25.634277}
+    - name: Bosslaser Enlarged_49
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1392
+        width: 116
+        height: 156
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89.13916, y: 1.6342773}
+        - {x: 85.13916, y: 5.6342773}
+        - {x: 94.13916, y: 44.634277}
+        - {x: 94.13916, y: 125.63428}
+        - {x: 73.13916, y: 125.63428}
+        - {x: 52.13916, y: 108.63428}
+        - {x: 0.13916016, y: 20.634277}
+        - {x: 0.13916016, y: 4.6342773}
+        - {x: 4.13916, y: -0.36572266}
+        - {x: 20.13916, y: -0.36572266}
+        - {x: 39.13916, y: 9.634277}
+        - {x: 61.13916, y: -0.36572266}
+        - {x: 89.13916, y: -0.36572266}
+    - name: Bosslaser Enlarged_50
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 1392
+        width: 95
+        height: 168
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.895874, y: 134.93689}
+        - {x: 30.895874, y: 118.93689}
+        - {x: -0.10412598, y: 12.93689}
+        - {x: -0.10412598, y: 1.9368896}
+        - {x: 0.895874, y: -0.06311035}
+        - {x: 76.895874, y: -0.06311035}
+        - {x: 76.895874, y: 134.93689}
+    - name: Bosslaser Enlarged_51
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1392
+        width: 71
+        height: 182
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.941162, y: 146.03992}
+        - {x: 8.941162, y: 76.03992}
+        - {x: -0.05883789, y: 15.039917}
+        - {x: -0.05883789, y: 0.039916992}
+        - {x: 56.941162, y: 0.039916992}
+        - {x: 56.941162, y: 146.03992}
+    - name: Bosslaser Enlarged_52
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 1392
+        width: 56
+        height: 188
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.279419, y: -0.05871582}
+        - {x: 46.27942, y: -0.05871582}
+        - {x: 46.27942, y: 149.94128}
+        - {x: 41.27942, y: 150.94128}
+        - {x: 7.279419, y: 150.94128}
+        - {x: 0.27941895, y: 97.941284}
+        - {x: 0.27941895, y: -0.05871582}
+        - {x: 21.279419, y: -0.05871582}
+        - {x: 21.279419, y: 3.9412842}
+        - {x: 19.279419, y: 5.941284}
+        - {x: 21.279419, y: 4.941284}
+    - name: Bosslaser Enlarged_53
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1392
+        width: 39
+        height: 192
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bosslaser Enlarged_54
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1179
+        width: 39
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bosslaser Enlarged_55
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1179
+        width: 58
+        height: 189
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.077667, y: 7.3494873}
+        - {x: 22.077667, y: 1.3494873}
+        - {x: 23.077667, y: 0.3494873}
+        - {x: 48.077667, y: 0.3494873}
+        - {x: 48.077667, y: 150.34949}
+        - {x: 47.077667, y: 152.34949}
+        - {x: 18.077667, y: 152.34949}
+        - {x: 3.0776672, y: 130.34949}
+        - {x: 0.07766724, y: 65.34949}
+        - {x: 0.07766724, y: 1.3494873}
+        - {x: 1.0776672, y: 0.3494873}
+        - {x: 21.077667, y: 0.3494873}
+        - {x: 22.077667, y: 1.3494873}
+        - {x: 22.077667, y: 5.3494873}
+        - {x: 20.077667, y: 7.3494873}
+    - name: Bosslaser Enlarged_56
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1179
+        width: 70
+        height: 184
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.41263, y: 148.34845}
+        - {x: 22.412628, y: 148.34845}
+        - {x: 0.41262817, y: 39.34845}
+        - {x: 0.41262817, y: 0.3484497}
+        - {x: 25.412628, y: 0.3484497}
+        - {x: 25.412628, y: 6.3484497}
+        - {x: 32.41263, y: 0.3484497}
+        - {x: 57.41263, y: 0.3484497}
+    - name: Bosslaser Enlarged_57
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1179
+        width: 72
+        height: 179
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.146698, y: 144.34735}
+        - {x: 0.146698, y: 124.34735}
+        - {x: 0.146698, y: 0.34735107}
+        - {x: 58.146698, y: 0.34735107}
+        - {x: 58.146698, y: 144.34735}
+    - name: Bosslaser Enlarged_58
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1179
+        width: 96
+        height: 169
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.389435, y: 132.34521}
+        - {x: 76.389435, y: 136.34521}
+        - {x: 51.389435, y: 136.34521}
+        - {x: 27.389435, y: 92.345215}
+        - {x: 0.3894348, y: 22.345215}
+        - {x: 0.3894348, y: 0.34521484}
+        - {x: 78.389435, y: 0.34521484}
+    - name: Bosslaser Enlarged_59
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1179
+        width: 105
+        height: 158
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.540985, y: 127.94281}
+        - {x: -0.4590149, y: 37.94281}
+        - {x: -0.4590149, y: -0.05718994}
+        - {x: 84.540985, y: -0.05718994}
+        - {x: 84.540985, y: 123.94281}
+        - {x: 82.540985, y: 127.94281}
+    - name: Bosslaser Enlarged_60
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1179
+        width: 106
+        height: 158
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.99298, y: 127.94281}
+        - {x: 35.99298, y: 114.94281}
+        - {x: -0.007019043, y: 32.94281}
+        - {x: -0.007019043, y: -0.05718994}
+        - {x: 81.99298, y: -0.05718994}
+        - {x: 84.99298, y: 38.94281}
+        - {x: 84.99298, y: 127.94281}
+    - name: Bosslaser Enlarged_61
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1179
+        width: 107
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.944946, y: 125.24219}
+        - {x: -0.05505371, y: 53.242188}
+        - {x: -0.05505371, y: 2.2421875}
+        - {x: 2.9449463, y: 0.2421875}
+        - {x: 85.94495, y: 0.2421875}
+        - {x: 85.94495, y: 123.24219}
+        - {x: 84.94495, y: 125.24219}
+    - name: Bosslaser Enlarged_62
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1179
+        width: 106
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81.19739, y: 5.2421875}
+        - {x: 86.19739, y: 50.242188}
+        - {x: 86.19739, y: 125.24219}
+        - {x: 63.197388, y: 125.24219}
+        - {x: 30.197388, y: 87.24219}
+        - {x: 0.1973877, y: 24.242188}
+        - {x: 0.1973877, y: 0.2421875}
+        - {x: 26.197388, y: 0.2421875}
+        - {x: 40.197388, y: 10.2421875}
+        - {x: 45.197388, y: 0.2421875}
+        - {x: 82.19739, y: 0.2421875}
+    - name: Bosslaser Enlarged_63
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1179
+        width: 106
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.249146, y: 125.24219}
+        - {x: 0.24914551, y: 72.24219}
+        - {x: 0.24914551, y: 0.2421875}
+        - {x: 83.249146, y: 0.2421875}
+        - {x: 86.249146, y: 2.2421875}
+        - {x: 86.249146, y: 125.24219}
+    - name: Bosslaser Enlarged_64
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1179
+        width: 108
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.09814453, y: 34.242188}
+        - {x: -0.09814453, y: 5.2421875}
+        - {x: 3.9018555, y: 0.2421875}
+        - {x: 87.901855, y: 0.2421875}
+        - {x: 87.901855, y: 125.24219}
+        - {x: 59.901855, y: 125.24219}
+        - {x: 7.9018555, y: 92.24219}
+    - name: Bosslaser Enlarged_65
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1179
+        width: 107
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.95032, y: 125.24219}
+        - {x: 49.950317, y: 111.24219}
+        - {x: 21.950317, y: 83.24219}
+        - {x: -0.049682617, y: 22.242188}
+        - {x: -0.049682617, y: 0.2421875}
+        - {x: 85.95032, y: 0.2421875}
+        - {x: 85.95032, y: 125.24219}
+    - name: Bosslaser Enlarged_66
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1179
+        width: 108
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.10193, y: 125.24219}
+        - {x: 0.10192871, y: 66.24219}
+        - {x: 0.10192871, y: 0.2421875}
+        - {x: 87.10193, y: 0.2421875}
+        - {x: 87.10193, y: 125.24219}
+    - name: Bosslaser Enlarged_67
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1179
+        width: 107
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.852173, y: 125.24219}
+        - {x: 11.852173, y: 72.24219}
+        - {x: -0.14782715, y: 25.242188}
+        - {x: -0.14782715, y: 0.2421875}
+        - {x: 85.85217, y: 0.2421875}
+        - {x: 85.85217, y: 123.24219}
+        - {x: 84.85217, y: 125.24219}
+    - name: Bosslaser Enlarged_68
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1179
+        width: 108
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.20117, y: 125.24219}
+        - {x: 43.20117, y: 114.24219}
+        - {x: 0.20117188, y: 26.242188}
+        - {x: 0.20117188, y: 3.2421875}
+        - {x: 3.2011719, y: 0.2421875}
+        - {x: 85.20117, y: 0.2421875}
+        - {x: 87.20117, y: 24.242188}
+        - {x: 87.20117, y: 125.24219}
+    - name: Bosslaser Enlarged_69
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 1179
+        width: 106
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.1521, y: 125.24219}
+        - {x: 43.1521, y: 110.24219}
+        - {x: 0.15209961, y: 43.242188}
+        - {x: 0.15209961, y: 0.2421875}
+        - {x: 86.1521, y: 0.2421875}
+        - {x: 86.1521, y: 125.24219}
+    - name: Bosslaser Enlarged_70
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 1179
+        width: 107
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67.30151, y: 125.24219}
+        - {x: 51.301514, y: 110.24219}
+        - {x: 33.301514, y: 86.24219}
+        - {x: 27.301514, y: 67.24219}
+        - {x: 0.30151367, y: 25.242188}
+        - {x: 0.30151367, y: 0.2421875}
+        - {x: 87.30151, y: 0.2421875}
+        - {x: 87.30151, y: 123.24219}
+        - {x: 86.30151, y: 125.24219}
+    - name: Bosslaser Enlarged_71
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1179
+        width: 107
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.849, y: 125.24219}
+        - {x: 37.849, y: 123.24219}
+        - {x: -0.15100098, y: 34.242188}
+        - {x: -0.15100098, y: 0.2421875}
+        - {x: 85.849, y: 0.2421875}
+        - {x: 85.849, y: 125.24219}
+    - name: Bosslaser Enlarged_72
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 1179
+        width: 106
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.0970459, y: 22.242188}
+        - {x: 0.0970459, y: 0.2421875}
+        - {x: 86.097046, y: 0.2421875}
+        - {x: 86.097046, y: 125.24219}
+        - {x: 66.097046, y: 125.24219}
+        - {x: 24.097046, y: 86.24219}
+    - name: Bosslaser Enlarged_73
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1179
+        width: 107
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.24646, y: 125.24219}
+        - {x: 5.24646, y: 90.24219}
+        - {x: 0.24645996, y: 46.242188}
+        - {x: 0.24645996, y: 0.2421875}
+        - {x: 87.24646, y: 0.2421875}
+        - {x: 87.24646, y: 12.2421875}
+        - {x: 83.24646, y: 33.242188}
+        - {x: 87.24646, y: 81.24219}
+        - {x: 87.24646, y: 125.24219}
+    - name: Bosslaser Enlarged_74
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 1179
+        width: 107
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.896973, y: 125.24219}
+        - {x: 42.896973, y: 120.24219}
+        - {x: -0.103027344, y: 36.242188}
+        - {x: -0.103027344, y: 0.2421875}
+        - {x: 86.89697, y: 0.2421875}
+        - {x: 86.89697, y: 125.24219}
+    - name: Bosslaser Enlarged_75
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 1179
+        width: 107
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.15271, y: 70.24219}
+        - {x: 0.15270996, y: 41.242188}
+        - {x: 0.15270996, y: 0.2421875}
+        - {x: 87.15271, y: 0.2421875}
+        - {x: 87.15271, y: 125.24219}
+        - {x: 61.15271, y: 125.24219}
+        - {x: 47.15271, y: 115.24219}
+    - name: Bosslaser Enlarged_76
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1003
+        width: 125
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.387817, y: 125.36621}
+        - {x: 0.38781738, y: 58.36621}
+        - {x: 0.38781738, y: 0.36621094}
+        - {x: 101.38782, y: 0.36621094}
+        - {x: 101.38782, y: 50.36621}
+        - {x: 93.38782, y: 125.36621}
+    - name: Bosslaser Enlarged_77
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1003
+        width: 125
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88.45468, y: 125.36621}
+        - {x: 61.45468, y: 125.36621}
+        - {x: 29.454681, y: 84.36621}
+        - {x: 0.4546814, y: 24.36621}
+        - {x: 0.4546814, y: 0.36621094}
+        - {x: 101.45468, y: 0.36621094}
+        - {x: 101.45468, y: 47.36621}
+        - {x: 94.45468, y: 95.36621}
+    - name: Bosslaser Enlarged_78
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1003
+        width: 125
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.72116, y: 125.36621}
+        - {x: -0.2788391, y: 89.36621}
+        - {x: -0.2788391, y: 0.36621094}
+        - {x: 100.72116, y: 0.36621094}
+        - {x: 100.72116, y: 106.36621}
+        - {x: 90.72116, y: 125.36621}
+    - name: Bosslaser Enlarged_79
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1003
+        width: 125
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.18713379, y: 39.36621}
+        - {x: 0.18713379, y: 0.36621094}
+        - {x: 101.18713, y: 0.36621094}
+        - {x: 101.18713, y: 39.36621}
+        - {x: 91.18713, y: 124.36621}
+        - {x: 86.18713, y: 125.36621}
+        - {x: 62.187134, y: 125.36621}
+        - {x: 42.187134, y: 116.36621}
+    - name: Bosslaser Enlarged_80
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1003
+        width: 126
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91.35382, y: 125.36621}
+        - {x: 62.35382, y: 125.36621}
+        - {x: 16.35382, y: 92.36621}
+        - {x: 0.3538208, y: 29.36621}
+        - {x: 0.3538208, y: 5.366211}
+        - {x: 5.353821, y: 0.36621094}
+        - {x: 102.35382, y: 0.36621094}
+        - {x: 102.35382, y: 43.36621}
+        - {x: 91.35382, y: 122.36621}
+    - name: Bosslaser Enlarged_81
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1003
+        width: 125
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.020508, y: 125.36621}
+        - {x: 0.020507812, y: 58.36621}
+        - {x: 0.020507812, y: 0.36621094}
+        - {x: 102.02051, y: 0.36621094}
+        - {x: 102.02051, y: 125.36621}
+    - name: Bosslaser Enlarged_82
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1003
+        width: 135
+        height: 154
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80.18176, y: 6.9660034}
+        - {x: 79.18176, y: 42.966003}
+        - {x: 82.18176, y: 12.966003}
+        - {x: 85.18176, y: -0.033996582}
+        - {x: 109.18176, y: -0.033996582}
+        - {x: 109.18176, y: 25.966003}
+        - {x: 97.18176, y: 98.966}
+        - {x: 87.18176, y: 124.966}
+        - {x: 67.18176, y: 124.966}
+        - {x: 55.181763, y: 114.966}
+        - {x: 32.181763, y: 86.966}
+        - {x: 0.1817627, y: 28.966003}
+        - {x: 0.1817627, y: 0.9660034}
+        - {x: 2.1817627, y: -0.033996582}
+        - {x: 83.18176, y: -0.033996582}
+    - name: Bosslaser Enlarged_83
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1003
+        width: 148
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.148865, y: 125.36621}
+        - {x: 0.14886475, y: 35.36621}
+        - {x: 0.14886475, y: 0.36621094}
+        - {x: 120.148865, y: 0.36621094}
+        - {x: 120.148865, y: 26.36621}
+        - {x: 88.148865, y: 125.36621}
+    - name: Bosslaser Enlarged_84
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1003
+        width: 161
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.02368, y: 125.36621}
+        - {x: 44.02368, y: 119.36621}
+        - {x: 0.02368164, y: 27.36621}
+        - {x: 0.02368164, y: 0.36621094}
+        - {x: 130.02368, y: 0.36621094}
+        - {x: 130.02368, y: 36.36621}
+        - {x: 90.02368, y: 125.36621}
+    - name: Bosslaser Enlarged_85
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1003
+        width: 177
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91.90613, y: 125.36621}
+        - {x: 53.906128, y: 125.36621}
+        - {x: 19.906128, y: 68.36621}
+        - {x: -0.09387207, y: 22.36621}
+        - {x: -0.09387207, y: 0.36621094}
+        - {x: 141.90613, y: 0.36621094}
+        - {x: 141.90613, y: 27.36621}
+        - {x: 99.90613, y: 122.36621}
+    - name: Bosslaser Enlarged_86
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1003
+        width: 191
+        height: 151
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 153.79492, y: 4.26532}
+        - {x: 153.79492, y: 20.26532}
+        - {x: 84.79492, y: 122.26532}
+        - {x: 58.79492, y: 122.26532}
+        - {x: 24.794922, y: 79.26532}
+        - {x: -0.20507812, y: 27.26532}
+        - {x: -0.20507812, y: 3.2653198}
+        - {x: 2.7949219, y: 0.26531982}
+        - {x: 148.79492, y: 0.26531982}
+    - name: Bosslaser Enlarged_87
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 1003
+        width: 212
+        height: 154
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170.09277, y: 4.9660034}
+        - {x: 170.09277, y: 37.966003}
+        - {x: 86.09277, y: 124.966}
+        - {x: 47.092773, y: 124.966}
+        - {x: 21.092773, y: 91.966}
+        - {x: 0.09277344, y: 28.966003}
+        - {x: 0.09277344, y: -0.033996582}
+        - {x: 90.09277, y: -0.033996582}
+        - {x: 81.09277, y: 31.966003}
+        - {x: 144.09277, y: -0.033996582}
+        - {x: 164.09277, y: -0.033996582}
+    - name: Bosslaser Enlarged_88
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1003
+        width: 225
+        height: 151
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 85.300415, y: 122.26532}
+        - {x: 58.300415, y: 122.26532}
+        - {x: 30.300415, y: 83.26532}
+        - {x: 0.30041504, y: 28.26532}
+        - {x: 0.30041504, y: 0.26531982}
+        - {x: 181.30042, y: 0.26531982}
+        - {x: 181.30042, y: 21.26532}
+        - {x: 91.300415, y: 120.26532}
+    - name: Bosslaser Enlarged_89
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 812
+        width: 248
+        height: 152
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 199.92987, y: 23.283203}
+        - {x: 108.92987, y: 123.2832}
+        - {x: 47.92987, y: 123.2832}
+        - {x: -0.070129395, y: 40.283203}
+        - {x: -0.070129395, y: 0.28320312}
+        - {x: 199.92987, y: 0.28320312}
+    - name: Bosslaser Enlarged_90
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 812
+        width: 244
+        height: 152
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 195.8382, y: 31.283203}
+        - {x: 88.838196, y: 123.2832}
+        - {x: 35.838196, y: 123.2832}
+        - {x: -0.1618042, y: 72.2832}
+        - {x: -0.1618042, y: 0.28320312}
+        - {x: 195.8382, y: 0.28320312}
+    - name: Bosslaser Enlarged_91
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 812
+        width: 247
+        height: 152
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86.957886, y: 123.2832}
+        - {x: 56.957886, y: 123.2832}
+        - {x: 37.957886, y: 112.2832}
+        - {x: -0.042114258, y: 31.283203}
+        - {x: -0.042114258, y: 0.28320312}
+        - {x: 197.95789, y: 0.28320312}
+        - {x: 197.95789, y: 20.283203}
+        - {x: 194.95789, y: 26.283203}
+    - name: Bosslaser Enlarged_92
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 812
+        width: 245
+        height: 152
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.370544, y: 123.2832}
+        - {x: 0.37054443, y: 44.283203}
+        - {x: 0.37054443, y: 0.28320312}
+        - {x: 197.37054, y: 0.28320312}
+        - {x: 197.37054, y: 26.283203}
+        - {x: 83.370544, y: 123.2832}
+    - name: Bosslaser Enlarged_93
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 812
+        width: 247
+        height: 152
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.300415, y: 123.2832}
+        - {x: 0.30041504, y: 49.283203}
+        - {x: 0.30041504, y: 0.28320312}
+        - {x: 199.30042, y: 0.28320312}
+        - {x: 199.30042, y: 54.283203}
+        - {x: 96.300415, y: 123.2832}
+    - name: Bosslaser Enlarged_94
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 812
+        width: 224
+        height: 150
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 179.71191, y: 28.982727}
+        - {x: 98.711914, y: 121.98273}
+        - {x: 59.711914, y: 121.98273}
+        - {x: 22.711914, y: 90.98273}
+        - {x: -0.28808594, y: 32.982727}
+        - {x: -0.28808594, y: -0.01727295}
+        - {x: 19.711914, y: -0.01727295}
+        - {x: 41.711914, y: 6.982727}
+        - {x: 47.711914, y: -0.01727295}
+        - {x: 179.71191, y: -0.01727295}
+    - name: Bosslaser Enlarged_95
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 812
+        width: 211
+        height: 152
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.41528, y: 123.2832}
+        - {x: 31.415283, y: 87.2832}
+        - {x: 27.415283, y: 66.2832}
+        - {x: 0.4152832, y: 22.283203}
+        - {x: 0.4152832, y: 0.28320312}
+        - {x: 170.41528, y: 0.28320312}
+        - {x: 170.41528, y: 19.283203}
+        - {x: 97.41528, y: 123.2832}
+    - name: Bosslaser Enlarged_96
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 812
+        width: 191
+        height: 150
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.10669, y: 121.98273}
+        - {x: 28.10669, y: 120.98273}
+        - {x: 0.10668945, y: 63.982727}
+        - {x: 0.10668945, y: -0.01727295}
+        - {x: 154.10669, y: -0.01727295}
+        - {x: 154.10669, y: 19.982727}
+        - {x: 94.10669, y: 121.98273}
+    - name: Bosslaser Enlarged_97
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 812
+        width: 177
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.894775, y: 125.983826}
+        - {x: -0.10522461, y: 61.983826}
+        - {x: -0.10522461, y: -0.016174316}
+        - {x: 142.89478, y: -0.016174316}
+        - {x: 142.89478, y: 82.983826}
+        - {x: 112.894775, y: 125.983826}
+    - name: Bosslaser Enlarged_98
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 636
+        width: 161
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.008087, y: 124.60785}
+        - {x: 42.008087, y: 109.60785}
+        - {x: 0.008087158, y: 22.60785}
+        - {x: 0.008087158, y: -0.39215088}
+        - {x: 129.00809, y: -0.39215088}
+        - {x: 129.00809, y: 66.60785}
+        - {x: 87.00809, y: 124.60785}
+    - name: Bosslaser Enlarged_99
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 636
+        width: 150
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91.282074, y: 6.607849}
+        - {x: 97.282074, y: -0.39215088}
+        - {x: 121.282074, y: -0.39215088}
+        - {x: 121.282074, y: 26.60785}
+        - {x: 87.282074, y: 124.60785}
+        - {x: 60.282074, y: 124.60785}
+        - {x: 16.282074, y: 81.60785}
+        - {x: 0.28207397, y: 33.60785}
+        - {x: 0.28207397, y: -0.39215088}
+        - {x: 81.282074, y: -0.39215088}
+        - {x: 81.282074, y: 1.6078491}
+        - {x: 80.282074, y: 41.60785}
+    - name: Bosslaser Enlarged_100
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 636
+        width: 134
+        height: 152
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81.85327, y: 2.9072266}
+        - {x: 70.85327, y: 9.907227}
+        - {x: 76.85327, y: 40.907227}
+        - {x: 80.85327, y: 10.907227}
+        - {x: 83.85327, y: -0.09277344}
+        - {x: 107.85327, y: -0.09277344}
+        - {x: 107.85327, y: 91.90723}
+        - {x: 91.85327, y: 121.90723}
+        - {x: 28.853271, y: 121.90723}
+        - {x: -0.14672852, y: 59.907227}
+        - {x: -0.14672852, y: 1.9072266}
+        - {x: 2.8532715, y: -0.09277344}
+        - {x: 79.85327, y: -0.09277344}
+    - name: Bosslaser Enlarged_101
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 636
+        width: 106
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.01886, y: 124.60785}
+        - {x: 39.01886, y: 109.60785}
+        - {x: 0.018859863, y: 33.60785}
+        - {x: 0.018859863, y: -0.39215088}
+        - {x: 85.01886, y: -0.39215088}
+        - {x: 85.01886, y: 124.60785}
+    - name: Bosslaser Enlarged_102
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 636
+        width: 106
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.17151, y: 124.60785}
+        - {x: 0.17150879, y: 37.60785}
+        - {x: 0.17150879, y: -0.39215088}
+        - {x: 86.17151, y: -0.39215088}
+        - {x: 86.17151, y: 124.60785}
+    - name: Bosslaser Enlarged_103
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 636
+        width: 107
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.12561, y: 124.60785}
+        - {x: 41.12561, y: 111.60785}
+        - {x: 0.12561035, y: 22.60785}
+        - {x: 0.12561035, y: 0.6078491}
+        - {x: 2.1256104, y: -0.39215088}
+        - {x: 84.12561, y: -0.39215088}
+        - {x: 87.12561, y: 9.607849}
+        - {x: 87.12561, y: 124.60785}
+    - name: Bosslaser Enlarged_104
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 636
+        width: 106
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.279358, y: 124.60785}
+        - {x: 13.279358, y: 89.60785}
+        - {x: 0.2793579, y: 25.60785}
+        - {x: 0.2793579, y: -0.39215088}
+        - {x: 86.27936, y: -0.39215088}
+        - {x: 86.27936, y: 122.60785}
+        - {x: 85.27936, y: 124.60785}
+    - name: Bosslaser Enlarged_105
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 636
+        width: 107
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.0318, y: 40.60785}
+        - {x: 87.0318, y: 72.60785}
+        - {x: 87.0318, y: 124.60785}
+        - {x: 70.0318, y: 124.60785}
+        - {x: 46.0318, y: 107.60785}
+        - {x: 29.0318, y: 76.60785}
+        - {x: 0.031799316, y: 16.60785}
+        - {x: 0.031799316, y: 2.6078491}
+        - {x: 4.0317993, y: -0.39215088}
+        - {x: 82.0318, y: -0.39215088}
+        - {x: 81.0318, y: 1.6078491}
+        - {x: 77.0318, y: 5.607849}
+    - name: Bosslaser Enlarged_106
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 636
+        width: 108
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.080322, y: 124.60785}
+        - {x: 40.080322, y: 112.60785}
+        - {x: 0.080322266, y: 38.60785}
+        - {x: 0.080322266, y: -0.39215088}
+        - {x: 87.08032, y: -0.39215088}
+        - {x: 87.08032, y: 122.60785}
+        - {x: 82.08032, y: 124.60785}
+    - name: Bosslaser Enlarged_107
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 636
+        width: 106
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.22864, y: 124.60785}
+        - {x: 39.228638, y: 112.60785}
+        - {x: 2.2286377, y: 30.60785}
+        - {x: 0.2286377, y: 24.60785}
+        - {x: 0.2286377, y: -0.39215088}
+        - {x: 86.22864, y: -0.39215088}
+        - {x: 86.22864, y: 124.60785}
+    - name: Bosslaser Enlarged_108
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 636
+        width: 107
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.882446, y: 124.60785}
+        - {x: 39.882446, y: 111.60785}
+        - {x: -0.11755371, y: 35.60785}
+        - {x: -0.11755371, y: 0.6078491}
+        - {x: 1.8824463, y: -0.39215088}
+        - {x: 85.88245, y: -0.39215088}
+        - {x: 85.88245, y: 122.60785}
+        - {x: 80.88245, y: 124.60785}
+    - name: Bosslaser Enlarged_109
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 636
+        width: 108
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67.23132, y: 124.60785}
+        - {x: 42.231323, y: 109.60785}
+        - {x: 0.23132324, y: 25.60785}
+        - {x: 0.23132324, y: -0.39215088}
+        - {x: 85.23132, y: -0.39215088}
+        - {x: 87.23132, y: 28.60785}
+        - {x: 87.23132, y: 124.60785}
+    - name: Bosslaser Enlarged_110
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 636
+        width: 108
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.08142, y: 124.60785}
+        - {x: 42.08142, y: 111.60785}
+        - {x: 0.0814209, y: 35.60785}
+        - {x: 0.0814209, y: -0.39215088}
+        - {x: 87.08142, y: -0.39215088}
+        - {x: 87.08142, y: 124.60785}
+    - name: Bosslaser Enlarged_111
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 636
+        width: 106
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.229736, y: 124.60785}
+        - {x: 11.229736, y: 89.60785}
+        - {x: 0.22973633, y: 26.60785}
+        - {x: 0.22973633, y: -0.39215088}
+        - {x: 86.22974, y: -0.39215088}
+        - {x: 86.22974, y: 122.60785}
+        - {x: 85.22974, y: 124.60785}
+    - name: Bosslaser Enlarged_112
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 636
+        width: 107
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.17749, y: 124.60785}
+        - {x: 8.17749, y: 86.60785}
+        - {x: 0.17749023, y: 29.60785}
+        - {x: 0.17749023, y: -0.39215088}
+        - {x: 87.17749, y: -0.39215088}
+        - {x: 87.17749, y: 123.60785}
+        - {x: 85.17749, y: 124.60785}
+    - name: Bosslaser Enlarged_113
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 636
+        width: 107
+        height: 155
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.229248, y: 124.60785}
+        - {x: 41.229248, y: 112.60785}
+        - {x: 0.22924805, y: 38.60785}
+        - {x: 0.22924805, y: -0.39215088}
+        - {x: 87.22925, y: -0.39215088}
+        - {x: 87.22925, y: 122.60785}
+        - {x: 82.22925, y: 124.60785}
+    - name: Bosslaser Enlarged_114
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 427
+        width: 105
+        height: 158
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.58307, y: 128.01834}
+        - {x: 10.583069, y: 72.01834}
+        - {x: -0.41693115, y: 25.018341}
+        - {x: -0.41693115, y: 0.018341064}
+        - {x: 84.58307, y: 0.018341064}
+        - {x: 84.58307, y: 124.01834}
+        - {x: 82.58307, y: 128.01834}
+    - name: Bosslaser Enlarged_115
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 427
+        width: 95
+        height: 169
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.433105, y: 136.92072}
+        - {x: 28.433105, y: 116.920715}
+        - {x: 0.43310547, y: 27.920715}
+        - {x: 0.43310547, y: 2.9207153}
+        - {x: 1.4331055, y: -0.07928467}
+        - {x: 77.433105, y: -0.07928467}
+        - {x: 77.433105, y: 134.92072}
+        - {x: 76.433105, y: 136.92072}
+    - name: Bosslaser Enlarged_116
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 427
+        width: 72
+        height: 179
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.27777, y: 36.92285}
+        - {x: 33.27777, y: -0.07714844}
+        - {x: 59.27777, y: -0.07714844}
+        - {x: 59.27777, y: 141.92285}
+        - {x: 57.27777, y: 144.92285}
+        - {x: 20.277771, y: 144.92285}
+        - {x: 0.277771, y: 55.92285}
+        - {x: 0.277771, y: -0.07714844}
+        - {x: 23.277771, y: -0.07714844}
+        - {x: 25.277771, y: 4.9228516}
+        - {x: 32.27777, y: 34.92285}
+        - {x: 32.27777, y: 38.92285}
+    - name: Bosslaser Enlarged_117
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 427
+        width: 71
+        height: 184
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.6138, y: 148.92395}
+        - {x: 8.6138, y: 118.92395}
+        - {x: -0.38619995, y: 26.92395}
+        - {x: -0.38619995, y: -0.076049805}
+        - {x: 57.6138, y: -0.076049805}
+        - {x: 57.6138, y: 148.92395}
+    - name: Bosslaser Enlarged_118
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 427
+        width: 57
+        height: 189
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.045288, y: 6.9250183}
+        - {x: 20.045288, y: 0.9250183}
+        - {x: 21.045288, y: -0.07498169}
+        - {x: 46.045288, y: -0.07498169}
+        - {x: 46.045288, y: 152.92502}
+        - {x: 16.045288, y: 152.92502}
+        - {x: 1.0452881, y: 87.92502}
+        - {x: 0.045288086, y: 60.92502}
+        - {x: 0.045288086, y: -0.07498169}
+        - {x: 20.045288, y: -0.07498169}
+        - {x: 20.045288, y: 4.9250183}
+        - {x: 19.045288, y: 6.9250183}
+    - name: Bosslaser Enlarged_119
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 427
+        width: 40
+        height: 194
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.37487793, y: 156.92609}
+        - {x: 0.37487793, y: -0.073913574}
+        - {x: 33.374878, y: -0.073913574}
+        - {x: 33.374878, y: 154.92609}
+        - {x: 27.374878, y: 156.92609}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

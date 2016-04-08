@@ -5,11 +5,11 @@ public class TestWeapon : MonoBehaviour
 {
 
 	public float fireRate = 0;
-	public float damage = 10;
+	public float damage;
 	public GameObject grenadePrefab;
 	public Transform grenadeSpawn;
 	public AudioSource shootClip;
-	public float reloadTime = 5;
+	public float reloadTime = 3;
 	public int ammoCount = 3;
 	public int currentClip = 1;
 	bool reloading = false;
@@ -59,7 +59,8 @@ public class TestWeapon : MonoBehaviour
 		currentClip--;
 		ammoCount--;
 		shootClip.Play ();
-		Instantiate (grenadePrefab, grenadeSpawn.position, grenadeSpawn.rotation);
+		GameObject grenade = Instantiate (grenadePrefab, grenadeSpawn.position, grenadeSpawn.rotation) as GameObject;
+		grenade.GetComponent<GrenadeScript> ().damage = damage;
 	}
 
 }

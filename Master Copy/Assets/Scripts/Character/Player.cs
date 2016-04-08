@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
 	{
 		currentHealth -= damage * (1.00f - (0.01f * armor));
 		if (currentHealth <= 0) {
-			//gameMaster.killPlayer(this);
+			Debug.Log ("am dead");
 		}
 	}
 

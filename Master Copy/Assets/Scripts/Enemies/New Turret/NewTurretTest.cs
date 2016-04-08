@@ -41,6 +41,11 @@ public class NewTurretTest : MonoBehaviour {
     // The last time the turret has shot.
     private float lastShot = 0;
 
+	//detectionrange
+	public float detectionRange;
+
+	bool alerted;
+
     void Start() {
 		this.turretPivot = turretPivot.gameObject;
         this.headAnimator = turretHead.GetComponent<Animator>();
@@ -67,22 +72,26 @@ public class NewTurretTest : MonoBehaviour {
             headAnimator.SetTrigger("Shoot");
             lastShot = Time.time + fireRate;
         }
+		if (Mathf.Abs (player.position.x - transform.position.x) < detectionRange
+			&& alerted == false 
+			&& player.position.y >= transform.position.y) {
+			alerted = true;
+			PlayerEnter ();
+		}
+		if (Mathf.Abs (player.position.x - transform.position.x) > detectionRange 
+			&& alerted == true){
+				alerted = false;
+				PlayerLeave ();
+		}
+		if (player.position.y >= transform.position.y && alerted == true) {
+			alerted = false;
+			PlayerLeave ();
+		}
+
+
     }
 
-    void OnTriggerEnter2D(Collider2D other) {
-        if(other.CompareTag("Player")) {
-            PlayerEnter(other.gameObject.transform);
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D other) {
-        if(other.CompareTag("Player")) {
-            PlayerLeave();   
-        }
-    }
-
-    void PlayerEnter(Transform player) {
-        this.player = player;
+	void PlayerEnter() {
         bodyAnimator.SetBool("Active", true);
         //sounds[0].Play();
         StartCoroutine("ShowPiviot");
@@ -90,7 +99,6 @@ public class NewTurretTest : MonoBehaviour {
     }
 
     void PlayerLeave() {
-        this.player = null;
         StartCoroutine("GoIdle");
     }
 

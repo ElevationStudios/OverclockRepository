@@ -4,6 +4,7 @@ using System.Collections;
 public class GrenadeScript : MonoBehaviour {
 	private float timer = 0;
 	private Rigidbody2D rb;
+	public float damage;
 	public GameObject explosionPrefab;
 	void Start () {
 		rb = GetComponent<Rigidbody2D>();
@@ -16,16 +17,16 @@ public class GrenadeScript : MonoBehaviour {
 		if (timer < 0.5f)
 			transform.Rotate (Vector3.forward * -20);
 		if (timer > 3){
-			DestoryGrenade ();
+			DestroyGrenade ();
 		}
 	}
-	void DestoryGrenade(){
+	void DestroyGrenade(){
 		Destroy (gameObject);
-		Instantiate (explosionPrefab, transform.position, transform.rotation);
+		GameObject explosion = Instantiate (explosionPrefab, transform.position, transform.rotation) as GameObject;
+		explosion.GetComponent<Explosion> ().damage = damage;
 	}
 	void OnTriggerEnter2D(Collider2D col){
-		Debug.Log ("hit " + col.gameObject.tag);
-		if (col.gameObject.tag == "Enemy")
-			DestoryGrenade ();
+		if (col.gameObject.tag == "Enemy" || col.gameObject.tag == "Boss")
+			DestroyGrenade ();
 	}
 }
