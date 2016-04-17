@@ -8,7 +8,9 @@ public class WeaponShopKeeper : MonoBehaviour {
     GameObject player;
 
 	// Use this for initialization
-
+    void Awake() {
+        textDisplay.GetComponent<TextMesh>().text = Localisation.GetString("OpenShop");
+    }
 	
 	// Update is called once per frame
 	void Update () {

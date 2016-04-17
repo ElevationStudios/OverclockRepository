@@ -1,0 +1,76 @@
+﻿# Main Menu
+NewGame=Новая игра
+Continue=Продолжать
+Settings=Настройки
+Quit=Выход
+
+# Settings Menu
+Brightness=Яркость
+Volume=Громкость
+OptionA=Выбор А
+OptionB=Выбор B
+OptionC=Выбор C
+Back=Назад
+Extra=Дополнительное
+Credits=Признательности
+#############################
+
+# Weapon Shop
+WeaponShop=Магазин оружия
+
+# Pistol Selection
+PistolLevel=Повреждение От Пистолета Ур.
+PistolReload=Перезарядка Пистолета Ур.
+PistolClip=Пистолет Размер Магазина Ур.
+PistolCrit=Пистолет Критический Ур.
+
+Pistol Damage Level Maxed= Максимальное Повреждение От Пистолета
+Pistol Reload Level Maxed= Минимальное Время Перезарядки Пистолета
+Pistol Clip Level Maxed= Максимальный Размер Магазина Пистолета
+Pistol Crit Level Maxed= Максимальный Критический Выстрел Пистолета
+
+# Blaster Selection
+BlasterLevel=Повреждение От Бластера Ур.
+BlasterReload=Перезарядка Бластера Ур.
+BlasterClip=Бластер Размер Магазина Ур.
+BlasterCrit=Бластер Критический Ур.
+
+Blaster Damage Level Maxed=Максимальное Повреждение От Бластера
+Blaster Reload Level Maxed=Минимальное Время Перезарядки Бластера
+Blaster Clip Level Maxed=Максимальный Размер Магазина Бластера
+Blaster Crit Level Maxed=Максимальный Критический Выстрел Бластера
+
+#Grenade Luancher
+Grenade Damage Level Maxed=Максимальное Повреждение От Гранатомёта
+Grenade Reload Level Maxed=Минимальное Время Перезарядки Гранатомёта
+Grenade Clip Level Maxed=Максимальный Размер Магазина Гранатомёта
+Grenade Crit Level Maxed=Максимальный Критический Выстрел Гранатомёта
+
+GrenadeLevel=Повреждение От Гранатомёта Уровень
+GrenadeReload=Время Перезарядки Гранатомёта Уровень
+GrenadeClip=Размер Магазина Гранатомёта Уровень
+GrenadeCrit=Критический Выстрел Гранатомёта Уровень
+
+# Button Text
+Levelup=Повышенный уровень
+Damage=Повреждение
+Reload=Перезарядка
+Clipsize=Перезарядка
+
+# White Text
+CurrentDamage=Текущее Повреждение:
+CurrentReloadTime=Текущее Время Перезарядки:
+Sec=сек
+Maxed=Максимальное
+#############################
+
+# Tooltip
+TeleportToRestArea=Нажмите ‘T’ чтобы телепортироваться к Месту Отдыха 
+TeleportToLevel1=Нажмите ‘Y’ чтобы телепортироваться к Первому Уровню
+TeleportToLevel2=Нажмите ‘Y’ чтобы телепортироваться ко Второму Уровню
+OpenShop=Нажмите ‘T’ чтобы открыть Оружейный Магазин
+
+#Teleport Text
+Level1=Нажмите ‘T’ чтобы попасть на Место Отдыха  Hажмите ‘Y’ чтобы попасть на Уровень 2
+Level2=Нажмите ‘T’ чтобы попасть на Место Отдыха Нажмите ‘Y’ чтобы попасть на Уровень 1
+RestArea=Нажмите ‘T’ чтобы попасть на Уровень 1 Нажмите ‘Y’ чтобы попасть на Уровень 2

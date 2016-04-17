@@ -130,14 +130,15 @@ public class WeaponShop : MonoBehaviour
 		grenadeReloadUpdate();
 		grenadeClipUpdate();
 		grenadeCritUpdate();
-
-
-
     }
+        
 	
     // Update is called once per frame
+    /*
     void Update()
     {
+
+
         pistolDamageCurrentDisplay.text = "Current Damage: " + pistolUpgrade.baseDamage;
         pistolReloadCurrentDisplay.text = "Current Reload Time: " + pistolUpgrade.reloadTime  + "s";
         pistolClipCurrentDisplay.text = "Current Clip: " + pistolUpgrade.clipSize;
@@ -154,18 +155,18 @@ public class WeaponShop : MonoBehaviour
 		grenadeClipCurrentDisplay.text = "Current Clip: " + grenadeUpgrade.clipSize;
 		grenadeCritCurrentDisplay.text = "Current Crit: " + grenadeUpgrade.critPerc + "%";
     }
-
+    */
     void PistolDamageUpdate()
     {
         if (pistolDamageLevel < 4)
         {
-            pistolDamageLevelDisplay.text = "Pistol Damage Lv. " + pistolDamageLevel.ToString();
+            pistolDamageLevelDisplay.text = Localisation.GetString("PistolLevel") + pistolDamageLevel.ToString();
             pistolDamageCostDisplay.text = pistolDamageCost.ToString();
         }
         else
         {
-            pistolDamageLevelDisplay.text = "Pistol Damage Level Maxed";
-            pistolDamageButtonDisplay.text = "MAXED";
+            pistolDamageLevelDisplay.text = Localisation.GetString("Pistol Damage Level Maxed");
+            pistolDamageButtonDisplay.text = Localisation.GetString("Maxed");
             pistolDamageCostDisplay.text = null;
         }
     }
@@ -173,13 +174,13 @@ public class WeaponShop : MonoBehaviour
     {
         if (pistolReloadLevel < 4)
         {
-            pistolReloadLevelDisplay.text = "Pistol Reload Lv. " + pistolReloadLevel.ToString();
+            pistolReloadLevelDisplay.text = Localisation.GetString("PistolReload") + pistolReloadLevel.ToString();
             pistolReloadCostDisplay.text = pistolReloadCost.ToString();
         }
         else
         {
-            pistolReloadLevelDisplay.text = "Pistol Reload Level Maxed";
-            pistolReloadButtonDisplay.text = "MAXED";
+            pistolReloadLevelDisplay.text = Localisation.GetString("Pistol Reload Level Maxed");
+            pistolReloadButtonDisplay.text = Localisation.GetString("Maxed");
             pistolReloadCostDisplay.text = null;
         }
     }
@@ -187,13 +188,13 @@ public class WeaponShop : MonoBehaviour
     {
         if (pistolClipLevel < 4)
         {
-            pistolClipLevelDisplay.text = "Pistol Clip Lv. " + pistolClipLevel.ToString();
+            pistolClipLevelDisplay.text = Localisation.GetString("PistolClip") + pistolClipLevel.ToString();
             pistolClipCostDisplay.text = pistolClipCost.ToString();
         }
         else
         {
-            pistolClipLevelDisplay.text = "Pistol Clip Level Maxed";
-            pistolClipButtonDisplay.text = "MAXED";
+            pistolClipLevelDisplay.text = Localisation.GetString("Pistol Clip Level Maxed");
+            pistolClipButtonDisplay.text = Localisation.GetString("Maxed");
             pistolClipCostDisplay.text = null;
         }
 
@@ -202,13 +203,13 @@ public class WeaponShop : MonoBehaviour
     {
         if (pistolCritLevel < 4)
         {
-            pistolCritLevelDisplay.text = "Pistol Crit Lv. " + pistolCritLevel.ToString();
+            pistolCritLevelDisplay.text = Localisation.GetString("PistolCrit") + pistolCritLevel.ToString();
             pistolCritCostDisplay.text = pistolCritCost.ToString();
         }
         else
         {
-            pistolCritLevelDisplay.text = "Pistol Crit Level Maxed";
-            pistolCritButtonDisplay.text = "MAXED";
+            pistolCritLevelDisplay.text = Localisation.GetString("Pistol Crit Level Maxed");
+            pistolCritButtonDisplay.text = Localisation.GetString("Maxed");
             pistolCritCostDisplay.text = null;
         }
 
@@ -268,13 +269,13 @@ public class WeaponShop : MonoBehaviour
     {
         if (blasterDamageLevel < 4)
         {
-            blasterDamageLevelDisplay.text = " Blaster Damage Lv. " + blasterDamageLevel.ToString();
+            blasterDamageLevelDisplay.text = Localisation.GetString("BlasterLevel") + blasterDamageLevel.ToString();
             blasterDamageCostDisplay.text = blasterDamageCost.ToString();
         }
         else
         {
-            blasterDamageLevelDisplay.text = " Blaster Damage Level Maxed";
-            blasterDamageButtonDisplay.text = "MAXED";
+            blasterDamageLevelDisplay.text = Localisation.GetString("Blaster Damage Level Maxed");
+            blasterDamageButtonDisplay.text = Localisation.GetString("Maxed");
             blasterDamageCostDisplay.text = null;
         }
     }
@@ -282,13 +283,13 @@ public class WeaponShop : MonoBehaviour
     {
         if (blasterReloadLevel < 4)
         {
-            blasterReloadLevelDisplay.text = " Blaster Reload Lv. " + blasterReloadLevel.ToString();
+            blasterReloadLevelDisplay.text = Localisation.GetString("BlasterReload") + blasterReloadLevel.ToString();
             blasterReloadCostDisplay.text = blasterReloadCost.ToString();
         }
         else
         {
-            blasterReloadLevelDisplay.text = " Blaster Reload Level Maxed";
-            blasterReloadButtonDisplay.text = "MAXED";
+            blasterReloadLevelDisplay.text = Localisation.GetString("Blaster Reload Level Maxed");
+            blasterReloadButtonDisplay.text = Localisation.GetString("Maxed");
             blasterReloadCostDisplay.text = null;
         }
     }
@@ -296,13 +297,13 @@ public class WeaponShop : MonoBehaviour
     {
         if (blasterClipLevel < 4)
         {
-            blasterClipLevelDisplay.text = " Blaster Clip Lv. " + blasterClipLevel.ToString();
+            blasterClipLevelDisplay.text = Localisation.GetString("BlasterClip") + blasterClipLevel.ToString();
             blasterClipCostDisplay.text = blasterClipCost.ToString();
         }
         else
         {
-            blasterClipLevelDisplay.text = " Blaster Clip Level Maxed";
-            blasterClipButtonDisplay.text = "MAXED";
+            blasterClipLevelDisplay.text = Localisation.GetString("Blaster Clip Level Maxed");
+            blasterClipButtonDisplay.text = Localisation.GetString("Maxed");
             blasterClipCostDisplay.text = null;
         }
     }
@@ -310,13 +311,13 @@ public class WeaponShop : MonoBehaviour
     {
         if (blasterCritLevel < 4)
         {
-            blasterCritLevelDisplay.text = " Blaster Crit Lv. " + blasterCritLevel.ToString();
+            blasterCritLevelDisplay.text = Localisation.GetString("BlasterCrit") + blasterCritLevel.ToString();
             blasterCritCostDisplay.text = blasterCritCost.ToString();
         }
         else
         {
-            blasterCritLevelDisplay.text = " Blaster Crit Level Maxed";
-            blasterCritButtonDisplay.text = "MAXED";
+            blasterCritLevelDisplay.text = Localisation.GetString("Blaster Crit Level Maxed");
+            blasterCritButtonDisplay.text = Localisation.GetString("Maxed");
             blasterCritCostDisplay.text = null;
         }
     }
@@ -375,13 +376,13 @@ public class WeaponShop : MonoBehaviour
 	{
 		if (grenadeDamageLevel < 4)
 		{
-			grenadeDamageLevelDisplay.text = " grenade Damage Lv. " + grenadeDamageLevel.ToString();
+            grenadeDamageLevelDisplay.text = Localisation.GetString("GrenadeLevel") + grenadeDamageLevel.ToString();
 			grenadeDamageCostDisplay.text = grenadeDamageCost.ToString();
 		}
 		else
 		{
-			grenadeDamageLevelDisplay.text = " grenade Damage Level Maxed";
-			grenadeDamageButtonDisplay.text = "MAXED";
+            grenadeDamageLevelDisplay.text = Localisation.GetString("Grenade Damage Level Maxed");
+            grenadeDamageButtonDisplay.text = Localisation.GetString("Maxed");
 			grenadeDamageCostDisplay.text = null;
 		}
 	}
@@ -389,13 +390,13 @@ public class WeaponShop : MonoBehaviour
 	{
 		if (grenadeReloadLevel < 4)
 		{
-			grenadeReloadLevelDisplay.text = " grenade Reload Lv. " + grenadeReloadLevel.ToString();
+            grenadeReloadLevelDisplay.text = Localisation.GetString("GrenadeReload") + grenadeReloadLevel.ToString();
 			grenadeReloadCostDisplay.text = grenadeReloadCost.ToString();
 		}
 		else
 		{
-			grenadeReloadLevelDisplay.text = " grenade Reload Level Maxed";
-			grenadeReloadButtonDisplay.text = "MAXED";
+            grenadeReloadLevelDisplay.text = Localisation.GetString("Grenade Reload Level Maxed");
+            grenadeReloadButtonDisplay.text = Localisation.GetString("Maxed");
 			grenadeReloadCostDisplay.text = null;
 		}
 	}
@@ -403,13 +404,13 @@ public class WeaponShop : MonoBehaviour
 	{
 		if (grenadeClipLevel < 4)
 		{
-			grenadeClipLevelDisplay.text = " grenade Clip Lv. " + grenadeClipLevel.ToString();
+            grenadeClipLevelDisplay.text = Localisation.GetString("GrenadeClip") + grenadeClipLevel.ToString();
 			grenadeClipCostDisplay.text = grenadeClipCost.ToString();
 		}
 		else
 		{
-			grenadeClipLevelDisplay.text = " grenade Clip Level Maxed";
-			grenadeClipButtonDisplay.text = "MAXED";
+            grenadeClipLevelDisplay.text = Localisation.GetString("Grenade Clip Level Maxed");
+            grenadeClipButtonDisplay.text = Localisation.GetString("Maxed");
 			grenadeClipCostDisplay.text = null;
 		}
 	}
@@ -417,13 +418,13 @@ public class WeaponShop : MonoBehaviour
 	{
 		if (grenadeCritLevel < 4)
 		{
-			grenadeCritLevelDisplay.text = " grenade Crit Lv. " + grenadeCritLevel.ToString();
+            grenadeCritLevelDisplay.text = Localisation.GetString("GrenadeCrit") + grenadeCritLevel.ToString();
 			grenadeCritCostDisplay.text = grenadeCritCost.ToString();
 		}
 		else
 		{
-			grenadeCritLevelDisplay.text = " grenade Crit Level Maxed";
-			grenadeCritButtonDisplay.text = "MAXED";
+            grenadeCritLevelDisplay.text = Localisation.GetString("Grenade Crit Level Maxed");
+            grenadeCritButtonDisplay.text = Localisation.GetString("Maxed");
 			grenadeCritCostDisplay.text = null;
 		}
 	}

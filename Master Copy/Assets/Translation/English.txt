@@ -1,0 +1,77 @@
+# Main Menu
+NewGame=New Game
+Continue=Continue
+Settings=Settings
+Quit=Quit
+
+# Settings Menu
+Brightness=Brightness
+Volume=Volume
+OptionA=Option A
+OptionB=Option B
+OptionC=Option C
+Back=Back
+Extra=Extra
+Credits=Credits
+#############################
+
+# Weapon Shop
+WeaponShop=Weapon Shop
+
+# Pistol Selection
+PistolLevel=Pistol Damage Lv.
+PistolReload=Pistol Reload Lv.
+PistolClip=Pistol Clip Lv.
+PistolCrit=Pistol Crit Lv.
+
+Pistol Damage Level Maxed=Pistol Damage Level Maxed
+Pistol Reload Level Maxed=Pistol Reload Level Maxed
+Pistol Clip Level Maxed=Pistol Clip Level Maxed
+Pistol Crit Level Maxed=Pistol Crit Level Maxed
+
+# Blaster Selection
+BlasterLevel=Blaster Damage Lv.
+BlasterReload=Blaster Reload Lv.
+BlasterClip=Blaster Clip Lv.
+BlasterCrit=Blaster Crit Lv.
+
+Blaster Damage Level Maxed=Blaster Damage Level Maxed
+Blaster Reload Level Maxed=Blaster Reload Level Maxed
+Blaster Clip Level Maxed=Blaster Clip Level Maxed
+Blaster Crit Level Maxed=Blaster Crit Level Maxed
+
+#Grenade Launcher
+GrenadeLevel=Grenade Launcher Damage Lv.
+GrenadeReload=Grenade Launcher Reload Lv.
+GrenadeClip=Grenade Launcher Clip Lv.
+GrenadeCrit=Grenade Launcher Crit Lv.
+
+Grenade Damage Level Maxed=Grenade Damage Level Maxed
+Grenade Reload Level Maxed=Grenade Reload Level Maxed
+Grenade Clip Level Maxed=Grenade Clip Level Maxed
+Grenade Crit Level Maxed=Grenade Crit Level Maxed
+
+
+# Button Text
+Levelup=Level Up
+Damage=Damage
+Reload=Reload
+Clipsize=Clip Size
+
+# White Text
+CurrentDamage=Current Damage
+CurrentReloadTime=Current Reload Time
+Sec=Sec
+Maxed=Maxed
+#############################
+
+# Tooltip
+TeleportToRestArea=Press ‘T’ to teleport to Rest Area
+TeleportToLevel1=Press ‘Y’ to teleport to Level 1
+TeleportToLevel2=Press ‘Y’ to teleport to Level 2
+OpenShop=Press 'T' to open the Weapons Shop
+
+#Teleport Text
+Level1=Press 'T' to teleport to Rest Area Press 'Y' to teleport to Level 2
+Level2=Press 'T' to teleport to Rest Area Press 'Y' to teleport to Level 1
+RestArea=Press 'T' to teleport to Level 1 Press 'Y' to teleport to Level 2
