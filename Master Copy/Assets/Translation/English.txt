@@ -4,6 +4,10 @@ Continue=Continue
 Settings=Settings
 Quit=Quit
 
+#Pause Menu
+Pause=Pause
+MainMenu=Main Menu
+
 # Settings Menu
 Brightness=Brightness
 Volume=Volume

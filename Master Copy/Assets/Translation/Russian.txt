@@ -4,6 +4,10 @@ Continue=Продолжать
 Settings=Настройки
 Quit=Выход
 
+#Pause Menu
+Pause= Пауза
+MainMenu= Главное Меню
+
 # Settings Menu
 Brightness=Яркость
 Volume=Громкость
