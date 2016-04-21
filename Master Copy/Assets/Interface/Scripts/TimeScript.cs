@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class TimeScript : MonoBehaviour {
 	[SerializeField] private Text time;
-	public int min;
+	public int min;		
 	public int sec;
 
 	private float gameTime;
@@ -38,5 +38,11 @@ public class TimeScript : MonoBehaviour {
 				time.text += ":" + sec.ToString ();
 		
 		}
+	}
+
+	public void ResetTime()
+	{
+		sec = 0;
+		min = 0;
 	}
 }

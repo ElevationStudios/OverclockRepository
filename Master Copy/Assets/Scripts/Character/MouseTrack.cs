@@ -8,6 +8,7 @@ public class MouseTrack : MonoBehaviour {
 	private float mouseX, charX;
 	public Camera camera;
 	public Animator animator;
+	public Pause pause;
 
 	void Start ()
 	{
@@ -16,30 +17,31 @@ public class MouseTrack : MonoBehaviour {
 	}
 	void OnLevelWasLoaded(){
 		camera = Camera.main;
+		pause = GameObject.Find ("PauseHandler").GetComponent<Pause> ();
 	}
 
 	void Update () {
-		Vector3 difference = Camera.main.ScreenToWorldPoint (Input.mousePosition) - transform.position;
-		difference.Normalize ();
-
-		float rotZ = Mathf.Atan2 (difference.y, difference.x) * Mathf.Rad2Deg;
-		transform.rotation = Quaternion.Euler (0f, 0f, rotZ);
-
-		charPos = this.transform.position;
-		mousePos = Input.mousePosition;
-		mousePos = camera.ScreenToWorldPoint (mousePos);
-		charX = charPos.x;
-		mouseX = mousePos.x;
-
-		if (mouseX < charX) 
+		if (!pause.paused) 
 		{
-			graphics.transform.localScale = new Vector3 (-1, 1, 1);
-			this.transform.localScale = new Vector3 (1, -1, 1);
-		} 
-		else 
-		{
-			graphics.transform.localScale = new Vector3 (1, 1, 1);
-			this.transform.localScale = new Vector3 (1, 1, 1);
+			Vector3 difference = Camera.main.ScreenToWorldPoint (Input.mousePosition) - transform.position;
+			difference.Normalize ();
+
+			float rotZ = Mathf.Atan2 (difference.y, difference.x) * Mathf.Rad2Deg;
+			transform.rotation = Quaternion.Euler (0f, 0f, rotZ);
+
+			charPos = this.transform.position;
+			mousePos = Input.mousePosition;
+			mousePos = camera.ScreenToWorldPoint (mousePos);
+			charX = charPos.x;
+			mouseX = mousePos.x;
+
+			if (mouseX < charX) {
+				graphics.transform.localScale = new Vector3 (-1, 1, 1);
+				this.transform.localScale = new Vector3 (1, -1, 1);
+			} else {
+				graphics.transform.localScale = new Vector3 (1, 1, 1);
+				this.transform.localScale = new Vector3 (1, 1, 1);
+			}
 		}
 	}
 }

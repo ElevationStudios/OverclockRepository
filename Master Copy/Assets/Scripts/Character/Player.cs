@@ -18,8 +18,9 @@ public class Player : MonoBehaviour
     public float overclockCur;
     bool overclock = false;
     public float time = 0;
+	public Pause pause;
 
-    static Player instance = null;
+	public static Player instance = null;
 
     void Awake(){
          gold = 2000;
@@ -35,12 +36,22 @@ public class Player : MonoBehaviour
         currentHealth = maxHealth;
         overclockCur = overclockMax;
     }
+
+	void OnLevelWasLoaded(int l)
+	{
+		
+		pause = GameObject.Find ("PauseHandler").GetComponent<Pause> ();
+			
+		if (l == 0)
+			Destroy(gameObject);
+	}
 	public void DamagePlayer (float damage)
 	{
 		currentHealth -= damage * (1.00f - (0.01f * armor));
 		if (currentHealth <= 0) {
 			Debug.Log ("am dead");
 		}
+
 	}
 
 	public void ObtainGold (int amount)

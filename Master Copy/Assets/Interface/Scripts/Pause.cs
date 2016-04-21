@@ -2,14 +2,38 @@
 using System.Collections;
 
 public class Pause : MonoBehaviour {
+	public bool paused = false;
+	public GameObject pauseMenu;
+	private Camera gameCam;
+	[SerializeField] private GameObject menuPrefab = null;
 
-	// Use this for initialization
 	void Start () {
-	
+		gameCam = Camera.main;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	void Update ()
+	{
+		if (Input.GetKeyDown (KeyCode.Escape)) 
+		{
+			if (!paused)
+				pause ();
+			else
+				unPause ();
+		}
 	}
+
+	void pause()
+	{
+		paused = true;
+		Time.timeScale = 0;
+		pauseMenu = Instantiate (menuPrefab, gameCam.transform.position, gameCam.transform.rotation) as GameObject;
+	}
+
+	public void unPause()
+	{
+		paused = false;
+		Destroy (pauseMenu);
+		Time.timeScale = 1;
+	}
+
 }

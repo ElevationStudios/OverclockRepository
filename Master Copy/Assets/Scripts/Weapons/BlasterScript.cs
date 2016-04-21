@@ -24,12 +24,18 @@ public class BlasterScript : MonoBehaviour
 	private bool reloading;
 	private float shootTimer;
 	private float critRNG;
+	public Pause pause;
 	//raycast goodies
 	Vector2 firePosition;
 	Vector2 mousePosition;
 
 	//AUDIO
 	AudioManager audioManager;
+
+	void OnLevelWasLoaded()
+	{
+		pause = GameObject.Find ("PauseHandler").GetComponent<Pause> ();
+	}
 
 	void Start(){
 		audioManager = AudioManager.instance;
@@ -43,6 +49,7 @@ public class BlasterScript : MonoBehaviour
 	void OnEnable ()
 	{
 		reloading = false;
+		pause = GameObject.Find ("PauseHandler").GetComponent<Pause> ();
 	}
 
 	void Update ()
@@ -75,35 +82,37 @@ public class BlasterScript : MonoBehaviour
 
 	void Shoot ()
 	{
-		if (shootTimer > shootInterval) {
-			audioManager.PlayBlasterShot ();
-			blasterClip.Play ();
-			critRNG = Random.value * 100;
-			shootTimer = 0;
-			mousePosition = new Vector2 (Camera.main.ScreenToWorldPoint (Input.mousePosition).x, Camera.main.ScreenToWorldPoint (Input.mousePosition).y);		
-			firePosition = new Vector2 (bulletSpawn.position.x, bulletSpawn.position.y);
-			RaycastHit2D hit = Physics2D.Raycast (firePosition, (mousePosition - firePosition), Mathf.Infinity, whatToHit);
-			audioManager.PlayShell ();
-			Instantiate (shell, shellSpawner.position, shellSpawner.rotation);
+		if (!pause.paused) {
+			if (shootTimer > shootInterval) {
+				audioManager.PlayBlasterShot ();
+				blasterClip.Play ();
+				critRNG = Random.value * 100;
+				shootTimer = 0;
+				mousePosition = new Vector2 (Camera.main.ScreenToWorldPoint (Input.mousePosition).x, Camera.main.ScreenToWorldPoint (Input.mousePosition).y);		
+				firePosition = new Vector2 (bulletSpawn.position.x, bulletSpawn.position.y);
+				RaycastHit2D hit = Physics2D.Raycast (firePosition, (mousePosition - firePosition), Mathf.Infinity, whatToHit);
+				audioManager.PlayShell ();
+				Instantiate (shell, shellSpawner.position, shellSpawner.rotation);
 
-			if (critRNG < critPerc) {
-				Instantiate (critPrefab, bulletSpawn.position, bulletSpawn.rotation);
-				damageOut = baseDamage * critDmg;
-			} else {
-				damageOut = baseDamage;
-				Instantiate (bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+				if (critRNG < critPerc) {
+					Instantiate (critPrefab, bulletSpawn.position, bulletSpawn.rotation);
+					damageOut = baseDamage * critDmg;
+				} else {
+					damageOut = baseDamage;
+					Instantiate (bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
 			
-			}
-			currentClip--;
-			if (currentClip == 0) {
-				reloading = true;
-				StartCoroutine (Reload ());
-			}
-			if (hit.collider != null && hit.collider.gameObject.tag == "Enemy") {
-				hit.collider.GetComponent<Enemies> ().TakeDamage (damageOut);
-			}
-			if (hit.collider != null && hit.collider.gameObject.tag == "Boss") {
-				hit.collider.GetComponent<EnemyBoss> ().TakeDamage (damageOut);
+				}
+				currentClip--;
+				if (currentClip == 0) {
+					reloading = true;
+					StartCoroutine (Reload ());
+				}
+				if (hit.collider != null && hit.collider.gameObject.tag == "Enemy") {
+					hit.collider.GetComponent<Enemies> ().TakeDamage (damageOut);
+				}
+				if (hit.collider != null && hit.collider.gameObject.tag == "Boss") {
+					hit.collider.GetComponent<EnemyBoss> ().TakeDamage (damageOut);
+				}
 			}
 		}
 		//Debug.DrawLine (firePosition, hit.point, Color.red);

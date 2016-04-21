@@ -15,6 +15,7 @@ public class GrenadeScript : MonoBehaviour
 	public float critDmg = 7.5f;
 	bool reloading = false;
 	float timer = 0;
+	public Pause pause;
 
 	AudioManager audioManager;
 
@@ -25,9 +26,15 @@ public class GrenadeScript : MonoBehaviour
 		currentClip = clipSize;
 	}
 
+	void OnLevelWasLoaded()
+	{
+		pause = GameObject.Find ("PauseHandler").GetComponent<Pause> ();
+	}
+
 	void OnEnable ()
 	{
 		reloading = false;
+		pause = GameObject.Find ("PauseHandler").GetComponent<Pause> ();
 	}
 
 	void Update ()
@@ -57,10 +64,12 @@ public class GrenadeScript : MonoBehaviour
 
 	void Shoot ()
 	{
-		currentClip--;
-		audioManager.PlayGangsterLauncher ();
-		GameObject grenade = Instantiate (grenadePrefab, grenadeSpawn.position, grenadeSpawn.rotation) as GameObject;
-		grenade.GetComponent<GrenadeProjectile> ().damage = baseDamage;
+		if (!pause.paused) {
+			currentClip--;
+			audioManager.PlayGangsterLauncher ();
+			GameObject grenade = Instantiate (grenadePrefab, grenadeSpawn.position, grenadeSpawn.rotation) as GameObject;
+			grenade.GetComponent<GrenadeProjectile> ().damage = baseDamage;
+		}
 	}
 
 }
