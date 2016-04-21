@@ -1,6 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+/// <summary>
+/// Player controller.
+/// Script created by Domenic Pullar-Khan
+/// Edited by
+/// 	Kyle Oram
+/// 	Kenneth Mak
+/// 
+/// </summary>
+
+
 
 public class PlayerController : MonoBehaviour {
 	public float speed;
@@ -24,7 +34,7 @@ public class PlayerController : MonoBehaviour {
 
 	void Start()
 	{
-        energyCur = energyMax;
+		fillEnergy ();
 		animator.GetComponent<Animator> ();
 		playerGraphics = transform.FindChild ("Sprite");
 	}
@@ -106,36 +116,34 @@ public class PlayerController : MonoBehaviour {
             GetComponent<Rigidbody2D>().velocity = new Vector2(speed / 2, GetComponent<Rigidbody2D>().velocity.y);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canRun)
+		if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            speed = runSpeed;
+            speed += runSpeed;
             running = true;
         }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
+        if (Input.GetKeyUp(KeyCode.LeftShift))  //Edited by Kenneth Mak
         {
-            speed = 8;
+            speed -= runSpeed;
             running = false;
-        }
+		}
+		if (running)
+		{
+			energyCur -= 10 * Time.deltaTime;
+			energyTimer = 0;
+		}
+
 		if (Input.GetKeyDown (KeyCode.I))
 			transform.GetComponent<Player> ().ObtainGold (3000);
 		if (Input.GetKeyDown (KeyCode.P))
 			SceneManager.LoadScene ("Rest Area");
-        /*if (running)
-        {
-            energyCur -= 10 * Time.deltaTime;
-            energyTimer = 0;
 
-            if (energyCur >= 0)
-                canRun = true;
-            else
-            {
-                energyTimer = 0;
-                canRun = false;
-                speed = 8;
-            }
-            if (energyTimer > 2 && energyCur < energyMax)
-                energyCur += 10 * Time.deltaTime;
-        }*/
+		if (energyTimer > 1.1f && energyCur < energyMax)
+			energyCur += 15 * Time.deltaTime;
+		if (energyCur >= 0)
+			canRun = true;
+		else {
+			canRun = false;
+		}
     }
 
 	void OnTriggerEnter2D (Collider2D col)
@@ -163,5 +171,9 @@ public class PlayerController : MonoBehaviour {
 	void OnTriggerExit2D (Collider2D col)
 	{
 		grounded = false;
+	}
+
+	void fillEnergy(){
+		energyCur = energyMax;
 	}
 }

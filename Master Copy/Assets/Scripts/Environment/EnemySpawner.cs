@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.SceneManagement;
 
 
 /// <summary>
@@ -8,7 +8,7 @@ using System.Collections;
 /// also reads the timer I suppose, idk
 /// </summary>
 public class EnemySpawner : MonoBehaviour {
-
+	public bool spawnerActive;
 	private float gameTime;
 	private float sec;
 	[SerializeField] private float secNeeded;
@@ -35,10 +35,25 @@ public class EnemySpawner : MonoBehaviour {
 	[SerializeField] private int DroneT1Swarm;
 
 
+	private GameObject player;
+	private GameObject camera;
+	void Awake() {
+		player = GameObject.FindGameObjectWithTag ("Player");
+		camera = GameObject.Find ("Main Camera");
+		DontDestroyOnLoad(player);
+		DontDestroyOnLoad(camera);
+
+
+	}
 	void Start () {
 		Player = GameObject.FindGameObjectWithTag ("Player").gameObject;
 		spawnCooldown = enemyTimer;
 		bossSpawned = false;
+		if (SceneManager.GetActiveScene ().name == "Rest Area") {
+			player.transform.position = new Vector2 (18, -2);
+		}
+		if (SceneManager.GetActiveScene ().name == "Level1" || SceneManager.GetActiveScene ().name == "Level2")
+			player.transform.position = new Vector2 (20, -49);
 	
 	}
 	
@@ -57,13 +72,14 @@ public class EnemySpawner : MonoBehaviour {
 		}
 	}
 	void updateTimer(){ //internal timer to keep track of when it will spawn boss
-		gameTime += Time.deltaTime;
-		if (gameTime >= 1) {
-			sec += 1;
-			gameTime = 0;
+		if(spawnerActive){
+			gameTime += Time.deltaTime;
+			if (gameTime >= 1) {
+				sec += 1;
+				gameTime = 0;
+			}
 		}
 	}
-
 	void randomEnemy(){
 		if (spawnCooldown <= 0){
 			int choice = Random.Range (1, 5);

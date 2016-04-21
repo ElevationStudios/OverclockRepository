@@ -15,19 +15,12 @@ public class PortalScript : MonoBehaviour {
 	private bool startTimer = false;
 	private bool onTeleporter = false;
 	// Use this for initialization
-	void Awake() {
-		player = GameObject.Find ("Carlos");
+	void Start () {
+		player = GameObject.FindGameObjectWithTag ("Player");
+		camera = GameObject.Find ("Main Camera");
 		DontDestroyOnLoad(player);
 		DontDestroyOnLoad(camera);
 
-
-	}
-	void Start () {
-		if (SceneManager.GetActiveScene ().name == "Rest Area") {
-			player.transform.position = new Vector2 (18, -2);
-		}
-		if (SceneManager.GetActiveScene ().name == "Level1" || SceneManager.GetActiveScene ().name == "Level2")
-			player.transform.position = new Vector2 (20, -49);
 	}
 
 	// Update is called once per frame

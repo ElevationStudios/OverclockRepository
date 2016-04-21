@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c1b5b882254cf564681fa3d675dbdf73
-timeCreated: 1457651216
+timeCreated: 1461198045
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,9 @@ TextureImporter:
     21300002: DroneT2Atlas_1
     21300004: DroneT2Atlas_2
     21300006: DroneT2Atlas_3
+    21300008: DroneT2Atlas_4
+    21300010: DroneT2Atlas_5
+    21300012: DroneT2Atlas_6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -33,7 +36,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -57,8 +60,8 @@ TextureImporter:
     - name: DroneT2Atlas_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 142
+        x: 151
+        y: 246
         width: 338
         height: 166
       alignment: 0
@@ -78,8 +81,8 @@ TextureImporter:
     - name: DroneT2Atlas_1
       rect:
         serializedVersion: 2
-        x: 12
-        y: 18
+        x: 129
+        y: 122
         width: 118
         height: 52
       alignment: 0
@@ -96,8 +99,8 @@ TextureImporter:
     - name: DroneT2Atlas_2
       rect:
         serializedVersion: 2
-        x: 137
-        y: 18
+        x: 254
+        y: 122
         width: 142
         height: 52
       alignment: 0
@@ -114,8 +117,8 @@ TextureImporter:
     - name: DroneT2Atlas_3
       rect:
         serializedVersion: 2
-        x: 305
-        y: 18
+        x: 422
+        y: 122
         width: 122
         height: 52
       alignment: 0
@@ -129,6 +132,63 @@ TextureImporter:
         - {x: 61, y: 26}
         - {x: -2, y: 26}
         - {x: -61, y: 18}
+    - name: DroneT2Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 86
+        width: 125
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.5, y: 43}
+        - {x: -62.5, y: 32}
+        - {x: -62.5, y: -43}
+        - {x: 43.5, y: -43}
+        - {x: 62.5, y: -15}
+        - {x: 62.5, y: 41}
+        - {x: 40.5, y: 43}
+    - name: DroneT2Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 68
+        width: 156
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 44}
+        - {x: -68, y: 37}
+        - {x: -78, y: 33}
+        - {x: -78, y: -38}
+        - {x: -72, y: -44}
+        - {x: 64, y: -44}
+        - {x: 78, y: -12}
+        - {x: 78, y: 44}
+    - name: DroneT2Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 90
+        width: 266
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109, y: 43}
+        - {x: -84, y: 28}
+        - {x: -133, y: 11}
+        - {x: -133, y: -7}
+        - {x: -107, y: -43}
+        - {x: 29, y: -43}
+        - {x: 128, y: 18}
+        - {x: 133, y: 28}
+        - {x: 133, y: 43}
     outline: []
   spritePackingTag: 
   userData: 
