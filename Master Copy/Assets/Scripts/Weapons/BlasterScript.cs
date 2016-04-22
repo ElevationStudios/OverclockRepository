@@ -34,7 +34,9 @@ public class BlasterScript : MonoBehaviour
 
 	void OnLevelWasLoaded()
 	{
-		pause = GameObject.Find ("PauseHandler").GetComponent<Pause> ();
+		GameObject ob = GameObject.Find ("PauseHandler");
+		if(ob != null)
+			pause = ob.GetComponent<Pause> ();
 	}
 
 	void Start(){
@@ -49,7 +51,9 @@ public class BlasterScript : MonoBehaviour
 	void OnEnable ()
 	{
 		reloading = false;
-		pause = GameObject.Find ("PauseHandler").GetComponent<Pause> ();
+		GameObject ob = GameObject.Find ("PauseHandler");
+		if(ob != null)
+			pause = ob.GetComponent<Pause> ();
 	}
 
 	void Update ()
@@ -82,7 +86,7 @@ public class BlasterScript : MonoBehaviour
 
 	void Shoot ()
 	{
-		if (!pause.paused) {
+		if (pause != null && !pause.paused) {
 			if (shootTimer > shootInterval) {
 				audioManager.PlayBlasterShot ();
 				blasterClip.Play ();

@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;		
 public class TitleLoad : MonoBehaviour {
 	public GameObject player;
-	public Pause pause;
+	//public Pause pause;
 
 	void Awake()
 	{
@@ -13,7 +13,7 @@ public class TitleLoad : MonoBehaviour {
 	void Start()
 	{
 		player = GameObject.Find ("Carlos");
-		pause = GameObject.Find ("PauseHandler").GetComponent<Pause> ();
+		//pause = GameObject.Find ("PauseHandler").GetComponent<Pause> ();
 	}
 	void OnEnable() 
 	{

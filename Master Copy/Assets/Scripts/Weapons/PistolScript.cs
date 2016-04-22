@@ -36,7 +36,9 @@ public class PistolScript: MonoBehaviour
 
 	void OnLevelWasLoaded()
 	{
-		pause = GameObject.Find ("PauseHandler").GetComponent<Pause> ();
+		GameObject ob = GameObject.Find ("PauseHandler");
+		if(ob != null)
+			pause = ob.GetComponent<Pause> ();
 	}
 
 	void Awake ()
@@ -85,7 +87,7 @@ public class PistolScript: MonoBehaviour
 
 	void Shoot ()
 	{
-		if (!pause.paused) {
+		if (pause != null && !pause.paused) {
 			audioManager.PlayPistolGripPump ();
 			critRNG = Random.value * 100;
 			mousePosition = new Vector2 (Camera.main.ScreenToWorldPoint (Input.mousePosition).x, Camera.main.ScreenToWorldPoint (Input.mousePosition).y);

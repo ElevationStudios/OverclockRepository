@@ -28,7 +28,9 @@ public class GrenadeScript : MonoBehaviour
 
 	void OnLevelWasLoaded()
 	{
-		pause = GameObject.Find ("PauseHandler").GetComponent<Pause> ();
+		GameObject ob = GameObject.Find ("PauseHandler");
+		if(ob != null)
+			pause = ob.GetComponent<Pause> ();
 	}
 
 	void OnEnable ()
@@ -64,7 +66,7 @@ public class GrenadeScript : MonoBehaviour
 
 	void Shoot ()
 	{
-		if (!pause.paused) {
+		if (pause != null && !pause.paused) {
 			currentClip--;
 			audioManager.PlayGangsterLauncher ();
 			GameObject grenade = Instantiate (grenadePrefab, grenadeSpawn.position, grenadeSpawn.rotation) as GameObject;

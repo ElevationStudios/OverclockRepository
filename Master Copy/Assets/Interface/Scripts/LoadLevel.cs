@@ -11,7 +11,9 @@ public class LoadLevel : MonoBehaviour
 	}
 	void OnLevelWasLoaded()
 	{
-		time = GameObject.Find ("Main Camera/Canvas/TimeDisplay").GetComponent<TimeScript> ();
+		GameObject ti = GameObject.Find ("Main Camera/Canvas/TimeDisplay");
+		if(ti != null)
+			time = ti.GetComponent<TimeScript> ();
 	}
 
 	public void OnEnable() 

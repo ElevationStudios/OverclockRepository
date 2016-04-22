@@ -12,6 +12,13 @@ public class WeaponShop : MonoBehaviour
 	BlasterScript blasterUpgrade;
 	GrenadeScript grenadeUpgrade;
 
+	// Weapon Shop Text
+	public Text weaponShop;
+	public Text pistol;
+	public Text blaster;
+	public Text grenade;
+
+
     //Pistol Damage
     public Text pistolDamageLevelDisplay;
     public Text pistolDamageCurrentDisplay;
@@ -130,7 +137,32 @@ public class WeaponShop : MonoBehaviour
 		grenadeReloadUpdate();
 		grenadeClipUpdate();
 		grenadeCritUpdate();
+		UpdateDisplay ();
     }
+
+	void UpdateDisplay() {
+
+		weaponShop.text = Localisation.GetString("WeaponShop");
+		pistol.text = Localisation.GetString("Pistol");
+		blaster.text = Localisation.GetString("Blaster");
+		grenade.text = Localisation.GetString("Grenade");
+
+		pistolDamageCurrentDisplay.text = Localisation.GetString("CurrentDamage") + pistolUpgrade.baseDamage;
+		pistolReloadCurrentDisplay.text =  Localisation.GetString("CurrentReloadTime") + pistolUpgrade.reloadTime  + "s";
+		pistolClipCurrentDisplay.text = Localisation.GetString("CurrentClip") + pistolUpgrade.clipSize;
+		pistolCritCurrentDisplay.text = Localisation.GetString("CurrentCrit") + pistolUpgrade.critPerc + "%";
+
+		blasterDamageCurrentDisplay.text = Localisation.GetString("CurrentDamage") + blasterUpgrade.baseDamage;
+		blasterReloadCurrentDisplay.text = Localisation.GetString("CurrentReloadTime") + blasterUpgrade.reloadTime  + "s";
+		blasterClipCurrentDisplay.text = Localisation.GetString("CurrentClip") + blasterUpgrade.clipSize;
+		blasterCritCurrentDisplay.text = Localisation.GetString("CurrentCrit") + blasterUpgrade.critPerc + "%";
+
+
+		grenadeDamageCurrentDisplay.text = Localisation.GetString("CurrentDamage") + grenadeUpgrade.baseDamage;
+		grenadeReloadCurrentDisplay.text = Localisation.GetString("CurrentReloadTime") + grenadeUpgrade.reloadTime  + "s";
+		grenadeClipCurrentDisplay.text = Localisation.GetString("CurrentClip") + grenadeUpgrade.clipSize;
+		grenadeCritCurrentDisplay.text = Localisation.GetString("CurrentCrit") + grenadeUpgrade.critPerc + "%";
+	}
         
 	
     // Update is called once per frame

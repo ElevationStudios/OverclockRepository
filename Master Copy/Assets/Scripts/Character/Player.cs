@@ -67,7 +67,9 @@ public class Player : MonoBehaviour
             lives--;
             Respawn();
         }
-        pause = GameObject.Find("PauseHandler").GetComponent<Pause>();
+		GameObject ob = GameObject.Find ("PauseHandler");
+		if(ob != null)
+			pause = ob.GetComponent<Pause> ();
 			
         if (l == 0)
             Destroy(gameObject);

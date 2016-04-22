@@ -17,11 +17,13 @@ public class MouseTrack : MonoBehaviour {
 	}
 	void OnLevelWasLoaded(){
 		camera = Camera.main;
-		pause = GameObject.Find ("PauseHandler").GetComponent<Pause> ();
+		GameObject ob = GameObject.Find ("PauseHandler");
+		if(ob != null)
+		pause = ob.GetComponent<Pause> ();
 	}
 
 	void Update () {
-		if (!pause.paused) 
+		if (pause != null && !pause.paused) 
 		{
 			Vector3 difference = Camera.main.ScreenToWorldPoint (Input.mousePosition) - transform.position;
 			difference.Normalize ();

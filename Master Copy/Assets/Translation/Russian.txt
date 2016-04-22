@@ -7,6 +7,7 @@ Quit=Выход
 #Pause Menu
 Pause= Пауза
 MainMenu= Главное Меню
+Resume=Продолжить
 
 # Settings Menu
 Brightness=Яркость
@@ -21,6 +22,9 @@ Credits=Признательности
 
 # Weapon Shop
 WeaponShop=Магазин оружия
+Grenade=Граната
+Blaster=Бластер
+Pistol=Пистолет
 
 # Pistol Selection
 PistolLevel=Повреждение От Пистолета Ур.
@@ -64,6 +68,8 @@ Clipsize=Перезарядка
 # White Text
 CurrentDamage=Текущее Повреждение:
 CurrentReloadTime=Текущее Время Перезарядки:
+CurrentClip=Текущие Патроны
+CurrentCrit=Текущий
 Sec=сек
 Maxed=Максимальное
 #############################
