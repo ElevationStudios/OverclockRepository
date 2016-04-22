@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -30,7 +31,7 @@ public class Player : MonoBehaviour
     SpriteRenderer srG;
     SpriteRenderer srPA;
     SpriteRenderer srBA;
-
+    public Image OverclockFill;
     public static Player instance = null;
 
     void Awake()
@@ -47,6 +48,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        Localisation.Instance.LoadLanguage(Localisation.Language.English);
         animator = GameObject.Find("Carlos/Sprite").GetComponent<Animator>();
         canTakeDamage = true;
         sr = GameObject.Find("Carlos/Sprite").GetComponent<SpriteRenderer>();
@@ -73,6 +75,19 @@ public class Player : MonoBehaviour
 			
         if (l == 0)
             Destroy(gameObject);
+        if (l == 3)
+        {
+            transform.position = new Vector2(19.88f ,-65.53f);
+        }
+        if (l == 2)
+        {
+            transform.position = new Vector2(18.44f, -9.5f);
+        }
+        if (l == 4)
+        {
+            transform.position = new Vector2(20.3f, -53.9f);
+        }
+            
     }
     void Respawn()
     {
@@ -226,6 +241,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        OverclockFill.fillAmount = overclockCur / overclockMax;
         CheckInput();
     }
 }

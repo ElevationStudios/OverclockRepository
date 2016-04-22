@@ -9,6 +9,7 @@ public class WeaponShopKeeper : MonoBehaviour {
 
 	// Use this for initialization
     void Awake() {
+        Localisation.Instance.LoadLanguage(Localisation.Language.English);
         textDisplay.GetComponent<TextMesh>().text = Localisation.GetString("OpenShop");
     }
 	
