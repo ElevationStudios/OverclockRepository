@@ -15,9 +15,20 @@ Volume=Volume
 OptionA=Option A
 OptionB=Option B
 OptionC=Option C
-Back=Back
 Extra=Extra
 Credits=Credits
+
+# Credits
+Back=Back
+Project By=Project By
+Studio Lead=Studio Lead
+Scripters=Scripters
+Artist=Artist
+Animation Artists=Animation Artists
+Audio Designer=Audio Designer
+Localization=Localization
+QA Testers=QA Testers
+Special Thanks=Special Thanks
 #############################
 
 # Weapon Shop

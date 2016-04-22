@@ -18,6 +18,17 @@ OptionC=Выбор C
 Back=Назад
 Extra=Дополнительное
 Credits=Признательности
+
+# Credits
+Project By=Проeкт
+Studio Lead=Cтyдия Свинец
+Scripters=Программисты
+Artist=Xудожник
+Animation Artists=Анимация Художники
+Audio Designer=Aудио-Дизайнер
+Localization=локализация
+QA Testers=Гарантия качества Тестировщики
+Special Thanks=Особая благодарность
 #############################
 
 # Weapon Shop
