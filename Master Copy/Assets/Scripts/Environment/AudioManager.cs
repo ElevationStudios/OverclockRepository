@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour {
 	private List<AudioSource> sources = new List<AudioSource>();
@@ -13,6 +14,13 @@ public class AudioManager : MonoBehaviour {
 		}
 	}
 	public float volumeSnd;
+
+	[SerializeField] private AudioClip BGMRest;
+	[SerializeField] private AudioClip BGMMainMenu;
+	[SerializeField] private AudioClip BGMDesert;
+	[SerializeField] private AudioClip BGMSpaceShip;
+
+	[SerializeField] private AudioClip BGMBoss;
 
 	[SerializeField] private AudioClip BlasterShot;
 	[SerializeField] private AudioClip DroneDeath;
@@ -30,6 +38,19 @@ public class AudioManager : MonoBehaviour {
 	[SerializeField] private AudioClip TurretTransform;
 	[SerializeField] private AudioClip TurretShoot;
 	[SerializeField] private AudioClip chainsaw;
+
+	private AudioSource bgm;
+
+	public void PlayBGM (AudioClip clip){
+		Debug.Log ("playing new bgm");
+		bgm.clip = clip;
+		bgm.Play ();
+	}
+
+	public void PlayBossBGM(){
+		bgm.clip = BGMBoss;
+		bgm.Play ();
+	}
 
 	public void PlayBlasterShot(){
 		PlaySound (BlasterShot);
@@ -95,8 +116,27 @@ public class AudioManager : MonoBehaviour {
 			instance= this;
 			DontDestroyOnLoad(this);
 		}
+		bgm = transform.FindChild ("AudioBGM").GetComponent<AudioSource> ();
+		bgm.loop = true;
 	}
 		
+	void OnLevelWasLoaded(int l){
+		
+		if (l == 0 || l == 1 || l == 5)//main menu
+			PlayBGM (BGMMainMenu);
+		if (l == 3)
+		{
+			PlayBGM (BGMSpaceShip);
+		}
+		if (l == 2) //rest
+		{
+			PlayBGM (BGMRest);
+		}
+		if (l == 4)
+		{
+			PlayBGM (BGMDesert);
+		}
+	}
 
 	public void PlaySound(AudioClip clip)
 	{

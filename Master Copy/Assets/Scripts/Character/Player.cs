@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject pistol = null;
     [SerializeField] private GameObject blaster = null;
     [SerializeField] private GameObject launcher = null;
+	[SerializeField] private GameObject ocp = null;
 
     public float currentHealth = 0;
     public float maxHealth = 1;
@@ -188,12 +189,14 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && overclockCur > 0)
         {
             overclock = true;
+			ocp.SetActive (true);
         }
         if (time > 5)
         {
 
             overclock = false;
             time = 0;
+			ocp.SetActive (false);
         }
 
         if (overclock == false && overclockCur < overclockMax)
@@ -244,4 +247,10 @@ public class Player : MonoBehaviour
         OverclockFill.fillAmount = overclockCur / overclockMax;
         CheckInput();
     }
+
+	void OnCollisionEnter2D(Collision2D coll){
+		if (coll.gameObject.tag == "JumpPad") {
+			bod.AddForce (transform.up * 1000, ForceMode2D.Force);
+		}
+	}
 }

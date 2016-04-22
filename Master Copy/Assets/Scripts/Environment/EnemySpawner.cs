@@ -218,5 +218,6 @@ public class EnemySpawner : MonoBehaviour
         Debug.Log("boss spawned");
         bossSpawned = true;
         Instantiate(Boss, BossSpawnLocation.position, Quaternion.Euler(0, 0, 0));
+		AudioManager.instance.PlayBossBGM ();
     }
 }

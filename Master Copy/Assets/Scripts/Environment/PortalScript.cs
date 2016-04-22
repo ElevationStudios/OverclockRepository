@@ -29,7 +29,7 @@ public class PortalScript : MonoBehaviour {
 		if (startTimer == true)
 			timer += Time.deltaTime;
 		if (onTeleporter == true) {
-			if (SceneManager.GetActiveScene ().name == "Level1") {
+			if (SceneManager.GetActiveScene ().name == "Level2") {
 
 				if (Input.GetKeyDown (KeyCode.T)) {
 					Debug.Log ("Pressed T");
@@ -39,7 +39,7 @@ public class PortalScript : MonoBehaviour {
 
 				if (Input.GetKeyDown (KeyCode.Y)) {
 					Debug.Log ("Pressed Y");
-					goToLevel2 = true;
+					goToLevel1 = true;
 					startTimer = true;
 				}
 
@@ -54,7 +54,7 @@ public class PortalScript : MonoBehaviour {
 
 				if (Input.GetKeyDown (KeyCode.Y)) {
 					Debug.Log ("Pressed Y");
-					goToLevel1 = true;
+					goToLevel2 = true;
 					startTimer = true;
 				}
 
