@@ -5,7 +5,6 @@ using System.Collections;
 public class MainMenuTranslation : MonoBehaviour {
 
     public Text newGame;
-    public Text continueGame;
     public Text credits;
     public Text settings;
     public Text extras;
@@ -14,7 +13,6 @@ public class MainMenuTranslation : MonoBehaviour {
    
     void OnEnable() {
         newGame.text = Localisation.GetString("NewGame");
-        continueGame.text = Localisation.GetString("Continue");
         credits.text = Localisation.GetString("Credits");
         settings.text = Localisation.GetString("Settings");
         extras.text = Localisation.GetString("Extra");

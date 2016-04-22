@@ -17,9 +17,9 @@ public class DroneEnemy : MonoBehaviour
 	private GameObject bullInst;
 	private bool canShoot = true;
 	private Transform gunPivot;
-	private Transform bulletSpawn;
 	[SerializeField] private float bullSpeed;
 	[SerializeField] private float waitTime;
+    [SerializeField] private Transform bulletSpawn;
 	private Vector3 dir;
 
 	//audio
@@ -37,7 +37,6 @@ public class DroneEnemy : MonoBehaviour
 		player = GameObject.FindGameObjectWithTag ("Player");
 		target = player.transform;
 		gunPivot = this.transform.GetChild (1).transform;
-		bulletSpawn = this.transform.GetChild(1).GetChild(1).transform;
 		leftRight = Random.value / 2 + 0.5f;
 	}
 	void Update ()
@@ -69,7 +68,7 @@ public class DroneEnemy : MonoBehaviour
 		dir = target.position - transform.position;
 		//rotateTurret ();
 		if (canShoot == true)
-			StartCoroutine ("shooter");
+            StartCoroutine (shooter());
 	}
 	IEnumerator shooter ()
 	{	

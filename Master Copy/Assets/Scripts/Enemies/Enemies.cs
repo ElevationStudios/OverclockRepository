@@ -20,7 +20,8 @@ public class Enemies : MonoBehaviour
     Color endColor = Color.yellow;
     Color startColor = Color.green;
     float val;
-
+    float b;
+    float c;
     Color fillColor;
 
 	//AUDIO
@@ -29,7 +30,8 @@ public class Enemies : MonoBehaviour
 
     void Start()
 	{
-
+        b = enemyHPFill.GetComponent<SpriteRenderer>().bounds.size.x;
+        c = b /2;
 		audioManager = AudioManager.instance;
 		this.currentHealth = maxHealth;
 		//checking for ranged enemy scripts
@@ -73,6 +75,7 @@ public class Enemies : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(b);
         val = maxHealth / 2;
         if (currentHealth / maxHealth <= 0.5)
         {
@@ -83,7 +86,7 @@ public class Enemies : MonoBehaviour
         }
         if (currentHealth <= 0)
             Death();
-        float moveBar = (1 - currentHealth / maxHealth) * (2.3f / 2);
+        float moveBar = (1 - currentHealth / maxHealth) * (c);
 		enemyHPFill.transform.localScale = new Vector2(currentHealth / maxHealth, 1);
 		enemyHPFill.transform.position = new Vector2(transform.position.x - moveBar, enemyHPFill.transform.parent.transform.position.y);
         fillColor = Color.Lerp(endColor, startColor, (currentHealth - val) * 2 / maxHealth);

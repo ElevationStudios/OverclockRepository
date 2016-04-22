@@ -1,0 +1,1220 @@
+fileFormatVersion: 2
+guid: 4826022101a72af4c97ed7e38020b9ca
+timeCreated: 1461291724
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Carlos Death Sprite_0
+    21300002: Carlos Death Sprite_1
+    21300004: Carlos Death Sprite_2
+    21300006: Carlos Death Sprite_3
+    21300008: Carlos Death Sprite_4
+    21300010: Carlos Death Sprite_5
+    21300012: Carlos Death Sprite_6
+    21300014: Carlos Death Sprite_7
+    21300016: Carlos Death Sprite_8
+    21300018: Carlos Death Sprite_9
+    21300020: Carlos Death Sprite_10
+    21300022: Carlos Death Sprite_11
+    21300024: Carlos Death Sprite_12
+    21300026: Carlos Death Sprite_13
+    21300028: Carlos Death Sprite_14
+    21300030: Carlos Death Sprite_15
+    21300032: Carlos Death Sprite_16
+    21300034: Carlos Death Sprite_17
+    21300036: Carlos Death Sprite_18
+    21300038: Carlos Death Sprite_19
+    21300040: Carlos Death Sprite_20
+    21300042: Carlos Death Sprite_21
+    21300044: Carlos Death Sprite_22
+    21300046: Carlos Death Sprite_23
+    21300048: Carlos Death Sprite_24
+    21300050: Carlos Death Sprite_25
+    21300052: Carlos Death Sprite_26
+    21300054: Carlos Death Sprite_27
+    21300056: Carlos Death Sprite_28
+    21300058: Carlos Death Sprite_29
+    21300060: Carlos Death Sprite_30
+    21300062: Carlos Death Sprite_31
+    21300064: Carlos Death Sprite_32
+    21300066: Carlos Death Sprite_33
+    21300068: Carlos Death Sprite_34
+    21300070: Carlos Death Sprite_35
+    21300072: Carlos Death Sprite_36
+    21300074: Carlos Death Sprite_37
+    21300076: Carlos Death Sprite_38
+    21300078: Carlos Death Sprite_39
+    21300080: Carlos Death Sprite_40
+    21300082: Carlos Death Sprite_42
+    21300084: Carlos Death Sprite_43
+    21300086: Carlos Death Sprite_44
+    21300088: Carlos Death Sprite_45
+    21300090: Carlos Death Sprite_46
+    21300092: Carlos Death Sprite_47
+    21300094: Carlos Death Sprite_48
+    21300096: Carlos Death Sprite_49
+    21300098: Carlos Death Sprite_50
+    21300100: Carlos Death Sprite_51
+    21300102: Carlos Death Sprite_52
+    21300104: Carlos Death Sprite_53
+    21300106: Carlos Death Sprite_54
+    21300108: Carlos Death Sprite_55
+    21300110: Carlos Death Sprite_56
+    21300112: Carlos Death Sprite_57
+    21300114: Carlos Death Sprite_58
+    21300116: Carlos Death Sprite_59
+    21300118: Carlos Death Sprite_60
+    21300120: Carlos Death Sprite_61
+    21300122: Carlos Death Sprite_62
+    21300124: Carlos Death Sprite_63
+    21300126: Carlos Death Sprite_64
+    21300128: Carlos Death Sprite_65
+    21300130: Carlos Death Sprite_66
+    21300132: Carlos Death Sprite_67
+    21300134: Carlos Death Sprite_68
+    21300136: Carlos Death Sprite_69
+    21300138: Carlos Death Sprite_70
+    21300140: Carlos Death Sprite_71
+    21300142: Carlos Death Sprite_72
+    21300144: Carlos Death Sprite_41
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 15.5
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Carlos Death Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 135
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 135
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 135
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 135
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 135
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 135
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 135
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 135
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 135
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 135
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 135
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 135
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 135
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 135
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 135
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 135
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 135
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 135
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 135
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 135
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 135
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 135
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 135
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 135
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 87
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 87
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 87
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 87
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 16}
+        - {x: -18.5, y: 9}
+        - {x: -8.5, y: 10}
+        - {x: -17.5, y: -10}
+        - {x: -17.5, y: -16}
+        - {x: 11.5, y: -16}
+        - {x: 18.5, y: -5}
+        - {x: 18.5, y: 16}
+    - name: Carlos Death Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 16}
+        - {x: -13.5, y: 16}
+        - {x: -19.5, y: 15}
+        - {x: -20.5, y: 14}
+        - {x: -20.5, y: -3}
+        - {x: -19.5, y: -9}
+        - {x: -18.5, y: -16}
+        - {x: 9.5, y: -16}
+        - {x: 17.5, y: -7}
+        - {x: 20.5, y: 5}
+        - {x: 20.5, y: 15}
+    - name: Carlos Death Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 16}
+        - {x: -20.5, y: 14}
+        - {x: -20.5, y: 8}
+        - {x: -18.5, y: 7}
+        - {x: -14.5, y: 7}
+        - {x: -17.5, y: -9}
+        - {x: -17.5, y: -16}
+        - {x: 10.5, y: -16}
+        - {x: 20.5, y: 3}
+        - {x: 20.5, y: 14}
+        - {x: 13.5, y: 16}
+    - name: Carlos Death Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 15}
+        - {x: 12.5, y: 11}
+        - {x: 8.5, y: 11}
+        - {x: 10.5, y: 13}
+        - {x: 10.5, y: 16}
+        - {x: -20.5, y: 16}
+        - {x: -20.5, y: -16}
+        - {x: 9.5, y: -16}
+        - {x: 16.5, y: -7}
+        - {x: 20.5, y: 6}
+        - {x: 20.5, y: 14}
+    - name: Carlos Death Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 16}
+        - {x: -20.5, y: 14}
+        - {x: -20.5, y: 7}
+        - {x: -14.5, y: 5}
+        - {x: -3.5, y: 4}
+        - {x: -12.5, y: -3}
+        - {x: -17.5, y: -10}
+        - {x: -17.5, y: -16}
+        - {x: 10.5, y: -16}
+        - {x: 20.5, y: 3}
+        - {x: 20.5, y: 14}
+        - {x: 14.5, y: 16}
+    - name: Carlos Death Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 16}
+        - {x: -20.5, y: 14}
+        - {x: -20.5, y: 7}
+        - {x: -14.5, y: 5}
+        - {x: -3.5, y: 4}
+        - {x: -12.5, y: -3}
+        - {x: -17.5, y: -10}
+        - {x: -17.5, y: -16}
+        - {x: 10.5, y: -16}
+        - {x: 20.5, y: 3}
+        - {x: 20.5, y: 14}
+        - {x: 14.5, y: 16}
+    - name: Carlos Death Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 16}
+        - {x: -20.5, y: 14}
+        - {x: -20.5, y: 7}
+        - {x: -14.5, y: 5}
+        - {x: -3.5, y: 4}
+        - {x: -12.5, y: -3}
+        - {x: -17.5, y: -10}
+        - {x: -17.5, y: -16}
+        - {x: 10.5, y: -16}
+        - {x: 20.5, y: 3}
+        - {x: 20.5, y: 14}
+        - {x: 14.5, y: 16}
+    - name: Carlos Death Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 16}
+        - {x: -20.5, y: 14}
+        - {x: -20.5, y: 7}
+        - {x: -14.5, y: 5}
+        - {x: -3.5, y: 4}
+        - {x: -12.5, y: -3}
+        - {x: -17.5, y: -10}
+        - {x: -17.5, y: -16}
+        - {x: 10.5, y: -16}
+        - {x: 20.5, y: 3}
+        - {x: 20.5, y: 14}
+        - {x: 14.5, y: 16}
+    - name: Carlos Death Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 16}
+        - {x: -20.5, y: 14}
+        - {x: -20.5, y: 7}
+        - {x: -14.5, y: 5}
+        - {x: -3.5, y: 4}
+        - {x: -12.5, y: -3}
+        - {x: -17.5, y: -10}
+        - {x: -17.5, y: -16}
+        - {x: 10.5, y: -16}
+        - {x: 20.5, y: 3}
+        - {x: 20.5, y: 14}
+        - {x: 14.5, y: 16}
+    - name: Carlos Death Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 16}
+        - {x: -20.5, y: 15}
+        - {x: -20.5, y: 7}
+        - {x: -14.5, y: 5}
+        - {x: -3.5, y: 4}
+        - {x: -12.5, y: -3}
+        - {x: -17.5, y: -10}
+        - {x: -17.5, y: -16}
+        - {x: 9.5, y: -16}
+        - {x: 15.5, y: -6}
+        - {x: 20.5, y: 3}
+        - {x: 20.5, y: 16}
+    - name: Carlos Death Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 16}
+        - {x: -20.5, y: 15}
+        - {x: -20.5, y: 7}
+        - {x: -14.5, y: 5}
+        - {x: -3.5, y: 4}
+        - {x: -12.5, y: -3}
+        - {x: -17.5, y: -10}
+        - {x: -17.5, y: -16}
+        - {x: 9.5, y: -16}
+        - {x: 15.5, y: -6}
+        - {x: 20.5, y: 3}
+        - {x: 20.5, y: 16}
+    - name: Carlos Death Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 16}
+        - {x: -20.5, y: 14}
+        - {x: -20.5, y: 7}
+        - {x: -14.5, y: 5}
+        - {x: -19.5, y: -16}
+        - {x: 7.5, y: -16}
+        - {x: 20.5, y: 2}
+        - {x: 20.5, y: 14}
+        - {x: 19.5, y: 16}
+    - name: Carlos Death Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 15}
+        - {x: -13.5, y: 15}
+        - {x: -20.5, y: 12}
+        - {x: -20.5, y: 5}
+        - {x: -15.5, y: 3}
+        - {x: -3.5, y: 2}
+        - {x: -0.5, y: 2}
+        - {x: -8.5, y: 0}
+        - {x: -12.5, y: -3}
+        - {x: -17.5, y: -10}
+        - {x: -17.5, y: -16}
+        - {x: 8.5, y: -16}
+        - {x: 17.5, y: -3}
+        - {x: 20.5, y: 4}
+        - {x: 20.5, y: 13}
+    - name: Carlos Death Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 13}
+        - {x: -20.5, y: 13}
+        - {x: -20.5, y: -15}
+        - {x: -19.5, y: -16}
+        - {x: 9.5, y: -16}
+        - {x: 16.5, y: -7}
+        - {x: 20.5, y: 2}
+        - {x: 20.5, y: 11}
+    - name: Carlos Death Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 11}
+        - {x: -11.5, y: 11}
+        - {x: -20.5, y: 9}
+        - {x: -20.5, y: -11}
+        - {x: -19.5, y: -16}
+        - {x: 9.5, y: -16}
+        - {x: 10.5, y: -15}
+        - {x: 20.5, y: 1}
+        - {x: 20.5, y: 10}
+    - name: Carlos Death Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 9}
+        - {x: -20.5, y: 7}
+        - {x: -20.5, y: -12}
+        - {x: -19.5, y: -16}
+        - {x: 8.5, y: -16}
+        - {x: 20.5, y: -1}
+        - {x: 20.5, y: 9}
+    - name: Carlos Death Sprite_43
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 7}
+        - {x: -5.5, y: 7}
+        - {x: -15.5, y: 6}
+        - {x: -18.5, y: 4}
+        - {x: -20.5, y: 3}
+        - {x: -20.5, y: -5}
+        - {x: -18.5, y: -16}
+        - {x: 10.5, y: -16}
+        - {x: 13.5, y: -12}
+        - {x: 20.5, y: -3}
+        - {x: 20.5, y: 6}
+    - name: Carlos Death Sprite_44
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 5}
+        - {x: -20.5, y: 3}
+        - {x: -20.5, y: -11}
+        - {x: -19.5, y: -16}
+        - {x: 11.5, y: -16}
+        - {x: 20.5, y: -5}
+        - {x: 20.5, y: 5}
+    - name: Carlos Death Sprite_45
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 87
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 3}
+        - {x: -19.5, y: 1}
+        - {x: -20.5, y: -1}
+        - {x: -20.5, y: -8}
+        - {x: -18.5, y: -16}
+        - {x: 9.5, y: -16}
+        - {x: 20.5, y: -8}
+        - {x: 20.5, y: 0}
+        - {x: 12.5, y: 3}
+    - name: Carlos Death Sprite_46
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 52
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 1}
+        - {x: -20.5, y: -16}
+        - {x: 15.5, y: -16}
+        - {x: 20.5, y: -10}
+        - {x: 20.5, y: 1}
+    - name: Carlos Death Sprite_47
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 52
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: -1}
+        - {x: -20.5, y: -15}
+        - {x: -19.5, y: -16}
+        - {x: 11.5, y: -16}
+        - {x: 20.5, y: -11}
+        - {x: 20.5, y: -2}
+        - {x: 16.5, y: -1}
+    - name: Carlos Death Sprite_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 52
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -3}
+        - {x: -20.5, y: -6}
+        - {x: -20.5, y: -16}
+        - {x: 18.5, y: -16}
+        - {x: 20.5, y: -14}
+        - {x: 20.5, y: -5}
+        - {x: 14.5, y: -3}
+    - name: Carlos Death Sprite_49
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 52
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: -5}
+        - {x: -20.5, y: -8}
+        - {x: -20.5, y: -16}
+        - {x: 20.5, y: -16}
+        - {x: 20.5, y: -5}
+    - name: Carlos Death Sprite_50
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 52
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -5}
+        - {x: -20.5, y: -7}
+        - {x: -20.5, y: -15}
+        - {x: -18.5, y: -16}
+        - {x: 20.5, y: -16}
+        - {x: 20.5, y: -6}
+        - {x: 16.5, y: -5}
+    - name: Carlos Death Sprite_51
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 52
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -5}
+        - {x: -20.5, y: -7}
+        - {x: -20.5, y: -15}
+        - {x: -18.5, y: -16}
+        - {x: 20.5, y: -16}
+        - {x: 20.5, y: -6}
+        - {x: 16.5, y: -5}
+    - name: Carlos Death Sprite_52
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 52
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -5}
+        - {x: -20.5, y: -7}
+        - {x: -20.5, y: -15}
+        - {x: -18.5, y: -16}
+        - {x: 20.5, y: -16}
+        - {x: 20.5, y: -6}
+        - {x: 16.5, y: -5}
+    - name: Carlos Death Sprite_53
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 52
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -5}
+        - {x: -20.5, y: -7}
+        - {x: -20.5, y: -15}
+        - {x: -18.5, y: -16}
+        - {x: 20.5, y: -16}
+        - {x: 20.5, y: -6}
+        - {x: 16.5, y: -5}
+    - name: Carlos Death Sprite_54
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 52
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -5}
+        - {x: -20.5, y: -7}
+        - {x: -20.5, y: -15}
+        - {x: -18.5, y: -16}
+        - {x: 20.5, y: -16}
+        - {x: 20.5, y: -6}
+        - {x: 16.5, y: -5}
+    - name: Carlos Death Sprite_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 52
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -5}
+        - {x: -20.5, y: -7}
+        - {x: -20.5, y: -15}
+        - {x: -18.5, y: -16}
+        - {x: 20.5, y: -16}
+        - {x: 20.5, y: -6}
+        - {x: 16.5, y: -5}
+    - name: Carlos Death Sprite_56
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 52
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -5}
+        - {x: -20.5, y: -7}
+        - {x: -20.5, y: -15}
+        - {x: -18.5, y: -16}
+        - {x: 20.5, y: -16}
+        - {x: 20.5, y: -6}
+        - {x: 16.5, y: -5}
+    - name: Carlos Death Sprite_57
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 52
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -5}
+        - {x: -20.5, y: -7}
+        - {x: -20.5, y: -15}
+        - {x: -18.5, y: -16}
+        - {x: 20.5, y: -16}
+        - {x: 20.5, y: -6}
+        - {x: 16.5, y: -5}
+    - name: Carlos Death Sprite_58
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 52
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -5}
+        - {x: -10, y: -5}
+        - {x: -17, y: -7}
+        - {x: -17, y: -15}
+        - {x: -13, y: -16}
+        - {x: 17, y: -16}
+        - {x: 17, y: -7}
+    - name: Carlos Death Sprite_59
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 52
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_60
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 52
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_61
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 52
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_62
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 52
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_63
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 52
+        width: 5
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_64
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 52
+        width: 3
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_65
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 52
+        width: 1
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_66
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 52
+        width: 1
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_67
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 52
+        width: 1
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_68
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 52
+        width: 1
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_69
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 52
+        width: 1
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_70
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 52
+        width: 1
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_71
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 52
+        width: 1
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Carlos Death Sprite_72
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 52
+        width: 1
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
